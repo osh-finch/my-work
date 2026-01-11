@@ -1,0 +1,12 @@
+Commands for makeblastdb
+"/Users/ossianfinch/Library/CloudStorage/OneDrive-UniversityofCambridge/MCB/Mini_Project_2/Part_3/ncbi-blast-2.16.0+/bin/makeblastdb" -in "/Users/ossianfinch/Library/CloudStorage/OneDrive-UniversityofCambridge/MCB/Mini_Project_2/Part_3/Homo_sapiens.GRCh38.pep.all.fa" -dbtype prot -out "/Users/ossianfinch/Library/CloudStorage/OneDrive-UniversityofCambridge/MCB/Mini_Project_2/Part_3/human_proteins_db"
+Commands for blastp
+"/Users/ossianfinch/Documents/Part_3/ncbi-blast-2.16.0+/bin/blastp" \
+-query "/Users/ossianfinch/Documents/Part_3/clean_protein.fasta" \
+-db "/Users/ossianfinch/Documents/Part_3/human_proteins_db" \
+-out results.txt \
+-outfmt "7 qacc sacc qlen slen pident ppos length qstart qend sstart send" 
+
+Also I cleaned the .fasta query file 
+cat detected_olfactory_protein.fasta | tr -d '\r' | sed 's/[^ARNDCQEGHILKMFPSTWYVX*]//g' > clean_protein.fasta
+And then I had to put the title back in 

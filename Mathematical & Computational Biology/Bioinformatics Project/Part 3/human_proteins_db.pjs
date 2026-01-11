@@ -1,0 +1,22 @@
+{
+  "version": "1.2",
+  "dbname": "human_proteins_db",
+  "dbtype": "Protein",
+  "db-version": 5,
+  "description": "/Users/ossianfinch/Library/CloudStorage/OneDrive-UniversityofCambridge/MCB/Mini_Project_2/Part_3/Homo_sapiens.GRCh38.pep.all.fa",
+  "number-of-letters": 49479049,
+  "number-of-sequences": 123845,
+  "last-updated": "2025-04-08T10:16:00",
+  "number-of-volumes": 1,
+  "bytes-total": 95433924,
+  "bytes-to-cache": 50593879,
+  "files": [
+    "human_proteins_db.pdb",
+    "human_proteins_db.phr",
+    "human_proteins_db.pin",
+    "human_proteins_db.pot",
+    "human_proteins_db.psq",
+    "human_proteins_db.ptf",
+    "human_proteins_db.pto"
+  ]
+}
