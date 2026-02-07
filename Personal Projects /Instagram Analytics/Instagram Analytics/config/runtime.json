@@ -1,0 +1,7 @@
+{
+  "headless": false,
+  "minDelayMs": 1500,
+  "maxDelayMs": 3000,
+  "maxScrolls": 2,
+  "maxTweetsPerQuery": 10
+}

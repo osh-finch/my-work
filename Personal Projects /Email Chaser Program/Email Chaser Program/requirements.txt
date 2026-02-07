@@ -1,0 +1,6 @@
+pandas
+gspread
+oauth2client
+openpyxl
+selenium
+PySide6

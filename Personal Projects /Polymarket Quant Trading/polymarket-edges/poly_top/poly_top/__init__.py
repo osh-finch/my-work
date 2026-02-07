@@ -1,0 +1,3 @@
+"""Polymarket Top Markets CLI tool."""
+
+__version__ = "0.1.0"

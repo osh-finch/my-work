@@ -1,0 +1,24 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python -c:*)",
+      "Bash(polymarket-edges ingest:*)",
+      "Bash(polymarket-edges update-orderbooks:*)",
+      "Bash(polymarket-edges compute-execution:*)",
+      "Bash(polymarket-edges score-v2)",
+      "Bash(cd:*)",
+      "Bash(polymarket-edges show-top-v2:*)",
+      "Bash(cd /Users/ossianfinch/Library/CloudStorage/OneDrive-UniversityofCambridge/Personal/Polymarket\\\\ Quant\\\\ Trading/polymarket-edges && polymarket-edges parse-rules --provider openai --limit 3:*)",
+      "Bash(ls:*)",
+      "Bash(cd /Users/ossianfinch/Library/CloudStorage/OneDrive-UniversityofCambridge/Personal/Polymarket\\\\ Quant\\\\ Trading/polymarket-edges && python3:*)",
+      "Bash(cd /Users/ossianfinch/Library/CloudStorage/OneDrive-UniversityofCambridge/Personal/Polymarket\\\\ Quant\\\\ Trading/polymarket-edges && python3 -c:*)",
+      "Bash(python3:*)",
+      "Bash(kill:*)",
+      "Bash(cd /Users/ossianfinch/Library/CloudStorage/OneDrive-UniversityofCambridge/Personal/Polymarket\\\\ Quant\\\\ Trading/polymarket-edges && LOG_LEVEL=DEBUG polymarket-edges compute-beliefs:*)",
+      "Bash(chmod:*)",
+      "Bash(python:*)",
+      "Bash(pip install:*)",
+      "Bash(bash:*)"
+    ]
+  }
+}
