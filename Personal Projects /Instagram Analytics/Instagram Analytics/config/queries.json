@@ -1,0 +1,8 @@
+[
+  {
+    "name": "openai-mentions",
+    "query": "openai -filter:replies",
+    "lang": "en",
+    "enabled": true
+  }
+]

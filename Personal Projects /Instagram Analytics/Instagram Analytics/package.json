@@ -1,0 +1,17 @@
+{
+  "name": "x-prebreak-scraper",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Playwright-based X (Twitter) scraper for early signal detection",
+  "scripts": {
+    "login": "node scripts/login.js",
+    "login:cookie": "node scripts/auth-cookie.js",
+    "collect": "node scripts/collect.js",
+    "anomalies": "node scripts/anomalies.js",
+    "test:session": "node scripts/test-session.js"
+  },
+  "dependencies": {
+    "better-sqlite3": "^9.6.0",
+    "playwright": "^1.49.0"
+  }
+}

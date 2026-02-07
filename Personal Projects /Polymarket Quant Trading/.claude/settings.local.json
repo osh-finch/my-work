@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(tree:*)",
+      "Bash(pip install:*)",
+      "Bash(polymarket-edges:*)",
+      "Bash(duckdb:*)",
+      "Bash(python:*)"
+    ]
+  }
+}
