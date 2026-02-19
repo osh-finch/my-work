@@ -1,0 +1,1856 @@
+[1770940170.213][INFO]: Starting ChromeDriver 144.0.7559.133 (7da823b1d594d1b49797911900e003ec96a8c0e7-refs/branch-heads/7559@{#4253}) on port 57254
+[1770940170.214][INFO]: Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1770940170.241][INFO]: ChromeDriver was started successfully on port 57254
+[1770940170.324][INFO]: [01f0c5e1f5541e5cbbfde83f0342f790] COMMAND InitSession {
+   "capabilities": {
+      "alwaysMatch": {
+         "browserName": "chrome",
+         "browserVersion": null,
+         "goog:chromeOptions": {
+            "args": [  ],
+            "binary": "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome",
+            "detach": true,
+            "extensions": [  ]
+         },
+         "pageLoadStrategy": "normal"
+      },
+      "firstMatch": [ {
+      } ]
+   }
+}
+[1770940170.326][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1770940170.326][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1770940170.327][INFO]: ChromeDriver supports communication with Chrome via pipes. This is more reliable and more secure.
+[1770940170.327][INFO]: Use the --remote-debugging-pipe Chrome switch instead of the default --remote-debugging-port to enable this communication mode.
+[1770940170.327][INFO]: Launching chrome: /Applications/Google Chrome.app/Contents/MacOS/Google Chrome --allow-pre-commit-input --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-client-side-phishing-detection --disable-default-apps --disable-features=IgnoreDuplicateNavs,Prewarm --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-automation --enable-logging=stderr --log-level=0 --no-first-run --no-service-autorun --password-store=basic --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir=/var/folders/xw/rtnxpqfs5x1c24fnd80jdymh0000gn/T/org.chromium.Chromium.scoped_dir.bZV8U5 data:,
+[96007:7132610:0212/234930.917805:INFO:components/enterprise/browser/controller/chrome_browser_cloud_management_controller.cc:206] No machine level policy manager exists.
+
+DevTools listening on ws://127.0.0.1:57261/devtools/browser/341f9ced-caa0-40e5-af81-636500af371d
+[1770940172.029][INFO]: resolved localhost to ["127.0.0.1","::1"]
+2026-02-12 23:49:32.164 Google Chrome[96007:7132610] +[IMKClient subclass]: chose IMKClient_Legacy
+2026-02-12 23:49:32.164 Google Chrome[96007:7132610] +[IMKInputSession subclass]: chose IMKInputSession_Legacy
+[1770940172.316][INFO]: [01f0c5e1f5541e5cbbfde83f0342f790] RESPONSE InitSession {
+   "capabilities": {
+      "acceptInsecureCerts": false,
+      "browserName": "chrome",
+      "browserVersion": "144.0.7559.133",
+      "chrome": {
+         "chromedriverVersion": "144.0.7559.133 (7da823b1d594d1b49797911900e003ec96a8c0e7-refs/branch-heads/7559@{#4253})",
+         "userDataDir": "/var/folders/xw/rtnxpqfs5x1c24fnd80jdymh0000gn/T/org.chromium.Chromium.scoped_dir.bZV8U5"
+      },
+      "fedcm:accounts": true,
+      "goog:chromeOptions": {
+         "debuggerAddress": "localhost:57261"
+      },
+      "goog:processID": 96007,
+      "networkConnectionEnabled": false,
+      "pageLoadStrategy": "normal",
+      "platformName": "mac",
+      "proxy": {
+      },
+      "setWindowRect": true,
+      "strictFileInteractability": false,
+      "timeouts": {
+         "implicit": 0,
+         "pageLoad": 300000,
+         "script": 30000
+      },
+      "unhandledPromptBehavior": "dismiss and notify",
+      "webauthn:extension:credBlob": true,
+      "webauthn:extension:largeBlob": true,
+      "webauthn:extension:minPinLength": true,
+      "webauthn:extension:prf": true,
+      "~~~": "..."
+   },
+   "sessionId": "01f0c5e1f5541e5cbbfde83f0342f790"
+}
+[1770940172.375][INFO]: [01f0c5e1f5541e5cbbfde83f0342f790] COMMAND Navigate {
+   "url": "https://web.whatsapp.com/send/?phone=447484222862&type=phone_number&app_absent=0"
+}
+[1770940172.376][INFO]: Waiting for pending navigations...
+[1770940172.379][INFO]: Done waiting for pending navigations. Status: ok
+[1770940172.843][INFO]: Waiting for pending navigations...
+[1770940173.804][INFO]: Done waiting for pending navigations. Status: ok
+[1770940173.810][INFO]: [01f0c5e1f5541e5cbbfde83f0342f790] RESPONSE Navigate
+[96007:7132610:0212/234933.967329:INFO:CONSOLE:77] "ErrorUtils caught an error:
+
+[uim] Attempting to set multiple UIM tree roots. Expecting only one. Existing root: App, New root: App (multiple-uim-roots)
+
+Subsequent non-fatal errors won't be logged; see https://fburl.com/debugjs. [object Object]", source: https://static.whatsapp.net/rsrc.php/v4/yG/r/7XNtuxBZa4V.js (77)
+[96007:7132610:0212/234935.245786:INFO:CONSOLE:180] "Event handler of 'x-storagemutated-1' event must be added on the initial evaluation of worker script.", source: https://static.whatsapp.net/rsrc.php/v4/yx/r/1QYcKJhPeWq.js (180)
+Trying to load the allocator multiple times. This is *not* supported.
+[96007:7132670:0212/234938.370002:ERROR:google_apis/gcm/engine/registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+[96007:7132670:0212/234938.402503:ERROR:google_apis/gcm/engine/registration_request.cc:291] Registration response error message: PHONE_REGISTRATION_ERROR
+[1770940178.824][INFO]: [01f0c5e1f5541e5cbbfde83f0342f790] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@id=\"main\"]//div[@contenteditable=\"true\"]"
+}
+[1770940178.825][INFO]: Waiting for pending navigations...
+[1770940178.827][INFO]: Done waiting for pending navigations. Status: ok
+[1770940178.851][INFO]: Waiting for pending navigations...
+[1770940178.851][INFO]: Done waiting for pending navigations. Status: ok
+[1770940178.851][INFO]: [01f0c5e1f5541e5cbbfde83f0342f790] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="main"]//div[@contenteditable="true"]"}
+  (Session info: chrome=144.0.7559.133)
+[1770940179.356][INFO]: [01f0c5e1f5541e5cbbfde83f0342f790] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@id=\"main\"]//div[@contenteditable=\"true\"]"
+}
+[1770940179.356][INFO]: Waiting for pending navigations...
+[1770940179.357][INFO]: Done waiting for pending navigations. Status: ok
+[1770940179.363][INFO]: Waiting for pending navigations...
+[1770940179.364][INFO]: Done waiting for pending navigations. Status: ok
+[1770940179.364][INFO]: [01f0c5e1f5541e5cbbfde83f0342f790] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="main"]//div[@contenteditable="true"]"}
+  (Session info: chrome=144.0.7559.133)
+[1770940179.868][INFO]: [01f0c5e1f5541e5cbbfde83f0342f790] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@id=\"main\"]//div[@contenteditable=\"true\"]"
+}
+[1770940179.868][INFO]: Waiting for pending navigations...
+[1770940179.870][INFO]: Done waiting for pending navigations. Status: ok
+[1770940179.878][INFO]: Waiting for pending navigations...
+[1770940179.878][INFO]: Done waiting for pending navigations. Status: ok
+[1770940179.878][INFO]: [01f0c5e1f5541e5cbbfde83f0342f790] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="main"]//div[@contenteditable="true"]"}
+  (Session info: chrome=144.0.7559.133)
+[1770940180.381][INFO]: [01f0c5e1f5541e5cbbfde83f0342f790] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@id=\"main\"]//div[@contenteditable=\"true\"]"
+}
+[1770940180.381][INFO]: Waiting for pending navigations...
+[1770940180.382][INFO]: Done waiting for pending navigations. Status: ok
+[1770940180.387][INFO]: Waiting for pending navigations...
+[1770940180.387][INFO]: Done waiting for pending navigations. Status: ok
+[1770940180.387][INFO]: [01f0c5e1f5541e5cbbfde83f0342f790] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="main"]//div[@contenteditable="true"]"}
+  (Session info: chrome=144.0.7559.133)
+[1770940180.890][INFO]: [01f0c5e1f5541e5cbbfde83f0342f790] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@id=\"main\"]//div[@contenteditable=\"true\"]"
+}
+[1770940180.890][INFO]: Waiting for pending navigations...
+[1770940180.891][INFO]: Done waiting for pending navigations. Status: ok
+[1770940180.898][INFO]: Waiting for pending navigations...
+[1770940180.898][INFO]: Done waiting for pending navigations. Status: ok
+[1770940180.898][INFO]: [01f0c5e1f5541e5cbbfde83f0342f790] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="main"]//div[@contenteditable="true"]"}
+  (Session info: chrome=144.0.7559.133)
+[1770940181.402][INFO]: [01f0c5e1f5541e5cbbfde83f0342f790] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@id=\"main\"]//div[@contenteditable=\"true\"]"
+}
+[1770940181.402][INFO]: Waiting for pending navigations...
+[1770940181.404][INFO]: Done waiting for pending navigations. Status: ok
+[1770940181.411][INFO]: Waiting for pending navigations...
+[1770940181.411][INFO]: Done waiting for pending navigations. Status: ok
+[1770940181.411][INFO]: [01f0c5e1f5541e5cbbfde83f0342f790] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="main"]//div[@contenteditable="true"]"}
+  (Session info: chrome=144.0.7559.133)
+[1770940181.915][INFO]: [01f0c5e1f5541e5cbbfde83f0342f790] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@id=\"main\"]//div[@contenteditable=\"true\"]"
+}
+[1770940181.916][INFO]: Waiting for pending navigations...
+[1770940181.917][INFO]: Done waiting for pending navigations. Status: ok
+[1770940181.923][INFO]: Waiting for pending navigations...
+[1770940181.923][INFO]: Done waiting for pending navigations. Status: ok
+[1770940181.923][INFO]: [01f0c5e1f5541e5cbbfde83f0342f790] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="main"]//div[@contenteditable="true"]"}
+  (Session info: chrome=144.0.7559.133)
+[1770940182.428][INFO]: [01f0c5e1f5541e5cbbfde83f0342f790] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@id=\"main\"]//div[@contenteditable=\"true\"]"
+}
+[1770940182.428][INFO]: Waiting for pending navigations...
+[1770940182.429][INFO]: Done waiting for pending navigations. Status: ok
+[1770940182.435][INFO]: Waiting for pending navigations...
+[1770940182.435][INFO]: Done waiting for pending navigations. Status: ok
+[1770940182.435][INFO]: [01f0c5e1f5541e5cbbfde83f0342f790] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="main"]//div[@contenteditable="true"]"}
+  (Session info: chrome=144.0.7559.133)
+[1770940182.939][INFO]: [01f0c5e1f5541e5cbbfde83f0342f790] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@id=\"main\"]//div[@contenteditable=\"true\"]"
+}
+[1770940182.939][INFO]: Waiting for pending navigations...
+[1770940182.941][INFO]: Done waiting for pending navigations. Status: ok
+[1770940182.947][INFO]: Waiting for pending navigations...
+[1770940182.948][INFO]: Done waiting for pending navigations. Status: ok
+[1770940182.948][INFO]: [01f0c5e1f5541e5cbbfde83f0342f790] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="main"]//div[@contenteditable="true"]"}
+  (Session info: chrome=144.0.7559.133)
+[1770940183.450][INFO]: [01f0c5e1f5541e5cbbfde83f0342f790] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@id=\"main\"]//div[@contenteditable=\"true\"]"
+}
+[1770940183.454][INFO]: Waiting for pending navigations...
+[1770940183.454][INFO]: Done waiting for pending navigations. Status: ok
+[1770940183.457][INFO]: Waiting for pending navigations...
+[1770940183.457][INFO]: Done waiting for pending navigations. Status: ok
+[1770940183.457][INFO]: [01f0c5e1f5541e5cbbfde83f0342f790] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="main"]//div[@contenteditable="true"]"}
+  (Session info: chrome=144.0.7559.133)
+Created TensorFlow Lite XNNPACK delegate for CPU.
+[1770940183.959][INFO]: [01f0c5e1f5541e5cbbfde83f0342f790] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@id=\"main\"]//div[@contenteditable=\"true\"]"
+}
+[1770940183.959][INFO]: Waiting for pending navigations...
+[1770940183.963][INFO]: Done waiting for pending navigations. Status: ok
+[1770940183.968][INFO]: Waiting for pending navigations...
+[1770940183.968][INFO]: Done waiting for pending navigations. Status: ok
+[1770940183.968][INFO]: [01f0c5e1f5541e5cbbfde83f0342f790] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="main"]//div[@contenteditable="true"]"}
+  (Session info: chrome=144.0.7559.133)
+[1770940184.470][INFO]: [01f0c5e1f5541e5cbbfde83f0342f790] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@id=\"main\"]//div[@contenteditable=\"true\"]"
+}
+[1770940184.471][INFO]: Waiting for pending navigations...
+[1770940184.471][INFO]: Done waiting for pending navigations. Status: ok
+[1770940184.477][INFO]: Waiting for pending navigations...
+[1770940184.478][INFO]: Done waiting for pending navigations. Status: ok
+[1770940184.478][INFO]: [01f0c5e1f5541e5cbbfde83f0342f790] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="main"]//div[@contenteditable="true"]"}
+  (Session info: chrome=144.0.7559.133)
+[1770940184.981][INFO]: [01f0c5e1f5541e5cbbfde83f0342f790] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@id=\"main\"]//div[@contenteditable=\"true\"]"
+}
+[1770940184.981][INFO]: Waiting for pending navigations...
+[1770940184.982][INFO]: Done waiting for pending navigations. Status: ok
+[1770940184.988][INFO]: Waiting for pending navigations...
+[1770940184.989][INFO]: Done waiting for pending navigations. Status: ok
+[1770940184.989][INFO]: [01f0c5e1f5541e5cbbfde83f0342f790] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="main"]//div[@contenteditable="true"]"}
+  (Session info: chrome=144.0.7559.133)
+[1770940185.493][INFO]: [01f0c5e1f5541e5cbbfde83f0342f790] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@id=\"main\"]//div[@contenteditable=\"true\"]"
+}
+[1770940185.493][INFO]: Waiting for pending navigations...
+[1770940185.495][INFO]: Done waiting for pending navigations. Status: ok
+[1770940185.501][INFO]: Waiting for pending navigations...
+[1770940185.501][INFO]: Done waiting for pending navigations. Status: ok
+[1770940185.502][INFO]: [01f0c5e1f5541e5cbbfde83f0342f790] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="main"]//div[@contenteditable="true"]"}
+  (Session info: chrome=144.0.7559.133)
+[1770940186.006][INFO]: [01f0c5e1f5541e5cbbfde83f0342f790] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@id=\"main\"]//div[@contenteditable=\"true\"]"
+}
+[1770940186.006][INFO]: Waiting for pending navigations...
+[1770940186.007][INFO]: Done waiting for pending navigations. Status: ok
+[1770940186.014][INFO]: Waiting for pending navigations...
+[1770940186.014][INFO]: Done waiting for pending navigations. Status: ok
+[1770940186.014][INFO]: [01f0c5e1f5541e5cbbfde83f0342f790] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="main"]//div[@contenteditable="true"]"}
+  (Session info: chrome=144.0.7559.133)
+[1770940186.518][INFO]: [01f0c5e1f5541e5cbbfde83f0342f790] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@id=\"main\"]//div[@contenteditable=\"true\"]"
+}
+[1770940186.519][INFO]: Waiting for pending navigations...
+[1770940186.520][INFO]: Done waiting for pending navigations. Status: ok
+[1770940186.527][INFO]: Waiting for pending navigations...
+[1770940186.527][INFO]: Done waiting for pending navigations. Status: ok
+[1770940186.527][INFO]: [01f0c5e1f5541e5cbbfde83f0342f790] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="main"]//div[@contenteditable="true"]"}
+  (Session info: chrome=144.0.7559.133)
+[1770940187.031][INFO]: [01f0c5e1f5541e5cbbfde83f0342f790] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@id=\"main\"]//div[@contenteditable=\"true\"]"
+}
+[1770940187.031][INFO]: Waiting for pending navigations...
+[1770940187.033][INFO]: Done waiting for pending navigations. Status: ok
+[1770940187.039][INFO]: Waiting for pending navigations...
+[1770940187.040][INFO]: Done waiting for pending navigations. Status: ok
+[1770940187.040][INFO]: [01f0c5e1f5541e5cbbfde83f0342f790] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="main"]//div[@contenteditable="true"]"}
+  (Session info: chrome=144.0.7559.133)
+[1770940187.543][INFO]: [01f0c5e1f5541e5cbbfde83f0342f790] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@id=\"main\"]//div[@contenteditable=\"true\"]"
+}
+[1770940187.543][INFO]: Waiting for pending navigations...
+[1770940187.544][INFO]: Done waiting for pending navigations. Status: ok
+[1770940187.550][INFO]: Waiting for pending navigations...
+[1770940187.551][INFO]: Done waiting for pending navigations. Status: ok
+[1770940187.551][INFO]: [01f0c5e1f5541e5cbbfde83f0342f790] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="main"]//div[@contenteditable="true"]"}
+  (Session info: chrome=144.0.7559.133)
+[1770940188.055][INFO]: [01f0c5e1f5541e5cbbfde83f0342f790] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@id=\"main\"]//div[@contenteditable=\"true\"]"
+}
+[1770940188.056][INFO]: Waiting for pending navigations...
+[1770940188.057][INFO]: Done waiting for pending navigations. Status: ok
+[1770940188.063][INFO]: Waiting for pending navigations...
+[1770940188.064][INFO]: Done waiting for pending navigations. Status: ok
+[1770940188.064][INFO]: [01f0c5e1f5541e5cbbfde83f0342f790] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="main"]//div[@contenteditable="true"]"}
+  (Session info: chrome=144.0.7559.133)
+[1770940188.567][INFO]: [01f0c5e1f5541e5cbbfde83f0342f790] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@id=\"main\"]//div[@contenteditable=\"true\"]"
+}
+[1770940188.567][INFO]: Waiting for pending navigations...
+[1770940188.568][INFO]: Done waiting for pending navigations. Status: ok
+[1770940188.573][INFO]: Waiting for pending navigations...
+[1770940188.573][INFO]: Done waiting for pending navigations. Status: ok
+[1770940188.573][INFO]: [01f0c5e1f5541e5cbbfde83f0342f790] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="main"]//div[@contenteditable="true"]"}
+  (Session info: chrome=144.0.7559.133)
+[1770940189.076][INFO]: [01f0c5e1f5541e5cbbfde83f0342f790] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@id=\"main\"]//div[@contenteditable=\"true\"]"
+}
+[1770940189.076][INFO]: Waiting for pending navigations...
+[1770940189.077][INFO]: Done waiting for pending navigations. Status: ok
+[1770940189.080][INFO]: Waiting for pending navigations...
+[1770940189.080][INFO]: Done waiting for pending navigations. Status: ok
+[1770940189.080][INFO]: [01f0c5e1f5541e5cbbfde83f0342f790] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="main"]//div[@contenteditable="true"]"}
+  (Session info: chrome=144.0.7559.133)
+[1770940189.582][INFO]: [01f0c5e1f5541e5cbbfde83f0342f790] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@id=\"main\"]//div[@contenteditable=\"true\"]"
+}
+[1770940189.582][INFO]: Waiting for pending navigations...
+[1770940189.582][INFO]: Done waiting for pending navigations. Status: ok
+[1770940189.585][INFO]: Waiting for pending navigations...
+[1770940189.585][INFO]: Done waiting for pending navigations. Status: ok
+[1770940189.585][INFO]: [01f0c5e1f5541e5cbbfde83f0342f790] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="main"]//div[@contenteditable="true"]"}
+  (Session info: chrome=144.0.7559.133)
+[96060:7133480:0212/234949.996767:VERBOSE1:chrome/updater/updater.cc:431] Version: 144.0.7547.0, opt, ARM_64, command line: /Users/ossianfinch/Library/Application Support/Google/GoogleUpdater/144.0.7547.0/GoogleUpdater.app/Contents/MacOS/GoogleUpdater --wake-all --enable-logging --vmodule=*/components/update_client/*=2,*/chrome/enterprise_companion/*=2,*/chrome/updater/*=2
+[96060:7133480:0212/234949.996977:VERBOSE1:chrome/updater/updater.cc:434] OS version: 15.0.0, System uptime (seconds): 475666, parent pid: 96007
+[96060:7133480:0212/234949.998777:VERBOSE2:chrome/updater/event_history.cc:227] Emitted a UPDATER_PROCESS START event to the history log
+[96062:7133484:0212/234950.004537:VERBOSE1:chrome/updater/updater.cc:431] Version: 144.0.7547.0, opt, ARM_64, command line: /Users/ossianfinch/Library/Application Support/Google/GoogleUpdater/144.0.7547.0/GoogleUpdater.app/Contents/MacOS/GoogleUpdater --crash-handler --database=/Users/ossianfinch/Library/Application Support/Google/GoogleUpdater/144.0.7547.0/Crashpad --url=https://clients2.google.com/cr/report --annotation=prod=Update4 --annotation=ver=144.0.7547.0 --handshake-fd=6 --enable-logging --vmodule=*/components/update_client/*=2,*/chrome/enterprise_companion/*=2,*/chrome/updater/*=2
+[96062:7133484:0212/234950.004725:VERBOSE1:chrome/updater/updater.cc:434] OS version: 15.0.0, System uptime (seconds): 475666, parent pid: 1
+[96062:7133484:0212/234950.006130:VERBOSE2:chrome/updater/event_history.cc:227] Emitted a UPDATER_PROCESS START event to the history log
+[96060:7133480:0212/234950.006474:VERBOSE1:chrome/updater/crash_reporter.cc:122] Crash handler launched and ready.
+[96060:7133480:0212/234950.007120:VERBOSE1:chrome/updater/crash_client.cc:105] Found 0 completed crash reports
+[96060:7133480:0212/234950.007172:VERBOSE1:chrome/updater/crash_client.cc:123] Found 0 pending crash reports
+[96060:7133480:0212/234950.007218:ERROR:third_party/crashpad/crashpad/util/file/file_io_posix.cc:145] open /Users/ossianfinch/Library/Application Support/Google/RLZ/Crashpad/settings.dat: No such file or directory (2)
+[96060:7133480:0212/234950.007258:VERBOSE1:chrome/updater/updater.cc:106] Crash reporting initialized.
+[96060:7133492:0212/234950.007441:VERBOSE1:chrome/updater/app/app_wakeall.cc:56] Launching `/Users/ossianfinch/Library/Application Support/Google/GoogleUpdater/144.0.7547.0/GoogleUpdater.app/Contents/MacOS/GoogleUpdater --wake`
+[96063:7133496:0212/234950.012487:VERBOSE1:chrome/updater/updater.cc:431] Version: 144.0.7547.0, opt, ARM_64, command line: /Users/ossianfinch/Library/Application Support/Google/GoogleUpdater/144.0.7547.0/GoogleUpdater.app/Contents/MacOS/GoogleUpdater --wake --enable-logging --vmodule=*/components/update_client/*=2,*/chrome/enterprise_companion/*=2,*/chrome/updater/*=2
+[96063:7133496:0212/234950.012655:VERBOSE1:chrome/updater/updater.cc:434] OS version: 15.0.0, System uptime (seconds): 475666, parent pid: 96060
+[96063:7133496:0212/234950.014004:VERBOSE2:chrome/updater/event_history.cc:227] Emitted a UPDATER_PROCESS START event to the history log
+[96065:7133500:0212/234950.019066:VERBOSE1:chrome/updater/updater.cc:431] Version: 144.0.7547.0, opt, ARM_64, command line: /Users/ossianfinch/Library/Application Support/Google/GoogleUpdater/144.0.7547.0/GoogleUpdater.app/Contents/MacOS/GoogleUpdater --crash-handler --database=/Users/ossianfinch/Library/Application Support/Google/GoogleUpdater/144.0.7547.0/Crashpad --url=https://clients2.google.com/cr/report --annotation=prod=Update4 --annotation=ver=144.0.7547.0 --handshake-fd=6 --enable-logging --vmodule=*/components/update_client/*=2,*/chrome/enterprise_companion/*=2,*/chrome/updater/*=2
+[96065:7133500:0212/234950.019203:VERBOSE1:chrome/updater/updater.cc:434] OS version: 15.0.0, System uptime (seconds): 475666, parent pid: 1
+[96065:7133500:0212/234950.020438:VERBOSE2:chrome/updater/event_history.cc:227] Emitted a UPDATER_PROCESS START event to the history log
+[96063:7133496:0212/234950.020741:VERBOSE1:chrome/updater/crash_reporter.cc:122] Crash handler launched and ready.
+[96063:7133496:0212/234950.021562:VERBOSE1:chrome/updater/crash_client.cc:105] Found 0 completed crash reports
+[96063:7133496:0212/234950.021612:VERBOSE1:chrome/updater/crash_client.cc:123] Found 0 pending crash reports
+[96063:7133496:0212/234950.021655:ERROR:third_party/crashpad/crashpad/util/file/file_io_posix.cc:145] open /Users/ossianfinch/Library/Application Support/Google/RLZ/Crashpad/settings.dat: No such file or directory (2)
+[96063:7133496:0212/234950.021686:VERBOSE1:chrome/updater/updater.cc:106] Crash reporting initialized.
+[96063:7133496:0212/234950.021796:VERBOSE1:chrome/updater/ipc/update_service_internal_proxy_mojo.cc:59] Run
+[1770940190.087][INFO]: [01f0c5e1f5541e5cbbfde83f0342f790] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@id=\"main\"]//div[@contenteditable=\"true\"]"
+}
+[1770940190.087][INFO]: Waiting for pending navigations...
+[1770940190.087][INFO]: Done waiting for pending navigations. Status: ok
+[1770940190.091][INFO]: Waiting for pending navigations...
+[1770940190.091][INFO]: Done waiting for pending navigations. Status: ok
+[1770940190.091][INFO]: [01f0c5e1f5541e5cbbfde83f0342f790] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="main"]//div[@contenteditable="true"]"}
+  (Session info: chrome=144.0.7559.133)
+[1770940190.593][INFO]: [01f0c5e1f5541e5cbbfde83f0342f790] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@id=\"main\"]//div[@contenteditable=\"true\"]"
+}
+[1770940190.593][INFO]: Waiting for pending navigations...
+[1770940190.593][INFO]: Done waiting for pending navigations. Status: ok
+[1770940190.598][INFO]: Waiting for pending navigations...
+[1770940190.598][INFO]: Done waiting for pending navigations. Status: ok
+[1770940190.598][INFO]: [01f0c5e1f5541e5cbbfde83f0342f790] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="main"]//div[@contenteditable="true"]"}
+  (Session info: chrome=144.0.7559.133)
+[1770940191.100][INFO]: [01f0c5e1f5541e5cbbfde83f0342f790] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@id=\"main\"]//div[@contenteditable=\"true\"]"
+}
+[1770940191.100][INFO]: Waiting for pending navigations...
+[1770940191.100][INFO]: Done waiting for pending navigations. Status: ok
+[1770940191.103][INFO]: Waiting for pending navigations...
+[1770940191.103][INFO]: Done waiting for pending navigations. Status: ok
+[1770940191.103][INFO]: [01f0c5e1f5541e5cbbfde83f0342f790] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="main"]//div[@contenteditable="true"]"}
+  (Session info: chrome=144.0.7559.133)
+[1770940191.605][INFO]: [01f0c5e1f5541e5cbbfde83f0342f790] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@id=\"main\"]//div[@contenteditable=\"true\"]"
+}
+[1770940191.605][INFO]: Waiting for pending navigations...
+[1770940191.605][INFO]: Done waiting for pending navigations. Status: ok
+[1770940191.608][INFO]: Waiting for pending navigations...
+[1770940191.608][INFO]: Done waiting for pending navigations. Status: ok
+[1770940191.608][INFO]: [01f0c5e1f5541e5cbbfde83f0342f790] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="main"]//div[@contenteditable="true"]"}
+  (Session info: chrome=144.0.7559.133)
+[1770940192.110][INFO]: [01f0c5e1f5541e5cbbfde83f0342f790] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@id=\"main\"]//div[@contenteditable=\"true\"]"
+}
+[1770940192.110][INFO]: Waiting for pending navigations...
+[1770940192.110][INFO]: Done waiting for pending navigations. Status: ok
+[1770940192.114][INFO]: Waiting for pending navigations...
+[1770940192.114][INFO]: Done waiting for pending navigations. Status: ok
+[1770940192.114][INFO]: [01f0c5e1f5541e5cbbfde83f0342f790] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="main"]//div[@contenteditable="true"]"}
+  (Session info: chrome=144.0.7559.133)
+[1770940192.618][INFO]: [01f0c5e1f5541e5cbbfde83f0342f790] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@id=\"main\"]//div[@contenteditable=\"true\"]"
+}
+[1770940192.618][INFO]: Waiting for pending navigations...
+[1770940192.620][INFO]: Done waiting for pending navigations. Status: ok
+[1770940192.626][INFO]: Waiting for pending navigations...
+[1770940192.627][INFO]: Done waiting for pending navigations. Status: ok
+[1770940192.627][INFO]: [01f0c5e1f5541e5cbbfde83f0342f790] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="main"]//div[@contenteditable="true"]"}
+  (Session info: chrome=144.0.7559.133)
+[1770940193.130][INFO]: [01f0c5e1f5541e5cbbfde83f0342f790] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@id=\"main\"]//div[@contenteditable=\"true\"]"
+}
+[1770940193.130][INFO]: Waiting for pending navigations...
+[1770940193.131][INFO]: Done waiting for pending navigations. Status: ok
+[1770940193.138][INFO]: Waiting for pending navigations...
+[1770940193.138][INFO]: Done waiting for pending navigations. Status: ok
+[1770940193.138][INFO]: [01f0c5e1f5541e5cbbfde83f0342f790] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="main"]//div[@contenteditable="true"]"}
+  (Session info: chrome=144.0.7559.133)
+[1770940193.641][INFO]: [01f0c5e1f5541e5cbbfde83f0342f790] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@id=\"main\"]//div[@contenteditable=\"true\"]"
+}
+[1770940193.641][INFO]: Waiting for pending navigations...
+[1770940193.641][INFO]: Done waiting for pending navigations. Status: ok
+[1770940193.644][INFO]: Waiting for pending navigations...
+[1770940193.644][INFO]: Done waiting for pending navigations. Status: ok
+[1770940193.644][INFO]: [01f0c5e1f5541e5cbbfde83f0342f790] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="main"]//div[@contenteditable="true"]"}
+  (Session info: chrome=144.0.7559.133)
+[1770940194.146][INFO]: [01f0c5e1f5541e5cbbfde83f0342f790] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@id=\"main\"]//div[@contenteditable=\"true\"]"
+}
+[1770940194.146][INFO]: Waiting for pending navigations...
+[1770940194.147][INFO]: Done waiting for pending navigations. Status: ok
+[1770940194.153][INFO]: Waiting for pending navigations...
+[1770940194.153][INFO]: Done waiting for pending navigations. Status: ok
+[1770940194.154][INFO]: [01f0c5e1f5541e5cbbfde83f0342f790] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="main"]//div[@contenteditable="true"]"}
+  (Session info: chrome=144.0.7559.133)
+[1770940194.658][INFO]: [01f0c5e1f5541e5cbbfde83f0342f790] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@id=\"main\"]//div[@contenteditable=\"true\"]"
+}
+[1770940194.658][INFO]: Waiting for pending navigations...
+[1770940194.658][INFO]: Done waiting for pending navigations. Status: ok
+[1770940194.664][INFO]: Waiting for pending navigations...
+[1770940194.664][INFO]: Done waiting for pending navigations. Status: ok
+[1770940194.664][INFO]: [01f0c5e1f5541e5cbbfde83f0342f790] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="main"]//div[@contenteditable="true"]"}
+  (Session info: chrome=144.0.7559.133)
+[1770940195.168][INFO]: [01f0c5e1f5541e5cbbfde83f0342f790] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@id=\"main\"]//div[@contenteditable=\"true\"]"
+}
+[1770940195.168][INFO]: Waiting for pending navigations...
+[1770940195.169][INFO]: Done waiting for pending navigations. Status: ok
+[1770940195.176][INFO]: Waiting for pending navigations...
+[1770940195.176][INFO]: Done waiting for pending navigations. Status: ok
+[1770940195.176][INFO]: [01f0c5e1f5541e5cbbfde83f0342f790] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="main"]//div[@contenteditable="true"]"}
+  (Session info: chrome=144.0.7559.133)
+[1770940195.679][INFO]: [01f0c5e1f5541e5cbbfde83f0342f790] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@id=\"main\"]//div[@contenteditable=\"true\"]"
+}
+[1770940195.679][INFO]: Waiting for pending navigations...
+[1770940195.679][INFO]: Done waiting for pending navigations. Status: ok
+[1770940195.682][INFO]: Waiting for pending navigations...
+[1770940195.682][INFO]: Done waiting for pending navigations. Status: ok
+[1770940195.682][INFO]: [01f0c5e1f5541e5cbbfde83f0342f790] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="main"]//div[@contenteditable="true"]"}
+  (Session info: chrome=144.0.7559.133)
+[1770940196.185][INFO]: [01f0c5e1f5541e5cbbfde83f0342f790] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@id=\"main\"]//div[@contenteditable=\"true\"]"
+}
+[1770940196.186][INFO]: Waiting for pending navigations...
+[1770940196.187][INFO]: Done waiting for pending navigations. Status: ok
+[1770940196.194][INFO]: Waiting for pending navigations...
+[1770940196.194][INFO]: Done waiting for pending navigations. Status: ok
+[1770940196.194][INFO]: [01f0c5e1f5541e5cbbfde83f0342f790] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="main"]//div[@contenteditable="true"]"}
+  (Session info: chrome=144.0.7559.133)
+[1770940196.697][INFO]: [01f0c5e1f5541e5cbbfde83f0342f790] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@id=\"main\"]//div[@contenteditable=\"true\"]"
+}
+[1770940196.697][INFO]: Waiting for pending navigations...
+[1770940196.698][INFO]: Done waiting for pending navigations. Status: ok
+[1770940196.703][INFO]: Waiting for pending navigations...
+[1770940196.703][INFO]: Done waiting for pending navigations. Status: ok
+[1770940196.703][INFO]: [01f0c5e1f5541e5cbbfde83f0342f790] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="main"]//div[@contenteditable="true"]"}
+  (Session info: chrome=144.0.7559.133)
+[1770940197.207][INFO]: [01f0c5e1f5541e5cbbfde83f0342f790] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@id=\"main\"]//div[@contenteditable=\"true\"]"
+}
+[1770940197.207][INFO]: Waiting for pending navigations...
+[1770940197.208][INFO]: Done waiting for pending navigations. Status: ok
+[1770940197.215][INFO]: Waiting for pending navigations...
+[1770940197.215][INFO]: Done waiting for pending navigations. Status: ok
+[1770940197.215][INFO]: [01f0c5e1f5541e5cbbfde83f0342f790] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="main"]//div[@contenteditable="true"]"}
+  (Session info: chrome=144.0.7559.133)
+[1770940197.719][INFO]: [01f0c5e1f5541e5cbbfde83f0342f790] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@id=\"main\"]//div[@contenteditable=\"true\"]"
+}
+[1770940197.720][INFO]: Waiting for pending navigations...
+[1770940197.721][INFO]: Done waiting for pending navigations. Status: ok
+[1770940197.729][INFO]: Waiting for pending navigations...
+[1770940197.730][INFO]: Done waiting for pending navigations. Status: ok
+[1770940197.730][INFO]: [01f0c5e1f5541e5cbbfde83f0342f790] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="main"]//div[@contenteditable="true"]"}
+  (Session info: chrome=144.0.7559.133)
+[1770940198.233][INFO]: [01f0c5e1f5541e5cbbfde83f0342f790] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@id=\"main\"]//div[@contenteditable=\"true\"]"
+}
+[1770940198.233][INFO]: Waiting for pending navigations...
+[1770940198.235][INFO]: Done waiting for pending navigations. Status: ok
+[1770940198.241][INFO]: Waiting for pending navigations...
+[1770940198.241][INFO]: Done waiting for pending navigations. Status: ok
+[1770940198.241][INFO]: [01f0c5e1f5541e5cbbfde83f0342f790] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="main"]//div[@contenteditable="true"]"}
+  (Session info: chrome=144.0.7559.133)
+[1770940198.746][INFO]: [01f0c5e1f5541e5cbbfde83f0342f790] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@id=\"main\"]//div[@contenteditable=\"true\"]"
+}
+[1770940198.746][INFO]: Waiting for pending navigations...
+[1770940198.747][INFO]: Done waiting for pending navigations. Status: ok
+[1770940198.754][INFO]: Waiting for pending navigations...
+[1770940198.754][INFO]: Done waiting for pending navigations. Status: ok
+[1770940198.754][INFO]: [01f0c5e1f5541e5cbbfde83f0342f790] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="main"]//div[@contenteditable="true"]"}
+  (Session info: chrome=144.0.7559.133)
+[1770940199.257][INFO]: [01f0c5e1f5541e5cbbfde83f0342f790] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@id=\"main\"]//div[@contenteditable=\"true\"]"
+}
+[1770940199.258][INFO]: Waiting for pending navigations...
+[1770940200.144][INFO]: Done waiting for pending navigations. Status: ok
+[1770940200.176][INFO]: Waiting for pending navigations...
+[1770940200.176][INFO]: Done waiting for pending navigations. Status: ok
+[1770940200.177][INFO]: [01f0c5e1f5541e5cbbfde83f0342f790] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="main"]//div[@contenteditable="true"]"}
+  (Session info: chrome=144.0.7559.133)
+[1770940200.681][INFO]: [01f0c5e1f5541e5cbbfde83f0342f790] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@id=\"main\"]//div[@contenteditable=\"true\"]"
+}
+[1770940200.681][INFO]: Waiting for pending navigations...
+[1770940200.682][INFO]: Done waiting for pending navigations. Status: ok
+[1770940200.684][INFO]: Waiting for pending navigations...
+[1770940200.684][INFO]: Done waiting for pending navigations. Status: ok
+[1770940200.684][INFO]: [01f0c5e1f5541e5cbbfde83f0342f790] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="main"]//div[@contenteditable="true"]"}
+  (Session info: chrome=144.0.7559.133)
+[1770940201.186][INFO]: [01f0c5e1f5541e5cbbfde83f0342f790] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@id=\"main\"]//div[@contenteditable=\"true\"]"
+}
+[1770940201.186][INFO]: Waiting for pending navigations...
+[1770940201.238][INFO]: Done waiting for pending navigations. Status: ok
+[1770940201.249][INFO]: Waiting for pending navigations...
+[1770940201.249][INFO]: Done waiting for pending navigations. Status: ok
+[1770940201.249][INFO]: [01f0c5e1f5541e5cbbfde83f0342f790] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="main"]//div[@contenteditable="true"]"}
+  (Session info: chrome=144.0.7559.133)
+[1770940201.752][INFO]: [01f0c5e1f5541e5cbbfde83f0342f790] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@id=\"main\"]//div[@contenteditable=\"true\"]"
+}
+[1770940201.752][INFO]: Waiting for pending navigations...
+[1770940201.752][INFO]: Done waiting for pending navigations. Status: ok
+[1770940201.778][INFO]: Waiting for pending navigations...
+[1770940201.778][INFO]: Done waiting for pending navigations. Status: ok
+[1770940201.778][INFO]: [01f0c5e1f5541e5cbbfde83f0342f790] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="main"]//div[@contenteditable="true"]"}
+  (Session info: chrome=144.0.7559.133)
+[96007:7132610:0212/235002.102406:INFO:CONSOLE:1] "Refused to display 'https://flows.whatsapp.net/' in a frame because it set 'X-Frame-Options' to 'deny'.", source: chrome-error://chromewebdata/ (1)
+[1770940202.281][INFO]: [01f0c5e1f5541e5cbbfde83f0342f790] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@id=\"main\"]//div[@contenteditable=\"true\"]"
+}
+[1770940202.283][INFO]: Waiting for pending navigations...
+[1770940202.331][INFO]: Done waiting for pending navigations. Status: ok
+[1770940202.333][INFO]: Waiting for pending navigations...
+[1770940202.334][INFO]: Done waiting for pending navigations. Status: ok
+[1770940202.334][INFO]: [01f0c5e1f5541e5cbbfde83f0342f790] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="main"]//div[@contenteditable="true"]"}
+  (Session info: chrome=144.0.7559.133)
+[1770940202.835][INFO]: [01f0c5e1f5541e5cbbfde83f0342f790] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@id=\"main\"]//div[@contenteditable=\"true\"]"
+}
+[1770940202.835][INFO]: Waiting for pending navigations...
+[1770940202.836][INFO]: Done waiting for pending navigations. Status: ok
+[1770940202.840][INFO]: Waiting for pending navigations...
+[1770940202.840][INFO]: Done waiting for pending navigations. Status: ok
+[1770940202.840][INFO]: [01f0c5e1f5541e5cbbfde83f0342f790] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="main"]//div[@contenteditable="true"]"}
+  (Session info: chrome=144.0.7559.133)
+[1770940203.342][INFO]: [01f0c5e1f5541e5cbbfde83f0342f790] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@id=\"main\"]//div[@contenteditable=\"true\"]"
+}
+[1770940203.342][INFO]: Waiting for pending navigations...
+[1770940203.343][INFO]: Done waiting for pending navigations. Status: ok
+[1770940203.346][INFO]: Waiting for pending navigations...
+[1770940203.346][INFO]: Done waiting for pending navigations. Status: ok
+[1770940203.346][INFO]: [01f0c5e1f5541e5cbbfde83f0342f790] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="main"]//div[@contenteditable="true"]"}
+  (Session info: chrome=144.0.7559.133)
+[1770940203.848][INFO]: [01f0c5e1f5541e5cbbfde83f0342f790] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@id=\"main\"]//div[@contenteditable=\"true\"]"
+}
+[1770940203.848][INFO]: Waiting for pending navigations...
+[1770940203.849][INFO]: Done waiting for pending navigations. Status: ok
+[1770940203.863][INFO]: Waiting for pending navigations...
+[1770940203.865][INFO]: Done waiting for pending navigations. Status: ok
+[1770940203.865][INFO]: [01f0c5e1f5541e5cbbfde83f0342f790] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="main"]//div[@contenteditable="true"]"}
+  (Session info: chrome=144.0.7559.133)
+[1770940204.368][INFO]: [01f0c5e1f5541e5cbbfde83f0342f790] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@id=\"main\"]//div[@contenteditable=\"true\"]"
+}
+[1770940204.437][INFO]: Waiting for pending navigations...
+[1770940204.450][INFO]: Done waiting for pending navigations. Status: ok
+[1770940204.459][INFO]: Waiting for pending navigations...
+[1770940204.484][INFO]: Done waiting for pending navigations. Status: ok
+[1770940204.484][INFO]: [01f0c5e1f5541e5cbbfde83f0342f790] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="main"]//div[@contenteditable="true"]"}
+  (Session info: chrome=144.0.7559.133)
+[1770940204.987][INFO]: [01f0c5e1f5541e5cbbfde83f0342f790] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@id=\"main\"]//div[@contenteditable=\"true\"]"
+}
+[1770940204.987][INFO]: Waiting for pending navigations...
+[1770940204.987][INFO]: Done waiting for pending navigations. Status: ok
+[1770940204.996][INFO]: Waiting for pending navigations...
+[1770940204.997][INFO]: Done waiting for pending navigations. Status: ok
+[1770940204.997][INFO]: [01f0c5e1f5541e5cbbfde83f0342f790] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="main"]//div[@contenteditable="true"]"}
+  (Session info: chrome=144.0.7559.133)
+[1770940205.500][INFO]: [01f0c5e1f5541e5cbbfde83f0342f790] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@id=\"main\"]//div[@contenteditable=\"true\"]"
+}
+[1770940205.501][INFO]: Waiting for pending navigations...
+[1770940205.501][INFO]: Done waiting for pending navigations. Status: ok
+[1770940205.504][INFO]: Waiting for pending navigations...
+[1770940205.505][INFO]: Done waiting for pending navigations. Status: ok
+[1770940205.505][INFO]: [01f0c5e1f5541e5cbbfde83f0342f790] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="main"]//div[@contenteditable="true"]"}
+  (Session info: chrome=144.0.7559.133)
+[1770940206.007][INFO]: [01f0c5e1f5541e5cbbfde83f0342f790] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@id=\"main\"]//div[@contenteditable=\"true\"]"
+}
+[1770940206.007][INFO]: Waiting for pending navigations...
+[1770940206.008][INFO]: Done waiting for pending navigations. Status: ok
+[1770940206.011][INFO]: Waiting for pending navigations...
+[1770940206.011][INFO]: Done waiting for pending navigations. Status: ok
+[1770940206.011][INFO]: [01f0c5e1f5541e5cbbfde83f0342f790] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="main"]//div[@contenteditable="true"]"}
+  (Session info: chrome=144.0.7559.133)
+[96063:7133496:0212/235006.462229:VERBOSE1:chrome/updater/app/app.cc:53] Shutdown: 0
+[96063:7133496:0212/235006.463272:VERBOSE2:chrome/updater/event_history.cc:227] Emitted a UPDATER_PROCESS END event to the history log
+[96063:7133496:0212/235006.463288:VERBOSE1:chrome/updater/updater.cc:468] UpdaterMain (--wake) returned 0.
+[96007:7132670:0212/235006.497802:ERROR:google_apis/gcm/engine/registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+[1770940206.514][INFO]: [01f0c5e1f5541e5cbbfde83f0342f790] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@id=\"main\"]//div[@contenteditable=\"true\"]"
+}
+[1770940206.514][INFO]: Waiting for pending navigations...
+[1770940206.515][INFO]: Done waiting for pending navigations. Status: ok
+[1770940206.521][INFO]: Waiting for pending navigations...
+[1770940206.521][INFO]: Done waiting for pending navigations. Status: ok
+[1770940206.521][INFO]: [01f0c5e1f5541e5cbbfde83f0342f790] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="main"]//div[@contenteditable="true"]"}
+  (Session info: chrome=144.0.7559.133)
+[96060:7133492:0212/235006.569015:VERBOSE1:chrome/updater/app/app_wakeall.cc:66] `/Users/ossianfinch/Library/Application Support/Google/GoogleUpdater/144.0.7547.0/GoogleUpdater.app/Contents/MacOS/GoogleUpdater --wake` exited 0
+[96060:7133480:0212/235006.570504:VERBOSE1:chrome/updater/app/app.cc:53] Shutdown: 0
+[96060:7133480:0212/235006.570847:VERBOSE2:chrome/updater/event_history.cc:227] Emitted a UPDATER_PROCESS END event to the history log
+[96060:7133480:0212/235006.570863:VERBOSE1:chrome/updater/updater.cc:468] UpdaterMain (--wake-all) returned 0.
+[1770940207.023][INFO]: [01f0c5e1f5541e5cbbfde83f0342f790] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@id=\"main\"]//div[@contenteditable=\"true\"]"
+}
+[1770940207.023][INFO]: Waiting for pending navigations...
+[1770940207.076][INFO]: Done waiting for pending navigations. Status: ok
+[1770940207.084][INFO]: Waiting for pending navigations...
+[1770940207.084][INFO]: Done waiting for pending navigations. Status: ok
+[1770940207.084][INFO]: [01f0c5e1f5541e5cbbfde83f0342f790] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="main"]//div[@contenteditable="true"]"}
+  (Session info: chrome=144.0.7559.133)
+[1770940207.586][INFO]: [01f0c5e1f5541e5cbbfde83f0342f790] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@id=\"main\"]//div[@contenteditable=\"true\"]"
+}
+[1770940207.587][INFO]: Waiting for pending navigations...
+[1770940207.816][INFO]: Done waiting for pending navigations. Status: ok
+[1770940207.824][INFO]: Waiting for pending navigations...
+[1770940207.824][INFO]: Done waiting for pending navigations. Status: ok
+[1770940207.824][INFO]: [01f0c5e1f5541e5cbbfde83f0342f790] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="main"]//div[@contenteditable="true"]"}
+  (Session info: chrome=144.0.7559.133)
+[1770940208.336][INFO]: [01f0c5e1f5541e5cbbfde83f0342f790] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@id=\"main\"]//div[@contenteditable=\"true\"]"
+}
+[1770940208.336][INFO]: Waiting for pending navigations...
+[1770940208.635][INFO]: Done waiting for pending navigations. Status: ok
+[1770940208.767][INFO]: Waiting for pending navigations...
+[1770940208.781][INFO]: Done waiting for pending navigations. Status: ok
+[1770940208.781][INFO]: [01f0c5e1f5541e5cbbfde83f0342f790] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="main"]//div[@contenteditable="true"]"}
+  (Session info: chrome=144.0.7559.133)
+[1770940209.285][INFO]: [01f0c5e1f5541e5cbbfde83f0342f790] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@id=\"main\"]//div[@contenteditable=\"true\"]"
+}
+[1770940209.285][INFO]: Waiting for pending navigations...
+[1770940210.017][INFO]: Done waiting for pending navigations. Status: ok
+[1770940210.031][INFO]: Waiting for pending navigations...
+[1770940210.074][INFO]: Done waiting for pending navigations. Status: ok
+[1770940210.078][INFO]: [01f0c5e1f5541e5cbbfde83f0342f790] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "f.BF4589B5B579B1FD39F0368807CB235D.d.209763CC888AE58342EB73E2A2B60950.e.37"
+}
+[1770940210.087][INFO]: [01f0c5e1f5541e5cbbfde83f0342f790] COMMAND TypeElement {
+   "id": "f.BF4589B5B579B1FD39F0368807CB235D.d.209763CC888AE58342EB73E2A2B60950.e.37",
+   "text": "Stash and selection form! Please fill this in ASAP. Formal selection will be happening in Hawks tomorrow evening (followed by food if you can stay), please let me know if you can't make any of the times and we'll give you a ring. https://forms.gle/FpAY1QnMT4nFVLvk8 ",
+   "value": [ "S", "t", "a", "s", "h", " ", "a", "n", "d", " ", "s", "e", "l", "e", "c", "t", "i", "o", "n", " ", "f", "o", "r", "m", "!", " ", "P", "l", "e", "a", "s", "e", " ", "f", "i", "l", "l", " ", "t", "h", "i", "s", " ", "i", "n", " ", "A", "S", "A", "P", ".", " ", "F", "o", "r", "m", "a", "l", " ", "s", "e", "l", "e", "c", "t", "i", "o", "n", " ", "w", "i", "l", "l", " ", "b", "e", " ", "h", "a", "p", "p", "e", "n", "i", "n", "g", " ", "i", "n", " ", "H", "a", "w", "k", "s", " ", "t", "o", "m", "o", "r", "r", "o", "w", " ", "e", "v", "e", "n", "i", "n", "g", " ", "(", "f", "o", "l", "l", "o", "w", "e", "d", " ", "b", "y", " ", "f", "o", "o", "d", " ", "i", "f", " ", "y", "o", "u", " ", "c", "a", "n", " ", "s", "t", "a", "y", ")", ",", " ", "p", "l", "e", "a", "s", "e", " ", "l", "e", "t", " ", "m", "e", " ", "k", "n", "o", "w", " ", "i", "f", " ", "y", "o", "u", " ", "c", "a", "n", "'", "t", " ", "m", "a", "k", "e", " ", "a", "n", "y", " ", "o", "f", " ", "t", "h", "e", " ", "t", "i", "m", "e", "s", " ", "a", "n", "d", " ", "w", "e", "'", "l", "l", " ", "g", "i", "v", "e", " ", "y", "o", "u", " ", "a", " ", "r", "i", "n", "g", ".", " ", "h", "t", "t", "p", "s", ":", "/", "/", "f", "o", "r", "m", "s", ".", "g", "l", "e", "/", "F", "p", "A", "Y", "1", "Q", "n", "M", "T", "4", "n", "F", "V", "L", "v", "k", "8", " " ]
+}
+[1770940210.087][INFO]: Waiting for pending navigations...
+[1770940210.090][INFO]: Done waiting for pending navigations. Status: ok
+[1770940211.035][INFO]: Waiting for pending navigations...
+[96015:7132752:0212/235011.037842:ERROR:ui/latency/latency_info.cc:107] CompositorFrameSinkSupport::MaybeSubmitCompositorFrame, LatencyInfo vector size 217 is too big.
+[1770940211.064][INFO]: Done waiting for pending navigations. Status: ok
+[1770940211.070][INFO]: [01f0c5e1f5541e5cbbfde83f0342f790] RESPONSE TypeElement
+[1770940211.074][INFO]: [01f0c5e1f5541e5cbbfde83f0342f790] COMMAND TypeElement {
+   "id": "f.BF4589B5B579B1FD39F0368807CB235D.d.209763CC888AE58342EB73E2A2B60950.e.37",
+   "text": "",
+   "value": [ "", "" ]
+}
+[1770940211.075][INFO]: Waiting for pending navigations...
+[1770940211.083][INFO]: Done waiting for pending navigations. Status: ok
+[1770940211.140][INFO]: Waiting for pending navigations...
+[1770940211.142][INFO]: Done waiting for pending navigations. Status: ok
+[1770940211.142][INFO]: [01f0c5e1f5541e5cbbfde83f0342f790] RESPONSE TypeElement
+[1770940211.144][INFO]: [01f0c5e1f5541e5cbbfde83f0342f790] COMMAND TypeElement {
+   "id": "f.BF4589B5B579B1FD39F0368807CB235D.d.209763CC888AE58342EB73E2A2B60950.e.37",
+   "text": "",
+   "value": [  ]
+}
+[1770940211.144][INFO]: Waiting for pending navigations...
+[1770940211.146][INFO]: Done waiting for pending navigations. Status: ok
+[1770940211.211][INFO]: Waiting for pending navigations...
+[1770940211.212][INFO]: Done waiting for pending navigations. Status: ok
+[1770940211.245][INFO]: [01f0c5e1f5541e5cbbfde83f0342f790] RESPONSE TypeElement
+[1770940211.247][INFO]: [01f0c5e1f5541e5cbbfde83f0342f790] COMMAND TypeElement {
+   "id": "f.BF4589B5B579B1FD39F0368807CB235D.d.209763CC888AE58342EB73E2A2B60950.e.37",
+   "text": "",
+   "value": [ "", "" ]
+}
+[1770940211.269][INFO]: Waiting for pending navigations...
+[1770940211.278][INFO]: Done waiting for pending navigations. Status: ok
+[1770940211.425][INFO]: Waiting for pending navigations...
+[1770940211.430][INFO]: Done waiting for pending navigations. Status: ok
+[1770940211.431][INFO]: [01f0c5e1f5541e5cbbfde83f0342f790] RESPONSE TypeElement
+[1770940211.433][INFO]: [01f0c5e1f5541e5cbbfde83f0342f790] COMMAND TypeElement {
+   "id": "f.BF4589B5B579B1FD39F0368807CB235D.d.209763CC888AE58342EB73E2A2B60950.e.37",
+   "text": "If there are any worries about paying for stuff please let me know and I can try sort something.",
+   "value": [ "I", "f", " ", "t", "h", "e", "r", "e", " ", "a", "r", "e", " ", "a", "n", "y", " ", "w", "o", "r", "r", "i", "e", "s", " ", "a", "b", "o", "u", "t", " ", "p", "a", "y", "i", "n", "g", " ", "f", "o", "r", " ", "s", "t", "u", "f", "f", " ", "p", "l", "e", "a", "s", "e", " ", "l", "e", "t", " ", "m", "e", " ", "k", "n", "o", "w", " ", "a", "n", "d", " ", "I", " ", "c", "a", "n", " ", "t", "r", "y", " ", "s", "o", "r", "t", " ", "s", "o", "m", "e", "t", "h", "i", "n", "g", "." ]
+}
+[1770940211.433][INFO]: Waiting for pending navigations...
+[1770940211.434][INFO]: Done waiting for pending navigations. Status: ok
+[1770940211.535][INFO]: Waiting for pending navigations...
+[1770940211.548][INFO]: Done waiting for pending navigations. Status: ok
+[1770940211.548][INFO]: [01f0c5e1f5541e5cbbfde83f0342f790] RESPONSE TypeElement
+[1770940211.549][INFO]: [01f0c5e1f5541e5cbbfde83f0342f790] COMMAND TypeElement {
+   "id": "f.BF4589B5B579B1FD39F0368807CB235D.d.209763CC888AE58342EB73E2A2B60950.e.37",
+   "text": "",
+   "value": [ "", "" ]
+}
+[1770940211.549][INFO]: Waiting for pending navigations...
+[1770940211.552][INFO]: Done waiting for pending navigations. Status: ok
+[1770940211.808][INFO]: Waiting for pending navigations...
+[1770940211.813][INFO]: Done waiting for pending navigations. Status: ok
+[1770940211.813][INFO]: [01f0c5e1f5541e5cbbfde83f0342f790] RESPONSE TypeElement
+[1770940211.814][INFO]: [01f0c5e1f5541e5cbbfde83f0342f790] COMMAND TypeElement {
+   "id": "f.BF4589B5B579B1FD39F0368807CB235D.d.209763CC888AE58342EB73E2A2B60950.e.37",
+   "text": "",
+   "value": [  ]
+}
+[1770940211.814][INFO]: Waiting for pending navigations...
+[1770940211.821][INFO]: Done waiting for pending navigations. Status: ok
+[1770940211.959][INFO]: Waiting for pending navigations...
+[1770940211.960][INFO]: Done waiting for pending navigations. Status: ok
+[1770940211.960][INFO]: [01f0c5e1f5541e5cbbfde83f0342f790] RESPONSE TypeElement
+[1770940211.961][INFO]: [01f0c5e1f5541e5cbbfde83f0342f790] COMMAND TypeElement {
+   "id": "f.BF4589B5B579B1FD39F0368807CB235D.d.209763CC888AE58342EB73E2A2B60950.e.37",
+   "text": "",
+   "value": [ "", "" ]
+}
+[1770940211.961][INFO]: Waiting for pending navigations...
+[1770940211.962][INFO]: Done waiting for pending navigations. Status: ok
+[1770940212.055][INFO]: Waiting for pending navigations...
+[1770940212.055][INFO]: Done waiting for pending navigations. Status: ok
+[1770940212.055][INFO]: [01f0c5e1f5541e5cbbfde83f0342f790] RESPONSE TypeElement
+[1770940212.056][INFO]: [01f0c5e1f5541e5cbbfde83f0342f790] COMMAND TypeElement {
+   "id": "f.BF4589B5B579B1FD39F0368807CB235D.d.209763CC888AE58342EB73E2A2B60950.e.37",
+   "text": "Love,",
+   "value": [ "L", "o", "v", "e", "," ]
+}
+[1770940212.056][INFO]: Waiting for pending navigations...
+[1770940212.056][INFO]: Done waiting for pending navigations. Status: ok
+[1770940212.105][INFO]: Waiting for pending navigations...
+[1770940212.106][INFO]: Done waiting for pending navigations. Status: ok
+[1770940212.106][INFO]: [01f0c5e1f5541e5cbbfde83f0342f790] RESPONSE TypeElement
+[1770940212.107][INFO]: [01f0c5e1f5541e5cbbfde83f0342f790] COMMAND TypeElement {
+   "id": "f.BF4589B5B579B1FD39F0368807CB235D.d.209763CC888AE58342EB73E2A2B60950.e.37",
+   "text": "",
+   "value": [ "", "" ]
+}
+[1770940212.107][INFO]: Waiting for pending navigations...
+[1770940212.107][INFO]: Done waiting for pending navigations. Status: ok
+[1770940212.346][INFO]: Waiting for pending navigations...
+[1770940212.347][INFO]: Done waiting for pending navigations. Status: ok
+[1770940212.347][INFO]: [01f0c5e1f5541e5cbbfde83f0342f790] RESPONSE TypeElement
+[1770940212.348][INFO]: [01f0c5e1f5541e5cbbfde83f0342f790] COMMAND TypeElement {
+   "id": "f.BF4589B5B579B1FD39F0368807CB235D.d.209763CC888AE58342EB73E2A2B60950.e.37",
+   "text": "Osh",
+   "value": [ "O", "s", "h" ]
+}
+[1770940212.348][INFO]: Waiting for pending navigations...
+[1770940212.349][INFO]: Done waiting for pending navigations. Status: ok
+[1770940212.403][INFO]: Waiting for pending navigations...
+[1770940212.405][INFO]: Done waiting for pending navigations. Status: ok
+[1770940212.405][INFO]: [01f0c5e1f5541e5cbbfde83f0342f790] RESPONSE TypeElement
+[1770940212.406][INFO]: [01f0c5e1f5541e5cbbfde83f0342f790] COMMAND TypeElement {
+   "id": "f.BF4589B5B579B1FD39F0368807CB235D.d.209763CC888AE58342EB73E2A2B60950.e.37",
+   "text": "",
+   "value": [ "", "" ]
+}
+[1770940212.406][INFO]: Waiting for pending navigations...
+[1770940212.406][INFO]: Done waiting for pending navigations. Status: ok
+[1770940212.439][INFO]: Waiting for pending navigations...
+[1770940212.440][INFO]: Done waiting for pending navigations. Status: ok
+[1770940212.440][INFO]: [01f0c5e1f5541e5cbbfde83f0342f790] RESPONSE TypeElement
+[1770940212.441][INFO]: [01f0c5e1f5541e5cbbfde83f0342f790] COMMAND TypeElement {
+   "id": "f.BF4589B5B579B1FD39F0368807CB235D.d.209763CC888AE58342EB73E2A2B60950.e.37",
+   "text": "",
+   "value": [  ]
+}
+[1770940212.441][INFO]: Waiting for pending navigations...
+[1770940212.441][INFO]: Done waiting for pending navigations. Status: ok
+[1770940212.466][INFO]: Waiting for pending navigations...
+[1770940212.467][INFO]: Done waiting for pending navigations. Status: ok
+[1770940212.467][INFO]: [01f0c5e1f5541e5cbbfde83f0342f790] RESPONSE TypeElement
+[1770940212.468][INFO]: [01f0c5e1f5541e5cbbfde83f0342f790] COMMAND TypeElement {
+   "id": "f.BF4589B5B579B1FD39F0368807CB235D.d.209763CC888AE58342EB73E2A2B60950.e.37",
+   "text": "",
+   "value": [ "", "" ]
+}
+[1770940212.468][INFO]: Waiting for pending navigations...
+[1770940212.468][INFO]: Done waiting for pending navigations. Status: ok
+[1770940212.495][INFO]: Waiting for pending navigations...
+[1770940212.496][INFO]: Done waiting for pending navigations. Status: ok
+[1770940212.496][INFO]: [01f0c5e1f5541e5cbbfde83f0342f790] RESPONSE TypeElement
+[1770940212.496][INFO]: [01f0c5e1f5541e5cbbfde83f0342f790] COMMAND TypeElement {
+   "id": "f.BF4589B5B579B1FD39F0368807CB235D.d.209763CC888AE58342EB73E2A2B60950.e.37",
+   "text": "",
+   "value": [ "" ]
+}
+[1770940212.497][INFO]: Waiting for pending navigations...
+[1770940212.497][INFO]: Done waiting for pending navigations. Status: ok
+[1770940212.592][INFO]: Waiting for pending navigations...
+[1770940212.594][INFO]: Done waiting for pending navigations. Status: ok
+[1770940212.594][INFO]: [01f0c5e1f5541e5cbbfde83f0342f790] RESPONSE TypeElement
+[96065:7133500:0212/235016.593652:VERBOSE2:chrome/updater/event_history.cc:227] Emitted a UPDATER_PROCESS END event to the history log
+[96065:7133500:0212/235016.597942:VERBOSE1:chrome/updater/updater.cc:468] UpdaterMain (--crash-handler) returned 0.
+[96062:7133484:0212/235016.599066:VERBOSE2:chrome/updater/event_history.cc:227] Emitted a UPDATER_PROCESS END event to the history log
+[96062:7133484:0212/235016.599094:VERBOSE1:chrome/updater/updater.cc:468] UpdaterMain (--crash-handler) returned 0.
+[1770940217.853][INFO]: [01f0c5e1f5541e5cbbfde83f0342f790] COMMAND Navigate {
+   "url": "https://web.whatsapp.com/send/?phone=447913387107&type=phone_number&app_absent=0"
+}
+[1770940217.853][INFO]: Waiting for pending navigations...
+[1770940217.875][INFO]: Done waiting for pending navigations. Status: ok
+[1770940218.243][INFO]: Waiting for pending navigations...
+[96007:7132610:0212/235019.086061:INFO:CONSOLE:77] "ErrorUtils caught an error:
+
+[uim] Attempting to set multiple UIM tree roots. Expecting only one. Existing root: App, New root: App (multiple-uim-roots)
+
+Subsequent non-fatal errors won't be logged; see https://fburl.com/debugjs. [object Object]", source: https://static.whatsapp.net/rsrc.php/v4/yG/r/7XNtuxBZa4V.js (77)
+[1770940219.148][INFO]: Done waiting for pending navigations. Status: ok
+[1770940219.148][INFO]: [01f0c5e1f5541e5cbbfde83f0342f790] RESPONSE Navigate
+[1770940224.160][INFO]: [01f0c5e1f5541e5cbbfde83f0342f790] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@id=\"main\"]//div[@contenteditable=\"true\"]"
+}
+[1770940224.161][INFO]: Waiting for pending navigations...
+[1770940224.161][INFO]: Done waiting for pending navigations. Status: ok
+[1770940224.171][INFO]: Waiting for pending navigations...
+[1770940224.173][INFO]: Done waiting for pending navigations. Status: ok
+[1770940224.173][INFO]: [01f0c5e1f5541e5cbbfde83f0342f790] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "f.BF4589B5B579B1FD39F0368807CB235D.d.0A433DF30517DF614EBD5BA351310058.e.99"
+}
+[1770940224.176][INFO]: [01f0c5e1f5541e5cbbfde83f0342f790] COMMAND TypeElement {
+   "id": "f.BF4589B5B579B1FD39F0368807CB235D.d.0A433DF30517DF614EBD5BA351310058.e.99",
+   "text": "Stash and selection form! Please fill this in ASAP. Formal selection will be happening in Hawks tomorrow evening (followed by food if you can stay), please let me know if you can't make any of the times and we'll give you a ring. https://forms.gle/FpAY1QnMT4nFVLvk8 ",
+   "value": [ "S", "t", "a", "s", "h", " ", "a", "n", "d", " ", "s", "e", "l", "e", "c", "t", "i", "o", "n", " ", "f", "o", "r", "m", "!", " ", "P", "l", "e", "a", "s", "e", " ", "f", "i", "l", "l", " ", "t", "h", "i", "s", " ", "i", "n", " ", "A", "S", "A", "P", ".", " ", "F", "o", "r", "m", "a", "l", " ", "s", "e", "l", "e", "c", "t", "i", "o", "n", " ", "w", "i", "l", "l", " ", "b", "e", " ", "h", "a", "p", "p", "e", "n", "i", "n", "g", " ", "i", "n", " ", "H", "a", "w", "k", "s", " ", "t", "o", "m", "o", "r", "r", "o", "w", " ", "e", "v", "e", "n", "i", "n", "g", " ", "(", "f", "o", "l", "l", "o", "w", "e", "d", " ", "b", "y", " ", "f", "o", "o", "d", " ", "i", "f", " ", "y", "o", "u", " ", "c", "a", "n", " ", "s", "t", "a", "y", ")", ",", " ", "p", "l", "e", "a", "s", "e", " ", "l", "e", "t", " ", "m", "e", " ", "k", "n", "o", "w", " ", "i", "f", " ", "y", "o", "u", " ", "c", "a", "n", "'", "t", " ", "m", "a", "k", "e", " ", "a", "n", "y", " ", "o", "f", " ", "t", "h", "e", " ", "t", "i", "m", "e", "s", " ", "a", "n", "d", " ", "w", "e", "'", "l", "l", " ", "g", "i", "v", "e", " ", "y", "o", "u", " ", "a", " ", "r", "i", "n", "g", ".", " ", "h", "t", "t", "p", "s", ":", "/", "/", "f", "o", "r", "m", "s", ".", "g", "l", "e", "/", "F", "p", "A", "Y", "1", "Q", "n", "M", "T", "4", "n", "F", "V", "L", "v", "k", "8", " " ]
+}
+[1770940224.176][INFO]: Waiting for pending navigations...
+[1770940224.176][INFO]: Done waiting for pending navigations. Status: ok
+[1770940224.366][INFO]: Waiting for pending navigations...
+[96015:7132752:0212/235024.368142:ERROR:ui/latency/latency_info.cc:107] CompositorFrameSinkSupport::MaybeSubmitCompositorFrame, LatencyInfo vector size 117 is too big.
+[1770940224.372][INFO]: Done waiting for pending navigations. Status: ok
+[1770940224.372][INFO]: [01f0c5e1f5541e5cbbfde83f0342f790] RESPONSE TypeElement
+[1770940224.373][INFO]: [01f0c5e1f5541e5cbbfde83f0342f790] COMMAND TypeElement {
+   "id": "f.BF4589B5B579B1FD39F0368807CB235D.d.0A433DF30517DF614EBD5BA351310058.e.99",
+   "text": "",
+   "value": [ "", "" ]
+}
+[1770940224.373][INFO]: Waiting for pending navigations...
+[1770940224.373][INFO]: Done waiting for pending navigations. Status: ok
+[1770940224.398][INFO]: Waiting for pending navigations...
+[1770940224.399][INFO]: Done waiting for pending navigations. Status: ok
+[1770940224.400][INFO]: [01f0c5e1f5541e5cbbfde83f0342f790] RESPONSE TypeElement
+[1770940224.401][INFO]: [01f0c5e1f5541e5cbbfde83f0342f790] COMMAND TypeElement {
+   "id": "f.BF4589B5B579B1FD39F0368807CB235D.d.0A433DF30517DF614EBD5BA351310058.e.99",
+   "text": "",
+   "value": [  ]
+}
+[1770940224.401][INFO]: Waiting for pending navigations...
+[1770940224.401][INFO]: Done waiting for pending navigations. Status: ok
+[1770940224.415][INFO]: Waiting for pending navigations...
+[1770940224.416][INFO]: Done waiting for pending navigations. Status: ok
+[1770940224.416][INFO]: [01f0c5e1f5541e5cbbfde83f0342f790] RESPONSE TypeElement
+[1770940224.416][INFO]: [01f0c5e1f5541e5cbbfde83f0342f790] COMMAND TypeElement {
+   "id": "f.BF4589B5B579B1FD39F0368807CB235D.d.0A433DF30517DF614EBD5BA351310058.e.99",
+   "text": "",
+   "value": [ "", "" ]
+}
+[1770940224.416][INFO]: Waiting for pending navigations...
+[1770940224.416][INFO]: Done waiting for pending navigations. Status: ok
+[1770940224.435][INFO]: Waiting for pending navigations...
+[1770940224.436][INFO]: Done waiting for pending navigations. Status: ok
+[1770940224.436][INFO]: [01f0c5e1f5541e5cbbfde83f0342f790] RESPONSE TypeElement
+[1770940224.437][INFO]: [01f0c5e1f5541e5cbbfde83f0342f790] COMMAND TypeElement {
+   "id": "f.BF4589B5B579B1FD39F0368807CB235D.d.0A433DF30517DF614EBD5BA351310058.e.99",
+   "text": "If there are any worries about paying for stuff please let me know and I can try sort something.",
+   "value": [ "I", "f", " ", "t", "h", "e", "r", "e", " ", "a", "r", "e", " ", "a", "n", "y", " ", "w", "o", "r", "r", "i", "e", "s", " ", "a", "b", "o", "u", "t", " ", "p", "a", "y", "i", "n", "g", " ", "f", "o", "r", " ", "s", "t", "u", "f", "f", " ", "p", "l", "e", "a", "s", "e", " ", "l", "e", "t", " ", "m", "e", " ", "k", "n", "o", "w", " ", "a", "n", "d", " ", "I", " ", "c", "a", "n", " ", "t", "r", "y", " ", "s", "o", "r", "t", " ", "s", "o", "m", "e", "t", "h", "i", "n", "g", "." ]
+}
+[1770940224.437][INFO]: Waiting for pending navigations...
+[1770940224.438][INFO]: Done waiting for pending navigations. Status: ok
+[1770940224.562][INFO]: Waiting for pending navigations...
+[1770940224.562][INFO]: Done waiting for pending navigations. Status: ok
+[1770940224.562][INFO]: [01f0c5e1f5541e5cbbfde83f0342f790] RESPONSE TypeElement
+[1770940224.563][INFO]: [01f0c5e1f5541e5cbbfde83f0342f790] COMMAND TypeElement {
+   "id": "f.BF4589B5B579B1FD39F0368807CB235D.d.0A433DF30517DF614EBD5BA351310058.e.99",
+   "text": "",
+   "value": [ "", "" ]
+}
+[1770940224.563][INFO]: Waiting for pending navigations...
+[1770940224.564][INFO]: Done waiting for pending navigations. Status: ok
+[1770940224.592][INFO]: Waiting for pending navigations...
+[1770940224.592][INFO]: Done waiting for pending navigations. Status: ok
+[1770940224.592][INFO]: [01f0c5e1f5541e5cbbfde83f0342f790] RESPONSE TypeElement
+[1770940224.593][INFO]: [01f0c5e1f5541e5cbbfde83f0342f790] COMMAND TypeElement {
+   "id": "f.BF4589B5B579B1FD39F0368807CB235D.d.0A433DF30517DF614EBD5BA351310058.e.99",
+   "text": "",
+   "value": [  ]
+}
+[1770940224.593][INFO]: Waiting for pending navigations...
+[1770940224.593][INFO]: Done waiting for pending navigations. Status: ok
+[1770940224.627][INFO]: Waiti[95781:7126838:0212/235139.253610:ERROR:google_apis/gcm/engine/registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+[95781:7126795:0212/235632.212090:ERROR:chrome/browser/ui/views/user_education/impl/browser_user_education_interface_impl.cc:154] Attempting to show IPH IPH_ExtensionsZeroStatePromo before browser initialization complete; IPH will not be shown.
+[95781:7126838:0212/235632.921932:ERROR:google_apis/gcm/engine/registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+[95785:7126855:0212/235633.503031:ERROR:gpu/command_buffer/service/shared_image/shared_image_manager.cc:505] SharedImageManager::ProduceOverlay: Trying to Produce a Overlay representation from a non-existent mailbox.
+[95785:7126855:0212/235633.504146:ERROR:components/viz/service/display_embedder/skia_output_device_buffer_queue.cc:262] Invalid mailbox.
+[95785:7126855:0212/235633.504161:ERROR:gpu/command_buffer/service/shared_image/shared_image_manager.cc:505] SharedImageManager::ProduceOverlay: Trying to Produce a Overlay representation from a non-existent mailbox.
+[95785:7126855:0212/235633.504169:ERROR:components/viz/service/display_embedder/skia_output_device_buffer_queue.cc:262] Invalid mailbox.
+[95785:7126855:0212/235633.504175:ERROR:gpu/command_buffer/service/shared_image/shared_image_manager.cc:505] SharedImageManager::ProduceOverlay: Trying to Produce a Overlay representation from a non-existent mailbox.
+[95785:7126855:0212/235633.504181:ERROR:components/viz/service/display_embedder/skia_output_device_buffer_queue.cc:262] Invalid mailbox.
+[95785:7126855:0212/235633.504984:ERROR:gpu/command_buffer/service/shared_image/shared_image_manager.cc:505] SharedImageManager::ProduceOverlay: Trying to Produce a Overlay representation from a non-existent mailbox.
+[95785:7126855:0212/235633.504998:ERROR:components/viz/service/display_embedder/skia_output_device_buffer_queue.cc:262] Invalid mailbox.
+[95785:7126855:0212/235633.505004:ERROR:gpu/command_buffer/service/shared_image/shared_image_manager.cc:505] SharedImageManager::ProduceOverlay: Trying to Produce a Overlay representation from a non-existent mailbox.
+[95785:7126855:0212/235633.505009:ERROR:components/viz/service/display_embedder/skia_output_device_buffer_queue.cc:262] Invalid mailbox.
+[95785:7126855:0212/235633.505014:ERROR:gpu/command_buffer/service/shared_image/shared_image_manager.cc:505] SharedImageManager::ProduceOverlay: Trying to Produce a Overlay representation from a non-existent mailbox.
+[95785:7126855:0212/235633.505019:ERROR:components/viz/service/display_embedder/skia_output_device_buffer_queue.cc:262] Invalid mailbox.
+[95785:7126855:0212/235633.505025:ERROR:gpu/command_buffer/service/shared_image/shared_image_manager.cc:505] SharedImageManager::ProduceOverlay: Trying to Produce a Overlay representation from a non-existent mailbox.
+[95785:7126855:0212/235633.505029:ERROR:components/viz/service/display_embedder/skia_output_device_buffer_queue.cc:262] Invalid mailbox.
+[95781:7126838:0212/235652.151635:ERROR:google_apis/gcm/engine/registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+[95786:7126877:0212/235653.009518:WARNING:net/spdy/spdy_session.cc:3071] Received HEADERS for invalid stream 1
+[2542:7349439:0213/052251.199735:VERBOSE1:chrome/updater/updater.cc:431] Version: 144.0.7547.0, opt, ARM_64, command line: /Users/ossianfinch/Library/Application Support/Google/GoogleUpdater/144.0.7547.0/GoogleUpdater.app/Contents/MacOS/GoogleUpdater --wake-all --enable-logging --vmodule=*/components/update_client/*=2,*/chrome/enterprise_companion/*=2,*/chrome/updater/*=2
+[2542:7349439:0213/052251.201018:VERBOSE1:chrome/updater/updater.cc:434] OS version: 15.0.0, System uptime (seconds): 493448, parent pid: 95781
+[2542:7349439:0213/052251.203973:VERBOSE2:chrome/updater/event_history.cc:227] Emitted a UPDATER_PROCESS START event to the history log
+[2544:7349443:0213/052251.211455:VERBOSE1:chrome/updater/updater.cc:431] Version: 144.0.7547.0, opt, ARM_64, command line: /Users/ossianfinch/Library/Application Support/Google/GoogleUpdater/144.0.7547.0/GoogleUpdater.app/Contents/MacOS/GoogleUpdater --crash-handler --database=/Users/ossianfinch/Library/Application Support/Google/GoogleUpdater/144.0.7547.0/Crashpad --url=https://clients2.google.com/cr/report --annotation=prod=Update4 --annotation=ver=144.0.7547.0 --handshake-fd=6 --enable-logging --vmodule=*/components/update_client/*=2,*/chrome/enterprise_companion/*=2,*/chrome/updater/*=2
+[2544:7349443:0213/052251.211630:VERBOSE1:chrome/updater/updater.cc:434] OS version: 15.0.0, System uptime (seconds): 493448, parent pid: 1
+[2544:7349443:0213/052251.213597:VERBOSE2:chrome/updater/event_history.cc:227] Emitted a UPDATER_PROCESS START event to the history log
+[2542:7349439:0213/052251.214039:VERBOSE1:chrome/updater/crash_reporter.cc:122] Crash handler launched and ready.
+[2542:7349439:0213/052251.214644:VERBOSE1:chrome/updater/crash_client.cc:105] Found 0 completed crash reports
+[2542:7349439:0213/052251.214724:VERBOSE1:chrome/updater/crash_client.cc:123] Found 0 pending crash reports
+[2542:7349439:0213/052251.214793:ERROR:third_party/crashpad/crashpad/util/file/file_io_posix.cc:145] open /Users/ossianfinch/Library/Application Support/Google/RLZ/Crashpad/settings.dat: No such file or directory (2)
+[2542:7349439:0213/052251.214843:VERBOSE1:chrome/updater/updater.cc:106] Crash reporting initialized.
+[2542:7349451:0213/052251.215137:VERBOSE1:chrome/updater/app/app_wakeall.cc:56] Launching `/Users/ossianfinch/Library/Application Support/Google/GoogleUpdater/144.0.7547.0/GoogleUpdater.app/Contents/MacOS/GoogleUpdater --wake`
+[2545:7349455:0213/052251.221717:VERBOSE1:chrome/updater/updater.cc:431] Version: 144.0.7547.0, opt, ARM_64, command line: /Users/ossianfinch/Library/Application Support/Google/GoogleUpdater/144.0.7547.0/GoogleUpdater.app/Contents/MacOS/GoogleUpdater --wake --enable-logging --vmodule=*/components/update_client/*=2,*/chrome/enterprise_companion/*=2,*/chrome/updater/*=2
+[2545:7349455:0213/052251.221953:VERBOSE1:chrome/updater/updater.cc:434] OS version: 15.0.0, System uptime (seconds): 493448, parent pid: 2542
+[2545:7349455:0213/052251.223717:VERBOSE2:chrome/updater/event_history.cc:227] Emitted a UPDATER_PROCESS START event to the history log
+[2547:7349459:0213/052251.230256:VERBOSE1:chrome/updater/updater.cc:431] Version: 144.0.7547.0, opt, ARM_64, command line: /Users/ossianfinch/Library/Application Support/Google/GoogleUpdater/144.0.7547.0/GoogleUpdater.app/Contents/MacOS/GoogleUpdater --crash-handler --database=/Users/ossianfinch/Library/Application Support/Google/GoogleUpdater/144.0.7547.0/Crashpad --url=https://clients2.google.com/cr/report --annotation=prod=Update4 --annotation=ver=144.0.7547.0 --handshake-fd=6 --enable-logging --vmodule=*/components/update_client/*=2,*/chrome/enterprise_companion/*=2,*/chrome/updater/*=2
+[2547:7349459:0213/052251.230445:VERBOSE1:chrome/updater/updater.cc:434] OS version: 15.0.0, System uptime (seconds): 493448, parent pid: 1
+[2547:7349459:0213/052251.232132:VERBOSE2:chrome/updater/event_history.cc:227] Emitted a UPDATER_PROCESS START event to the history log
+[2545:7349455:0213/052251.232488:VERBOSE1:chrome/updater/crash_reporter.cc:122] Crash handler launched and ready.
+[2545:7349455:0213/052251.233038:VERBOSE1:chrome/updater/crash_client.cc:105] Found 0 completed crash reports
+[2545:7349455:0213/052251.233096:VERBOSE1:chrome/updater/crash_client.cc:123] Found 0 pending crash reports
+[2545:7349455:0213/052251.233148:ERROR:third_party/crashpad/crashpad/util/file/file_io_posix.cc:145] open /Users/ossianfinch/Library/Application Support/Google/RLZ/Crashpad/settings.dat: No such file or directory (2)
+[2545:7349455:0213/052251.233185:VERBOSE1:chrome/updater/updater.cc:106] Crash reporting initialized.
+[2545:7349455:0213/052251.233371:VERBOSE1:chrome/updater/ipc/update_service_internal_proxy_mojo.cc:59] Run
+[2545:7349455:0213/052307.839856:VERBOSE1:chrome/updater/app/app.cc:53] Shutdown: 0
+[2545:7349455:0213/052307.840798:VERBOSE2:chrome/updater/event_history.cc:227] Emitted a UPDATER_PROCESS END event to the history log
+[2545:7349455:0213/052307.840812:VERBOSE1:chrome/updater/updater.cc:468] UpdaterMain (--wake) returned 0.
+[2542:7349451:0213/052307.941239:VERBOSE1:chrome/updater/app/app_wakeall.cc:66] `/Users/ossianfinch/Library/Application Support/Google/GoogleUpdater/144.0.7547.0/GoogleUpdater.app/Contents/MacOS/GoogleUpdater --wake` exited 0
+[2542:7349439:0213/052307.941583:VERBOSE1:chrome/updater/app/app.cc:53] Shutdown: 0
+[2542:7349439:0213/052307.942188:VERBOSE2:chrome/updater/event_history.cc:227] Emitted a UPDATER_PROCESS END event to the history log
+[2542:7349439:0213/052307.942221:VERBOSE1:chrome/updater/updater.cc:468] UpdaterMain (--wake-all) returned 0.
+[2547:7349459:0213/052317.854755:VERBOSE2:chrome/updater/event_history.cc:227] Emitted a UPDATER_PROCESS END event to the history log
+[2547:7349459:0213/052317.855421:VERBOSE1:chrome/updater/updater.cc:468] UpdaterMain (--crash-handler) returned 0.
+[2544:7349443:0213/052317.857037:VERBOSE2:chrome/updater/event_history.cc:227] Emitted a UPDATER_PROCESS END event to the history log
+[2544:7349443:0213/052317.857085:VERBOSE1:chrome/updater/updater.cc:468] UpdaterMain (--crash-handler) returned 0.
+[95781:7126834:0213/095318.866603:WARNING:net/dns/dns_config_service_posix.cc:197] Failed to read DnsConfig.
+[95786:7126875:0213/095318.866628:WARNING:net/dns/dns_config_service_posix.cc:197] Failed to read DnsConfig.
+[95781:7126834:0213/100141.354707:WARNING:net/dns/dns_config_service_posix.cc:197] Failed to read DnsConfig.
+[95786:7126878:0213/100141.354714:WARNING:net/dns/dns_config_service_posix.cc:197] Failed to read DnsConfig.
+[7898:7558474:0213/104319.468315:VERBOSE1:chrome/updater/updater.cc:431] Version: 144.0.7547.0, opt, ARM_64, command line: /Users/ossianfinch/Library/Application Support/Google/GoogleUpdater/144.0.7547.0/GoogleUpdater.app/Contents/MacOS/GoogleUpdater --wake-all --enable-logging --vmodule=*/components/update_client/*=2,*/chrome/enterprise_companion/*=2,*/chrome/updater/*=2
+[7898:7558474:0213/104319.469212:VERBOSE1:chrome/updater/updater.cc:434] OS version: 15.0.0, System uptime (seconds): 511466, parent pid: 95781
+[7898:7558474:0213/104319.471126:VERBOSE2:chrome/updater/event_history.cc:227] Emitted a UPDATER_PROCESS START event to the history log
+[7900:7558478:0213/104319.477346:VERBOSE1:chrome/updater/updater.cc:431] Version: 144.0.7547.0, opt, ARM_64, command line: /Users/ossianfinch/Library/Application Support/Google/GoogleUpdater/144.0.7547.0/GoogleUpdater.app/Contents/MacOS/GoogleUpdater --crash-handler --database=/Users/ossianfinch/Library/Application Support/Google/GoogleUpdater/144.0.7547.0/Crashpad --url=https://clients2.google.com/cr/report --annotation=prod=Update4 --annotation=ver=144.0.7547.0 --handshake-fd=6 --enable-logging --vmodule=*/components/update_client/*=2,*/chrome/enterprise_companion/*=2,*/chrome/updater/*=2
+[7900:7558478:0213/104319.477519:VERBOSE1:chrome/updater/updater.cc:434] OS version: 15.0.0, System uptime (seconds): 511466, parent pid: 1
+[7900:7558478:0213/104319.479069:VERBOSE2:chrome/updater/event_history.cc:227] Emitted a UPDATER_PROCESS START event to the history log
+[7898:7558474:0213/104319.479410:VERBOSE1:chrome/updater/crash_reporter.cc:122] Crash handler launched and ready.
+[7898:7558474:0213/104319.479936:VERBOSE1:chrome/updater/crash_client.cc:105] Found 0 completed crash reports
+[7898:7558474:0213/104319.479993:VERBOSE1:chrome/updater/crash_client.cc:123] Found 0 pending crash reports
+[7898:7558474:0213/104319.480050:ERROR:third_party/crashpad/crashpad/util/file/file_io_posix.cc:145] open /Users/ossianfinch/Library/Application Support/Google/RLZ/Crashpad/settings.dat: No such file or directory (2)
+[7898:7558474:0213/104319.480089:VERBOSE1:chrome/updater/updater.cc:106] Crash reporting initialized.
+[7898:7558487:0213/104319.480297:VERBOSE1:chrome/updater/app/app_wakeall.cc:56] Launching `/Users/ossianfinch/Library/Application Support/Google/GoogleUpdater/144.0.7547.0/GoogleUpdater.app/Contents/MacOS/GoogleUpdater --wake`
+[7901:7558491:0213/104319.485865:VERBOSE1:chrome/updater/updater.cc:431] Version: 144.0.7547.0, opt, ARM_64, command line: /Users/ossianfinch/Library/Application Support/Google/GoogleUpdater/144.0.7547.0/GoogleUpdater.app/Contents/MacOS/GoogleUpdater --wake --enable-logging --vmodule=*/components/update_client/*=2,*/chrome/enterprise_companion/*=2,*/chrome/updater/*=2
+[7901:7558491:0213/104319.486029:VERBOSE1:chrome/updater/updater.cc:434] OS version: 15.0.0, System uptime (seconds): 511466, parent pid: 7898
+[7901:7558491:0213/104319.487445:VERBOSE2:chrome/updater/event_history.cc:227] Emitted a UPDATER_PROCESS START event to the history log
+[7903:7558495:0213/104319.492917:VERBOSE1:chrome/updater/updater.cc:431] Version: 144.0.7547.0, opt, ARM_64, command line: /Users/ossianfinch/Library/Application Support/Google/GoogleUpdater/144.0.7547.0/GoogleUpdater.app/Contents/MacOS/GoogleUpdater --crash-handler --database=/Users/ossianfinch/Library/Application Support/Google/GoogleUpdater/144.0.7547.0/Crashpad --url=https://clients2.google.com/cr/report --annotation=prod=Update4 --annotation=ver=144.0.7547.0 --handshake-fd=6 --enable-logging --vmodule=*/components/update_client/*=2,*/chrome/enterprise_companion/*=2,*/chrome/updater/*=2
+[7903:7558495:0213/104319.493083:VERBOSE1:chrome/updater/updater.cc:434] OS version: 15.0.0, System uptime (seconds): 511466, parent pid: 1
+[7903:7558495:0213/104319.494451:VERBOSE2:chrome/updater/event_history.cc:227] Emitted a UPDATER_PROCESS START event to the history log
+[7901:7558491:0213/104319.494761:VERBOSE1:chrome/updater/crash_reporter.cc:122] Crash handler launched and ready.
+[7901:7558491:0213/104319.495207:VERBOSE1:chrome/updater/crash_client.cc:105] Found 0 completed crash reports
+[7901:7558491:0213/104319.495258:VERBOSE1:chrome/updater/crash_client.cc:123] Found 0 pending crash reports
+[7901:7558491:0213/104319.495306:ERROR:third_party/crashpad/crashpad/util/file/file_io_posix.cc:145] open /Users/ossianfinch/Library/Application Support/Google/RLZ/Crashpad/settings.dat: No such file or directory (2)
+[7901:7558491:0213/104319.495338:VERBOSE1:chrome/updater/updater.cc:106] Crash reporting initialized.
+[7901:7558491:0213/104319.495490:VERBOSE1:chrome/updater/ipc/update_service_internal_proxy_mojo.cc:59] Run
+[7901:7558491:0213/104338.477869:VERBOSE1:chrome/updater/app/app.cc:53] Shutdown: 0
+[7901:7558491:0213/104338.478915:VERBOSE2:chrome/updater/event_history.cc:227] Emitted a UPDATER_PROCESS END event to the history log
+[7901:7558491:0213/104338.478960:VERBOSE1:chrome/updater/updater.cc:468] UpdaterMain (--wake) returned 0.
+[7898:7558487:0213/104338.670314:VERBOSE1:chrome/updater/app/app_wakeall.cc:66] `/Users/ossianfinch/Library/Application Support/Google/GoogleUpdater/144.0.7547.0/GoogleUpdater.app/Contents/MacOS/GoogleUpdater --wake` exited 0
+[7898:7558474:0213/104338.671158:VERBOSE1:chrome/updater/app/app.cc:53] Shutdown: 0
+[7898:7558474:0213/104338.672323:VERBOSE2:chrome/updater/event_history.cc:227] Emitted a UPDATER_PROCESS END event to the history log
+[7898:7558474:0213/104338.672375:VERBOSE1:chrome/updater/updater.cc:468] UpdaterMain (--wake-all) returned 0.
+[7903:7558495:0213/104348.492334:VERBOSE2:chrome/updater/event_history.cc:227] Emitted a UPDATER_PROCESS END event to the history log
+[7903:7558495:0213/104348.492683:VERBOSE1:chrome/updater/updater.cc:468] UpdaterMain (--crash-handler) returned 0.
+[7900:7558478:0213/104348.494557:VERBOSE2:chrome/updater/event_history.cc:227] Emitted a UPDATER_PROCESS END event to the history log
+[7900:7558478:0213/104348.494623:VERBOSE1:chrome/updater/updater.cc:468] UpdaterMain (--crash-handler) returned 0.
+[95786:7126878:0213/161404.080698:WARNING:net/dns/dns_config_service_posix.cc:197] Failed to read DnsConfig.
+[95781:7126834:0213/161404.080703:WARNING:net/dns/dns_config_service_posix.cc:197] Failed to read DnsConfig.
+[95781:7126836:0213/162316.155388:WARNING:net/dns/dns_config_service_posix.cc:197] Failed to read DnsConfig.
+[95786:7126875:0213/162316.155392:WARNING:net/dns/dns_config_service_posix.cc:197] Failed to read DnsConfig.
+[95786:7126875:0213/162333.845255:WARNING:net/dns/dns_config_service_posix.cc:197] Failed to read DnsConfig.
+[95781:7126834:0213/162333.845463:WARNING:net/dns/dns_config_service_posix.cc:197] Failed to read DnsConfig.
+[95786:7126875:0213/162342.961479:WARNING:net/dns/dns_config_service_posix.cc:197] Failed to read DnsConfig.
+[95781:7126834:0213/162342.961546:WARNING:net/dns/dns_config_service_posix.cc:197] Failed to read DnsConfig.
+[95781:7126834:0213/162549.021926:WARNING:net/dns/dns_config_service_posix.cc:197] Failed to read DnsConfig.
+[95786:7126875:0213/162549.021997:WARNING:net/dns/dns_config_service_posix.cc:197] Failed to read DnsConfig.
+[95786:7126875:0213/194031.459051:WARNING:net/dns/dns_config_service_posix.cc:197] Failed to read DnsConfig.
+[95781:7126834:0213/194031.459041:WARNING:net/dns/dns_config_service_posix.cc:197] Failed to read DnsConfig.
+[95781:7126834:0213/194044.809843:WARNING:net/dns/dns_config_service_posix.cc:197] Failed to read DnsConfig.
+[95786:7126875:0213/194044.809855:WARNING:net/dns/dns_config_service_posix.cc:197] Failed to read DnsConfig.
+[95786:7126875:0213/194047.905402:WARNING:net/dns/dns_config_service_posix.cc:197] Failed to read DnsConfig.
+[95781:7126834:0213/194047.911066:WARNING:net/dns/dns_config_service_posix.cc:197] Failed to read DnsConfig.
+[95786:7126875:0213/194142.957442:WARNING:net/dns/dns_config_service_posix.cc:197] Failed to read DnsConfig.
+[95781:7126834:0213/194142.957435:WARNING:net/dns/dns_config_service_posix.cc:197] Failed to read DnsConfig.
+[95786:7126875:0213/194146.719724:WARNING:net/dns/dns_config_service_posix.cc:197] Failed to read DnsConfig.
+[95781:7126834:0213/194146.719819:WARNING:net/dns/dns_config_service_posix.cc:197] Failed to read DnsConfig.
+[95786:7126875:0213/194318.852842:WARNING:net/dns/dns_config_service_posix.cc:197] Failed to read DnsConfig.
+[95781:7126834:0213/194318.852825:WARNING:net/dns/dns_config_service_posix.cc:197] Failed to read DnsConfig.
+[95786:7126875:0213/194323.515907:WARNING:net/dns/dns_config_service_posix.cc:197] Failed to read DnsConfig.
+[95781:7126834:0213/194323.516085:WARNING:net/dns/dns_config_service_posix.cc:197] Failed to read DnsConfig.
+[15481:7885639:0213/202730.120127:VERBOSE1:chrome/updater/updater.cc:431] Version: 144.0.7547.0, opt, ARM_64, command line: /Users/ossianfinch/Library/Application Support/Google/GoogleUpdater/144.0.7547.0/GoogleUpdater.app/Contents/MacOS/GoogleUpdater --wake-all --enable-logging --vmodule=*/components/update_client/*=2,*/chrome/enterprise_companion/*=2,*/chrome/updater/*=2
+[15481:7885639:0213/202730.121379:VERBOSE1:chrome/updater/updater.cc:434] OS version: 15.0.0, System uptime (seconds): 529485, parent pid: 95781
+[15481:7885639:0213/202730.123941:VERBOSE2:chrome/updater/event_history.cc:227] Emitted a UPDATER_PROCESS START event to the history log
+[15483:7885645:0213/202730.131803:VERBOSE1:chrome/updater/updater.cc:431] Version: 144.0.7547.0, opt, ARM_64, command line: /Users/ossianfinch/Library/Application Support/Google/GoogleUpdater/144.0.7547.0/GoogleUpdater.app/Contents/MacOS/GoogleUpdater --crash-handler --database=/Users/ossianfinch/Library/Application Support/Google/GoogleUpdater/144.0.7547.0/Crashpad --url=https://clients2.google.com/cr/report --annotation=prod=Update4 --annotation=ver=144.0.7547.0 --handshake-fd=6 --enable-logging --vmodule=*/components/update_client/*=2,*/chrome/enterprise_companion/*=2,*/chrome/updater/*=2
+[15483:7885645:0213/202730.132006:VERBOSE1:chrome/updater/updater.cc:434] OS version: 15.0.0, System uptime (seconds): 529485, parent pid: 1
+[15483:7885645:0213/202730.133848:VERBOSE2:chrome/updater/event_history.cc:227] Emitted a UPDATER_PROCESS START event to the history log
+[15481:7885639:0213/202730.134352:VERBOSE1:chrome/updater/crash_reporter.cc:122] Crash handler launched and ready.
+[15481:7885639:0213/202730.135570:VERBOSE1:chrome/updater/crash_client.cc:105] Found 0 completed crash reports
+[15481:7885639:0213/202730.135730:VERBOSE1:chrome/updater/crash_client.cc:123] Found 0 pending crash reports
+[15481:7885639:0213/202730.135812:ERROR:third_party/crashpad/crashpad/util/file/file_io_posix.cc:145] open /Users/ossianfinch/Library/Application Support/Google/RLZ/Crashpad/settings.dat: No such file or directory (2)
+[15481:7885639:0213/202730.135865:VERBOSE1:chrome/updater/updater.cc:106] Crash reporting initialized.
+[15481:7885653:0213/202730.136083:VERBOSE1:chrome/updater/app/app_wakeall.cc:56] Launching `/Users/ossianfinch/Library/Application Support/Google/GoogleUpdater/144.0.7547.0/GoogleUpdater.app/Contents/MacOS/GoogleUpdater --wake`
+[15484:7885657:0213/202730.142171:VERBOSE1:chrome/updater/updater.cc:431] Version: 144.0.7547.0, opt, ARM_64, command line: /Users/ossianfinch/Library/Application Support/Google/GoogleUpdater/144.0.7547.0/GoogleUpdater.app/Contents/MacOS/GoogleUpdater --wake --enable-logging --vmodule=*/components/update_client/*=2,*/chrome/enterprise_companion/*=2,*/chrome/updater/*=2
+[15484:7885657:0213/202730.142360:VERBOSE1:chrome/updater/updater.cc:434] OS version: 15.0.0, System uptime (seconds): 529485, parent pid: 15481
+[15484:7885657:0213/202730.144356:VERBOSE2:chrome/updater/event_history.cc:227] Emitted a UPDATER_PROCESS START event to the history log
+[15486:7885666:0213/202730.152400:VERBOSE1:chrome/updater/updater.cc:431] Version: 144.0.7547.0, opt, ARM_64, command line: /Users/ossianfinch/Library/Application Support/Google/GoogleUpdater/144.0.7547.0/GoogleUpdater.app/Contents/MacOS/GoogleUpdater --crash-handler --database=/Users/ossianfinch/Library/Application Support/Google/GoogleUpdater/144.0.7547.0/Crashpad --url=https://clients2.google.com/cr/report --annotation=prod=Update4 --annotation=ver=144.0.7547.0 --handshake-fd=6 --enable-logging --vmodule=*/components/update_client/*=2,*/chrome/enterprise_companion/*=2,*/chrome/updater/*=2
+[15486:7885666:0213/202730.152632:VERBOSE1:chrome/updater/updater.cc:434] OS version: 15.0.0, System uptime (seconds): 529485, parent pid: 1
+[15486:7885666:0213/202730.156700:VERBOSE2:chrome/updater/event_history.cc:227] Emitted a UPDATER_PROCESS START event to the history log
+[15484:7885657:0213/202730.157165:VERBOSE1:chrome/updater/crash_reporter.cc:122] Crash handler launched and ready.
+[15484:7885657:0213/202730.157847:VERBOSE1:chrome/updater/crash_client.cc:105] Found 0 completed crash reports
+[15484:7885657:0213/202730.157926:VERBOSE1:chrome/updater/crash_client.cc:123] Found 0 pending crash reports
+[15484:7885657:0213/202730.158005:ERROR:third_party/crashpad/crashpad/util/file/file_io_posix.cc:145] open /Users/ossianfinch/Library/Application Support/Google/RLZ/Crashpad/settings.dat: No such file or directory (2)
+[15484:7885657:0213/202730.158064:VERBOSE1:chrome/updater/updater.cc:106] Crash reporting initialized.
+[15484:7885657:0213/202730.158243:VERBOSE1:chrome/updater/ipc/update_service_internal_proxy_mojo.cc:59] Run
+[15484:7885657:0213/202746.620850:VERBOSE1:chrome/updater/app/app.cc:53] Shutdown: 0
+[15484:7885657:0213/202746.621974:VERBOSE2:chrome/updater/event_history.cc:227] Emitted a UPDATER_PROCESS END event to the history log
+[15484:7885657:0213/202746.622025:VERBOSE1:chrome/updater/updater.cc:468] UpdaterMain (--wake) returned 0.
+[15481:7885653:0213/202746.667197:VERBOSE1:chrome/updater/app/app_wakeall.cc:66] `/Users/ossianfinch/Library/Application Support/Google/GoogleUpdater/144.0.7547.0/GoogleUpdater.app/Contents/MacOS/GoogleUpdater --wake` exited 0
+[15481:7885639:0213/202746.668377:VERBOSE1:chrome/updater/app/app.cc:53] Shutdown: 0
+[15481:7885639:0213/202746.669225:VERBOSE2:chrome/updater/event_history.cc:227] Emitted a UPDATER_PROCESS END event to the history log
+[15481:7885639:0213/202746.669335:VERBOSE1:chrome/updater/updater.cc:468] UpdaterMain (--wake-all) returned 0.
+[15486:7885666:0213/202756.638271:VERBOSE2:chrome/updater/event_history.cc:227] Emitted a UPDATER_PROCESS END event to the history log
+[15486:7885666:0213/202756.638917:VERBOSE1:chrome/updater/updater.cc:468] UpdaterMain (--crash-handler) returned 0.
+[15483:7885645:0213/202756.639936:VERBOSE2:chrome/updater/event_history.cc:227] Emitted a UPDATER_PROCESS END event to the history log
+[15483:7885645:0213/202756.639962:VERBOSE1:chrome/updater/updater.cc:468] UpdaterMain (--crash-handler) returned 0.
+[22471:8217455:0214/121754.850845:VERBOSE1:chrome/updater/updater.cc:431] Version: 144.0.7547.0, opt, ARM_64, command line: /Users/ossianfinch/Library/Application Support/Google/GoogleUpdater/144.0.7547.0/GoogleUpdater.app/Contents/MacOS/GoogleUpdater --wake-all --enable-logging --vmodule=*/components/update_client/*=2,*/chrome/enterprise_companion/*=2,*/chrome/updater/*=2
+[22471:8217455:0214/121754.852115:VERBOSE1:chrome/updater/updater.cc:434] OS version: 15.0.0, System uptime (seconds): 547502, parent pid: 95781
+[22471:8217455:0214/121754.854752:VERBOSE2:chrome/updater/event_history.cc:227] Emitted a UPDATER_PROCESS START event to the history log
+[22473:8217459:0214/121754.862693:VERBOSE1:chrome/updater/updater.cc:431] Version: 144.0.7547.0, opt, ARM_64, command line: /Users/ossianfinch/Library/Application Support/Google/GoogleUpdater/144.0.7547.0/GoogleUpdater.app/Contents/MacOS/GoogleUpdater --crash-handler --database=/Users/ossianfinch/Library/Application Support/Google/GoogleUpdater/144.0.7547.0/Crashpad --url=https://clients2.google.com/cr/report --annotation=prod=Update4 --annotation=ver=144.0.7547.0 --handshake-fd=6 --enable-logging --vmodule=*/components/update_client/*=2,*/chrome/enterprise_companion/*=2,*/chrome/updater/*=2
+[22473:8217459:0214/121754.862933:VERBOSE1:chrome/updater/updater.cc:434] OS version: 15.0.0, System uptime (seconds): 547502, parent pid: 1
+[22473:8217459:0214/121754.864830:VERBOSE2:chrome/updater/event_history.cc:227] Emitted a UPDATER_PROCESS START event to the history log
+[22471:8217455:0214/121754.865241:VERBOSE1:chrome/updater/crash_reporter.cc:122] Crash handler launched and ready.
+[22471:8217455:0214/121754.865832:VERBOSE1:chrome/updater/crash_client.cc:105] Found 0 completed crash reports
+[22471:8217455:0214/121754.865895:VERBOSE1:chrome/updater/crash_client.cc:123] Found 0 pending crash reports
+[22471:8217455:0214/121754.865967:ERROR:third_party/crashpad/crashpad/util/file/file_io_posix.cc:145] open /Users/ossianfinch/Library/Application Support/Google/RLZ/Crashpad/settings.dat: No such file or directory (2)
+[22471:8217455:0214/121754.866012:VERBOSE1:chrome/updater/updater.cc:106] Crash reporting initialized.
+[22471:8217467:0214/121754.866290:VERBOSE1:chrome/updater/app/app_wakeall.cc:56] Launching `/Users/ossianfinch/Library/Application Support/Google/GoogleUpdater/144.0.7547.0/GoogleUpdater.app/Contents/MacOS/GoogleUpdater --wake`
+[22474:8217471:0214/121754.872537:VERBOSE1:chrome/updater/updater.cc:431] Version: 144.0.7547.0, opt, ARM_64, command line: /Users/ossianfinch/Library/Application Support/Google/GoogleUpdater/144.0.7547.0/GoogleUpdater.app/Contents/MacOS/GoogleUpdater --wake --enable-logging --vmodule=*/components/update_client/*=2,*/chrome/enterprise_companion/*=2,*/chrome/updater/*=2
+[22474:8217471:0214/121754.872723:VERBOSE1:chrome/updater/updater.cc:434] OS version: 15.0.0, System uptime (seconds): 547502, parent pid: 22471
+[22474:8217471:0214/121754.874373:VERBOSE2:chrome/updater/event_history.cc:227] Emitted a UPDATER_PROCESS START event to the history log
+[22476:8217475:0214/121754.880424:VERBOSE1:chrome/updater/updater.cc:431] Version: 144.0.7547.0, opt, ARM_64, command line: /Users/ossianfinch/Library/Application Support/Google/GoogleUpdater/144.0.7547.0/GoogleUpdater.app/Contents/MacOS/GoogleUpdater --crash-handler --database=/Users/ossianfinch/Library/Application Support/Google/GoogleUpdater/144.0.7547.0/Crashpad --url=https://clients2.google.com/cr/report --annotation=prod=Update4 --annotation=ver=144.0.7547.0 --handshake-fd=6 --enable-logging --vmodule=*/components/update_client/*=2,*/chrome/enterprise_companion/*=2,*/chrome/updater/*=2
+[22476:8217475:0214/121754.880614:VERBOSE1:chrome/updater/updater.cc:434] OS version: 15.0.0, System uptime (seconds): 547502, parent pid: 1
+[22476:8217475:0214/121754.882291:VERBOSE2:chrome/updater/event_history.cc:227] Emitted a UPDATER_PROCESS START event to the history log
+[22474:8217471:0214/121754.882706:VERBOSE1:chrome/updater/crash_reporter.cc:122] Crash handler launched and ready.
+[22474:8217471:0214/121754.883189:VERBOSE1:chrome/updater/crash_client.cc:105] Found 0 completed crash reports
+[22474:8217471:0214/121754.883240:VERBOSE1:chrome/updater/crash_client.cc:123] Found 0 pending crash reports
+[22474:8217471:0214/121754.883285:ERROR:third_party/crashpad/crashpad/util/file/file_io_posix.cc:145] open /Users/ossianfinch/Library/Application Support/Google/RLZ/Crashpad/settings.dat: No such file or directory (2)
+[22474:8217471:0214/121754.883320:VERBOSE1:chrome/updater/updater.cc:106] Crash reporting initialized.
+[22474:8217471:0214/121754.883431:VERBOSE1:chrome/updater/ipc/update_service_internal_proxy_mojo.cc:59] Run
+[22474:8217471:0214/121811.216855:VERBOSE1:chrome/updater/app/app.cc:53] Shutdown: 0
+[22474:8217471:0214/121811.217867:VERBOSE2:chrome/updater/event_history.cc:227] Emitted a UPDATER_PROCESS END event to the history log
+[22474:8217471:0214/121811.217900:VERBOSE1:chrome/updater/updater.cc:468] UpdaterMain (--wake) returned 0.
+[22471:8217467:0214/121811.411918:VERBOSE1:chrome/updater/app/app_wakeall.cc:66] `/Users/ossianfinch/Library/Application Support/Google/GoogleUpdater/144.0.7547.0/GoogleUpdater.app/Contents/MacOS/GoogleUpdater --wake` exited 0
+[22471:8217455:0214/121811.412313:VERBOSE1:chrome/updater/app/app.cc:53] Shutdown: 0
+[22471:8217455:0214/121811.413338:VERBOSE2:chrome/updater/event_history.cc:227] Emitted a UPDATER_PROCESS END event to the history log
+[22471:8217455:0214/121811.413412:VERBOSE1:chrome/updater/updater.cc:468] UpdaterMain (--wake-all) returned 0.
+[22476:8217475:0214/121821.231998:VERBOSE2:chrome/updater/event_history.cc:227] Emitted a UPDATER_PROCESS END event to the history log
+[22476:8217475:0214/121821.232247:VERBOSE1:chrome/updater/updater.cc:468] UpdaterMain (--crash-handler) returned 0.
+[22473:8217459:0214/121821.234104:VERBOSE2:chrome/updater/event_history.cc:227] Emitted a UPDATER_PROCESS END event to the history log
+[22473:8217459:0214/121821.234165:VERBOSE1:chrome/updater/updater.cc:468] UpdaterMain (--crash-handler) returned 0.
+[27213:8390049:0214/171811.871840:VERBOSE1:chrome/updater/updater.cc:431] Version: 144.0.7547.0, opt, ARM_64, command line: /Users/ossianfinch/Library/Application Support/Google/GoogleUpdater/144.0.7547.0/GoogleUpdater.app/Contents/MacOS/GoogleUpdater --wake-all --enable-logging --vmodule=*/components/update_client/*=2,*/chrome/enterprise_companion/*=2,*/chrome/updater/*=2
+[27213:8390049:0214/171811.873074:VERBOSE1:chrome/updater/updater.cc:434] OS version: 15.0.0, System uptime (seconds): 565519, parent pid: 95781
+[27213:8390049:0214/171811.875593:VERBOSE2:chrome/updater/event_history.cc:227] Emitted a UPDATER_PROCESS START event to the history log
+[27215:8390053:0214/171811.883343:VERBOSE1:chrome/updater/updater.cc:431] Version: 144.0.7547.0, opt, ARM_64, command line: /Users/ossianfinch/Library/Application Support/Google/GoogleUpdater/144.0.7547.0/GoogleUpdater.app/Contents/MacOS/GoogleUpdater --crash-handler --database=/Users/ossianfinch/Library/Application Support/Google/GoogleUpdater/144.0.7547.0/Crashpad --url=https://clients2.google.com/cr/report --annotation=prod=Update4 --annotation=ver=144.0.7547.0 --handshake-fd=6 --enable-logging --vmodule=*/components/update_client/*=2,*/chrome/enterprise_companion/*=2,*/chrome/updater/*=2
+[27215:8390053:0214/171811.883556:VERBOSE1:chrome/updater/updater.cc:434] OS version: 15.0.0, System uptime (seconds): 565519, parent pid: 1
+[27215:8390053:0214/171811.885227:VERBOSE2:chrome/updater/event_history.cc:227] Emitted a UPDATER_PROCESS START event to the history log
+[27213:8390049:0214/171811.885588:VERBOSE1:chrome/updater/crash_reporter.cc:122] Crash handler launched and ready.
+[27213:8390049:0214/171811.886150:VERBOSE1:chrome/updater/crash_client.cc:105] Found 0 completed crash reports
+[27213:8390049:0214/171811.886214:VERBOSE1:chrome/updater/crash_client.cc:123] Found 0 pending crash reports
+[27213:8390049:0214/171811.886271:ERROR:third_party/crashpad/crashpad/util/file/file_io_posix.cc:145] open /Users/ossianfinch/Library/Application Support/Google/RLZ/Crashpad/settings.dat: No such file or directory (2)
+[27213:8390049:0214/171811.886313:VERBOSE1:chrome/updater/updater.cc:106] Crash reporting initialized.
+[27213:8390061:0214/171811.886529:VERBOSE1:chrome/updater/app/app_wakeall.cc:56] Launching `/Users/ossianfinch/Library/Application Support/Google/GoogleUpdater/144.0.7547.0/GoogleUpdater.app/Contents/MacOS/GoogleUpdater --wake`
+[27216:8390065:0214/171811.892013:VERBOSE1:chrome/updater/updater.cc:431] Version: 144.0.7547.0, opt, ARM_64, command line: /Users/ossianfinch/Library/Application Support/Google/GoogleUpdater/144.0.7547.0/GoogleUpdater.app/Contents/MacOS/GoogleUpdater --wake --enable-logging --vmodule=*/components/update_client/*=2,*/chrome/enterprise_companion/*=2,*/chrome/updater/*=2
+[27216:8390065:0214/171811.892184:VERBOSE1:chrome/updater/updater.cc:434] OS version: 15.0.0, System uptime (seconds): 565519, parent pid: 27213
+[27216:8390065:0214/171811.893693:VERBOSE2:chrome/updater/event_history.cc:227] Emitted a UPDATER_PROCESS START event to the history log
+[27218:8390069:0214/171811.899225:VERBOSE1:chrome/updater/updater.cc:431] Version: 144.0.7547.0, opt, ARM_64, command line: /Users/ossianfinch/Library/Application Support/Google/GoogleUpdater/144.0.7547.0/GoogleUpdater.app/Contents/MacOS/GoogleUpdater --crash-handler --database=/Users/ossianfinch/Library/Application Support/Google/GoogleUpdater/144.0.7547.0/Crashpad --url=https://clients2.google.com/cr/report --annotation=prod=Update4 --annotation=ver=144.0.7547.0 --handshake-fd=6 --enable-logging --vmodule=*/components/update_client/*=2,*/chrome/enterprise_companion/*=2,*/chrome/updater/*=2
+[27218:8390069:0214/171811.899394:VERBOSE1:chrome/updater/updater.cc:434] OS version: 15.0.0, System uptime (seconds): 565519, parent pid: 1
+[27218:8390069:0214/171811.900856:VERBOSE2:chrome/updater/event_history.cc:227] Emitted a UPDATER_PROCESS START event to the history log
+[27216:8390065:0214/171811.901177:VERBOSE1:chrome/updater/crash_reporter.cc:122] Crash handler launched and ready.
+[27216:8390065:0214/171811.901689:VERBOSE1:chrome/updater/crash_client.cc:105] Found 0 completed crash reports
+[27216:8390065:0214/171811.901745:VERBOSE1:chrome/updater/crash_client.cc:123] Found 0 pending crash reports
+[27216:8390065:0214/171811.901793:ERROR:third_party/crashpad/crashpad/util/file/file_io_posix.cc:145] open /Users/ossianfinch/Library/Application Support/Google/RLZ/Crashpad/settings.dat: No such file or directory (2)
+[27216:8390065:0214/171811.901828:VERBOSE1:chrome/updater/updater.cc:106] Crash reporting initialized.
+[27216:8390065:0214/171811.901948:VERBOSE1:chrome/updater/ipc/update_service_internal_proxy_mojo.cc:59] Run
+[27216:8390065:0214/171827.538012:VERBOSE1:chrome/updater/app/app.cc:53] Shutdown: 0
+[27216:8390065:0214/171827.539039:VERBOSE2:chrome/updater/event_history.cc:227] Emitted a UPDATER_PROCESS END event to the history log
+[27216:8390065:0214/171827.539073:VERBOSE1:chrome/updater/updater.cc:468] UpdaterMain (--wake) returned 0.
+[27213:8390061:0214/171827.550186:VERBOSE1:chrome/updater/app/app_wakeall.cc:66] `/Users/ossianfinch/Library/Application Support/Google/GoogleUpdater/144.0.7547.0/GoogleUpdater.app/Contents/MacOS/GoogleUpdater --wake` exited 0
+[27213:8390049:0214/171827.550567:VERBOSE1:chrome/updater/app/app.cc:53] Shutdown: 0
+[27213:8390049:0214/171827.551042:VERBOSE2:chrome/updater/event_history.cc:227] Emitted a UPDATER_PROCESS END event to the history log
+[27213:8390049:0214/171827.551068:VERBOSE1:chrome/updater/updater.cc:468] UpdaterMain (--wake-all) returned 0.
+[27218:8390069:0214/171837.554767:VERBOSE2:chrome/updater/event_history.cc:227] Emitted a UPDATER_PROCESS END event to the history log
+[27218:8390069:0214/171837.555067:VERBOSE1:chrome/updater/updater.cc:468] UpdaterMain (--crash-handler) returned 0.
+[27215:8390053:0214/171837.556818:VERBOSE2:chrome/updater/event_history.cc:227] Emitted a UPDATER_PROCESS END event to the history log
+[27215:8390053:0214/171837.556880:VERBOSE1:chrome/updater/updater.cc:468] UpdaterMain (--crash-handler) returned 0.
+[95781:7126836:0214/220012.459044:WARNING:net/dns/dns_config_service_posix.cc:197] Failed to read DnsConfig.
+[95786:7126878:0214/220012.459047:WARNING:net/dns/dns_config_service_posix.cc:197] Failed to read DnsConfig.
+[95786:7126875:0214/220016.627738:WARNING:net/dns/dns_config_service_posix.cc:197] Failed to read DnsConfig.
+[95781:7126834:0214/220016.627761:WARNING:net/dns/dns_config_service_posix.cc:197] Failed to read DnsConfig.
+[95781:7126834:0214/220410.028311:WARNING:net/dns/dns_config_service_posix.cc:197] Failed to read DnsConfig.
+[95786:7126875:0214/220410.028307:WARNING:net/dns/dns_config_service_posix.cc:197] Failed to read DnsConfig.
+[95786:7126875:0214/220440.759521:WARNING:net/dns/dns_config_service_posix.cc:197] Failed to read DnsConfig.
+[95781:7126834:0214/220440.760358:WARNING:net/dns/dns_config_service_posix.cc:197] Failed to read DnsConfig.
+[95786:7126875:0214/220552.646151:WARNING:net/dns/dns_config_service_posix.cc:197] Failed to read DnsConfig.
+[95781:7126836:0214/220552.646671:WARNING:net/dns/dns_config_service_posix.cc:197] Failed to read DnsConfig.
+[95786:7126875:0214/220603.013470:WARNING:net/dns/dns_config_service_posix.cc:197] Failed to read DnsConfig.
+[95781:7126834:0214/220603.013720:WARNING:net/dns/dns_config_service_posix.cc:197] Failed to read DnsConfig.
+[95781:7126834:0214/220618.855410:WARNING:net/dns/dns_config_service_posix.cc:197] Failed to read DnsConfig.
+[95786:7126875:0214/220618.855730:WARNING:net/dns/dns_config_service_posix.cc:197] Failed to read DnsConfig.
+[95786:7126875:0214/222740.357806:WARNING:net/dns/dns_config_service_posix.cc:197] Failed to read DnsConfig.
+[95781:7126834:0214/222740.357878:WARNING:net/dns/dns_config_service_posix.cc:197] Failed to read DnsConfig.
+[95781:7126836:0214/223858.805035:WARNING:net/dns/dns_config_service_posix.cc:197] Failed to read DnsConfig.
+[95786:7126875:0214/223858.805061:WARNING:net/dns/dns_config_service_posix.cc:197] Failed to read DnsConfig.
+[95781:7126834:0214/223909.015817:WARNING:net/dns/dns_config_service_posix.cc:197] Failed to read DnsConfig.
+[95786:7126875:0214/223909.016071:WARNING:net/dns/dns_config_service_posix.cc:197] Failed to read DnsConfig.
+[95786:7126875:0214/223928.510965:WARNING:net/dns/dns_config_service_posix.cc:197] Failed to read DnsConfig.
+[95781:7126834:0214/223928.511107:WARNING:net/dns/dns_config_service_posix.cc:197] Failed to read DnsConfig.
+[95781:7126834:0214/223936.283443:WARNING:net/dns/dns_config_service_posix.cc:197] Failed to read DnsConfig.
+[95786:7126875:0214/223936.283452:WARNING:net/dns/dns_config_service_posix.cc:197] Failed to read DnsConfig.
+[95781:7126834:0214/223956.734843:WARNING:net/dns/dns_config_service_posix.cc:197] Failed to read DnsConfig.
+[95786:7126878:0214/223956.734852:WARNING:net/dns/dns_config_service_posix.cc:197] Failed to read DnsConfig.
+[95786:7126875:0214/224001.282662:WARNING:net/dns/dns_config_service_posix.cc:197] Failed to read DnsConfig.
+[95781:7126834:0214/224001.282744:WARNING:net/dns/dns_config_service_posix.cc:197] Failed to read DnsConfig.
+[95781:7126836:0214/235502.491014:WARNING:net/dns/dns_config_service_posix.cc:197] Failed to read DnsConfig.
+[95786:7126875:0214/235502.491005:WARNING:net/dns/dns_config_service_posix.cc:197] Failed to read DnsConfig.
+[95781:7126834:0214/235506.737693:WARNING:net/dns/dns_config_service_posix.cc:197] Failed to read DnsConfig.
+[95786:7126875:0214/235506.737693:WARNING:net/dns/dns_config_service_posix.cc:197] Failed to read DnsConfig.
+[95786:7126878:0214/235945.526995:WARNING:net/dns/dns_config_service_posix.cc:197] Failed to read DnsConfig.
+[95781:7126836:0214/235945.526996:WARNING:net/dns/dns_config_service_posix.cc:197] Failed to read DnsConfig.
+[95781:7126834:0214/235955.370844:WARNING:net/dns/dns_config_service_posix.cc:197] Failed to read DnsConfig.
+[95786:7126875:0214/235955.370954:WARNING:net/dns/dns_config_service_posix.cc:197] Failed to read DnsConfig.
+[95786:7126878:0215/000059.182002:WARNING:net/dns/dns_config_service_posix.cc:197] Failed to read DnsConfig.
+[95781:7126836:0215/000059.182027:WARNING:net/dns/dns_config_service_posix.cc:197] Failed to read DnsConfig.
+[95786:7126875:0215/000103.556054:WARNING:net/dns/dns_config_service_posix.cc:197] Failed to read DnsConfig.
+[95781:7126834:0215/000103.556289:WARNING:net/dns/dns_config_service_posix.cc:197] Failed to read DnsConfig.
+[95781:7126834:0215/084651.277703:WARNING:net/dns/dns_config_service_posix.cc:197] Failed to read DnsConfig.
+[95786:7126875:0215/084651.277709:WARNING:net/dns/dns_config_service_posix.cc:197] Failed to read DnsConfig.
+[95786:7126875:0215/084655.010658:WARNING:net/dns/dns_config_service_posix.cc:197] Failed to read DnsConfig.
+[95781:7126834:0215/084655.010658:WARNING:net/dns/dns_config_service_posix.cc:197] Failed to read DnsConfig.
+[95781:7126834:0215/091252.418617:WARNING:net/dns/dns_config_service_posix.cc:197] Failed to read DnsConfig.
+[95786:7126875:0215/091252.418621:WARNING:net/dns/dns_config_service_posix.cc:197] Failed to read DnsConfig.
+[95786:7126875:0215/094507.433749:WARNING:net/dns/dns_config_service_posix.cc:197] Failed to read DnsConfig.
+[95781:7126834:0215/094507.433801:WARNING:net/dns/dns_config_service_posix.cc:197] Failed to read DnsConfig.
+[95781:7126834:0215/094638.060808:WARNING:net/dns/dns_config_service_posix.cc:197] Failed to read DnsConfig.
+[95786:7126878:0215/094638.060803:WARNING:net/dns/dns_config_service_posix.cc:197] Failed to read DnsConfig.
+[95781:7126834:0215/094641.745305:WARNING:net/dns/dns_config_service_posix.cc:197] Failed to read DnsConfig.
+[95786:7126875:0215/094641.745992:WARNING:net/dns/dns_config_service_posix.cc:197] Failed to read DnsConfig.
+[41434:8674867:0215/095836.463506:VERBOSE1:chrome/updater/updater.cc:431] Version: 144.0.7547.0, opt, ARM_64, command line: /Users/ossianfinch/Library/Application Support/Google/GoogleUpdater/144.0.7547.0/GoogleUpdater.app/Contents/MacOS/GoogleUpdater --wake-all --enable-logging --vmodule=*/components/update_client/*=2,*/chrome/enterprise_companion/*=2,*/chrome/updater/*=2
+[41434:8674867:0215/095836.465153:VERBOSE1:chrome/updater/updater.cc:434] OS version: 15.0.0, System uptime (seconds): 583536, parent pid: 95781
+[41434:8674867:0215/095836.468234:VERBOSE2:chrome/updater/event_history.cc:227] Emitted a UPDATER_PROCESS START event to the history log
+[41436:8674871:0215/095836.476550:VERBOSE1:chrome/updater/updater.cc:431] Version: 144.0.7547.0, opt, ARM_64, command line: /Users/ossianfinch/Library/Application Support/Google/GoogleUpdater/144.0.7547.0/GoogleUpdater.app/Contents/MacOS/GoogleUpdater --crash-handler --database=/Users/ossianfinch/Library/Application Support/Google/GoogleUpdater/144.0.7547.0/Crashpad --url=https://clients2.google.com/cr/report --annotation=prod=Update4 --annotation=ver=144.0.7547.0 --handshake-fd=6 --enable-logging --vmodule=*/components/update_client/*=2,*/chrome/enterprise_companion/*=2,*/chrome/updater/*=2
+[41436:8674871:0215/095836.476806:VERBOSE1:chrome/updater/updater.cc:434] OS version: 15.0.0, System uptime (seconds): 583536, parent pid: 1
+[41436:8674871:0215/095836.478741:VERBOSE2:chrome/updater/event_history.cc:227] Emitted a UPDATER_PROCESS START event to the history log
+[41434:8674867:0215/095836.479177:VERBOSE1:chrome/updater/crash_reporter.cc:122] Crash handler launched and ready.
+[41434:8674867:0215/095836.480222:VERBOSE1:chrome/updater/crash_client.cc:105] Found 0 completed crash reports
+[41434:8674867:0215/095836.480293:VERBOSE1:chrome/updater/crash_client.cc:123] Found 0 pending crash reports
+[41434:8674867:0215/095836.480358:ERROR:third_party/crashpad/crashpad/util/file/file_io_posix.cc:145] open /Users/ossianfinch/Library/Application Support/Google/RLZ/Crashpad/settings.dat: No such file or directory (2)
+[41434:8674867:0215/095836.480404:VERBOSE1:chrome/updater/updater.cc:106] Crash reporting initialized.
+[41434:8674879:0215/095836.480662:VERBOSE1:chrome/updater/app/app_wakeall.cc:56] Launching `/Users/ossianfinch/Library/Application Support/Google/GoogleUpdater/144.0.7547.0/GoogleUpdater.app/Contents/MacOS/GoogleUpdater --wake`
+[41437:8674883:0215/095836.487425:VERBOSE1:chrome/updater/updater.cc:431] Version: 144.0.7547.0, opt, ARM_64, command line: /Users/ossianfinch/Library/Application Support/Google/GoogleUpdater/144.0.7547.0/GoogleUpdater.app/Contents/MacOS/GoogleUpdater --wake --enable-logging --vmodule=*/components/update_client/*=2,*/chrome/enterprise_companion/*=2,*/chrome/updater/*=2
+[41437:8674883:0215/095836.487624:VERBOSE1:chrome/updater/updater.cc:434] OS version: 15.0.0, System uptime (seconds): 583536, parent pid: 41434
+[41437:8674883:0215/095836.489307:VERBOSE2:chrome/updater/event_history.cc:227] Emitted a UPDATER_PROCESS START event to the history log
+[41439:8674887:0215/095836.495694:VERBOSE1:chrome/updater/updater.cc:431] Version: 144.0.7547.0, opt, ARM_64, command line: /Users/ossianfinch/Library/Application Support/Google/GoogleUpdater/144.0.7547.0/GoogleUpdater.app/Contents/MacOS/GoogleUpdater --crash-handler --database=/Users/ossianfinch/Library/Application Support/Google/GoogleUpdater/144.0.7547.0/Crashpad --url=https://clients2.google.com/cr/report --annotation=prod=Update4 --annotation=ver=144.0.7547.0 --handshake-fd=6 --enable-logging --vmodule=*/components/update_client/*=2,*/chrome/enterprise_companion/*=2,*/chrome/updater/*=2
+[41439:8674887:0215/095836.495881:VERBOSE1:chrome/updater/updater.cc:434] OS version: 15.0.0, System uptime (seconds): 583536, parent pid: 1
+[41439:8674887:0215/095836.497557:VERBOSE2:chrome/updater/event_history.cc:227] Emitted a UPDATER_PROCESS START event to the history log
+[41437:8674883:0215/095836.497929:VERBOSE1:chrome/updater/crash_reporter.cc:122] Crash handler launched and ready.
+[41437:8674883:0215/095836.498470:VERBOSE1:chrome/updater/crash_client.cc:105] Found 0 completed crash reports
+[41437:8674883:0215/095836.498528:VERBOSE1:chrome/updater/crash_client.cc:123] Found 0 pending crash reports
+[41437:8674883:0215/095836.498578:ERROR:third_party/crashpad/crashpad/util/file/file_io_posix.cc:145] open /Users/ossianfinch/Library/Application Support/Google/RLZ/Crashpad/settings.dat: No such file or directory (2)
+[41437:8674883:0215/095836.498616:VERBOSE1:chrome/updater/updater.cc:106] Crash reporting initialized.
+[41437:8674883:0215/095836.498753:VERBOSE1:chrome/updater/ipc/update_service_internal_proxy_mojo.cc:59] Run
+[41437:8674883:0215/095853.706129:VERBOSE1:chrome/updater/app/app.cc:53] Shutdown: 0
+[41437:8674883:0215/095853.707003:VERBOSE2:chrome/updater/event_history.cc:227] Emitted a UPDATER_PROCESS END event to the history log
+[41437:8674883:0215/095853.707043:VERBOSE1:chrome/updater/updater.cc:468] UpdaterMain (--wake) returned 0.
+[41434:8674879:0215/095853.800933:VERBOSE1:chrome/updater/app/app_wakeall.cc:66] `/Users/ossianfinch/Library/Application Support/Google/GoogleUpdater/144.0.7547.0/GoogleUpdater.app/Contents/MacOS/GoogleUpdater --wake` exited 0
+[41434:8674867:0215/095853.801451:VERBOSE1:chrome/updater/app/app.cc:53] Shutdown: 0
+[41434:8674867:0215/095853.802227:VERBOSE2:chrome/updater/event_history.cc:227] Emitted a UPDATER_PROCESS END event to the history log
+[41434:8674867:0215/095853.802305:VERBOSE1:chrome/updater/updater.cc:468] UpdaterMain (--wake-all) returned 0.
+[41439:8674887:0215/095903.721906:VERBOSE2:chrome/updater/event_history.cc:227] Emitted a UPDATER_PROCESS END event to the history log
+[41439:8674887:0215/095903.722279:VERBOSE1:chrome/updater/updater.cc:468] UpdaterMain (--crash-handler) returned 0.
+[41436:8674871:0215/095903.724164:VERBOSE2:chrome/updater/event_history.cc:227] Emitted a UPDATER_PROCESS END event to the history log
+[41436:8674871:0215/095903.724224:VERBOSE1:chrome/updater/updater.cc:468] UpdaterMain (--crash-handler) returned 0.
+[95786:7126878:0215/142134.531558:WARNING:net/dns/dns_config_service_posix.cc:197] Failed to read DnsConfig.
+[95781:7126834:0215/142134.531557:WARNING:net/dns/dns_config_service_posix.cc:197] Failed to read DnsConfig.
+[95781:7126836:0215/142139.113791:WARNING:net/dns/dns_config_service_posix.cc:197] Failed to read DnsConfig.
+[95786:7126875:0215/142139.113791:WARNING:net/dns/dns_config_service_posix.cc:197] Failed to read DnsConfig.
+[95786:7126878:0215/142215.483166:WARNING:net/dns/dns_config_service_posix.cc:197] Failed to read DnsConfig.
+[95781:7126836:0215/142215.483165:WARNING:net/dns/dns_config_service_posix.cc:197] Failed to read DnsConfig.
+[95781:7126834:0215/142221.552852:WARNING:net/dns/dns_config_service_posix.cc:197] Failed to read DnsConfig.
+[95786:7126875:0215/142221.553104:WARNING:net/dns/dns_config_service_posix.cc:197] Failed to read DnsConfig.
+[95781:7126836:0215/143248.474105:WARNING:net/dns/dns_config_service_posix.cc:197] Failed to read DnsConfig.
+[95786:7126878:0215/143248.474105:WARNING:net/dns/dns_config_service_posix.cc:197] Failed to read DnsConfig.
+[95781:7126834:0215/144647.021933:WARNING:net/dns/dns_config_service_posix.cc:197] Failed to read DnsConfig.
+[95786:7126875:0215/144647.022768:WARNING:net/dns/dns_config_service_posix.cc:197] Failed to read DnsConfig.
+[95786:7126875:0215/144832.451342:WARNING:net/dns/dns_config_service_posix.cc:197] Failed to read DnsConfig.
+[95781:7126834:0215/144832.451345:WARNING:net/dns/dns_config_service_posix.cc:197] Failed to read DnsConfig.
+[95786:7126875:0215/144841.643296:WARNING:net/dns/dns_config_service_posix.cc:197] Failed to read DnsConfig.
+[95781:7126834:0215/144841.643386:WARNING:net/dns/dns_config_service_posix.cc:197] Failed to read DnsConfig.
+[49720:9017366:0215/181407.097277:VERBOSE1:chrome/updater/updater.cc:431] Version: 144.0.7547.0, opt, ARM_64, command line: /Users/ossianfinch/Library/Application Support/Google/GoogleUpdater/144.0.7547.0/GoogleUpdater.app/Contents/MacOS/GoogleUpdater --wake-all --enable-logging --vmodule=*/components/update_client/*=2,*/chrome/enterprise_companion/*=2,*/chrome/updater/*=2
+[49720:9017366:0215/181407.098648:VERBOSE1:chrome/updater/updater.cc:434] OS version: 15.0.0, System uptime (seconds): 601554, parent pid: 95781
+[49720:9017366:0215/181407.100739:VERBOSE2:chrome/updater/event_history.cc:227] Emitted a UPDATER_PROCESS START event to the history log
+[49722:9017370:0215/181407.106492:VERBOSE1:chrome/updater/updater.cc:431] Version: 144.0.7547.0, opt, ARM_64, command line: /Users/ossianfinch/Library/Application Support/Google/GoogleUpdater/144.0.7547.0/GoogleUpdater.app/Contents/MacOS/GoogleUpdater --crash-handler --database=/Users/ossianfinch/Library/Application Support/Google/GoogleUpdater/144.0.7547.0/Crashpad --url=https://clients2.google.com/cr/report --annotation=prod=Update4 --annotation=ver=144.0.7547.0 --handshake-fd=6 --enable-logging --vmodule=*/components/update_client/*=2,*/chrome/enterprise_companion/*=2,*/chrome/updater/*=2
+[49722:9017370:0215/181407.106673:VERBOSE1:chrome/updater/updater.cc:434] OS version: 15.0.0, System uptime (seconds): 601554, parent pid: 1
+[49722:9017370:0215/181407.107981:VERBOSE2:chrome/updater/event_history.cc:227] Emitted a UPDATER_PROCESS START event to the history log
+[49720:9017366:0215/181407.108311:VERBOSE1:chrome/updater/crash_reporter.cc:122] Crash handler launched and ready.
+[49720:9017366:0215/181407.108782:VERBOSE1:chrome/updater/crash_client.cc:105] Found 0 completed crash reports
+[49720:9017366:0215/181407.108837:VERBOSE1:chrome/updater/crash_client.cc:123] Found 0 pending crash reports
+[49720:9017366:0215/181407.108887:ERROR:third_party/crashpad/crashpad/util/file/file_io_posix.cc:145] open /Users/ossianfinch/Library/Application Support/Google/RLZ/Crashpad/settings.dat: No such file or directory (2)
+[49720:9017366:0215/181407.108924:VERBOSE1:chrome/updater/updater.cc:106] Crash reporting initialized.
+[49720:9017379:0215/181407.109110:VERBOSE1:chrome/updater/app/app_wakeall.cc:56] Launching `/Users/ossianfinch/Library/Application Support/Google/GoogleUpdater/144.0.7547.0/GoogleUpdater.app/Contents/MacOS/GoogleUpdater --wake`
+[49723:9017383:0215/181407.113743:VERBOSE1:chrome/updater/updater.cc:431] Version: 144.0.7547.0, opt, ARM_64, command line: /Users/ossianfinch/Library/Application Support/Google/GoogleUpdater/144.0.7547.0/GoogleUpdater.app/Contents/MacOS/GoogleUpdater --wake --enable-logging --vmodule=*/components/update_client/*=2,*/chrome/enterprise_companion/*=2,*/chrome/updater/*=2
+[49723:9017383:0215/181407.113975:VERBOSE1:chrome/updater/updater.cc:434] OS version: 15.0.0, System uptime (seconds): 601554, parent pid: 49720
+[49723:9017383:0215/181407.115441:VERBOSE2:chrome/updater/event_history.cc:227] Emitted a UPDATER_PROCESS START event to the history log
+[49725:9017387:0215/181407.120829:VERBOSE1:chrome/updater/updater.cc:431] Version: 144.0.7547.0, opt, ARM_64, command line: /Users/ossianfinch/Library/Application Support/Google/GoogleUpdater/144.0.7547.0/GoogleUpdater.app/Contents/MacOS/GoogleUpdater --crash-handler --database=/Users/ossianfinch/Library/Application Support/Google/GoogleUpdater/144.0.7547.0/Crashpad --url=https://clients2.google.com/cr/report --annotation=prod=Update4 --annotation=ver=144.0.7547.0 --handshake-fd=6 --enable-logging --vmodule=*/components/update_client/*=2,*/chrome/enterprise_companion/*=2,*/chrome/updater/*=2
+[49725:9017387:0215/181407.121045:VERBOSE1:chrome/updater/updater.cc:434] OS version: 15.0.0, System uptime (seconds): 601554, parent pid: 1
+[49725:9017387:0215/181407.122523:VERBOSE2:chrome/updater/event_history.cc:227] Emitted a UPDATER_PROCESS START event to the history log
+[49723:9017383:0215/181407.122853:VERBOSE1:chrome/updater/crash_reporter.cc:122] Crash handler launched and ready.
+[49723:9017383:0215/181407.123385:VERBOSE1:chrome/updater/crash_client.cc:105] Found 0 completed crash reports
+[49723:9017383:0215/181407.123442:VERBOSE1:chrome/updater/crash_client.cc:123] Found 0 pending crash reports
+[49723:9017383:0215/181407.123487:ERROR:third_party/crashpad/crashpad/util/file/file_io_posix.cc:145] open /Users/ossianfinch/Library/Application Support/Google/RLZ/Crashpad/settings.dat: No such file or directory (2)
+[49723:9017383:0215/181407.123518:VERBOSE1:chrome/updater/updater.cc:106] Crash reporting initialized.
+[49723:9017383:0215/181407.123655:VERBOSE1:chrome/updater/ipc/update_service_internal_proxy_mojo.cc:59] Run
+[49723:9017383:0215/181424.648973:VERBOSE1:chrome/updater/app/app.cc:53] Shutdown: 0
+[49723:9017383:0215/181424.650029:VERBOSE2:chrome/updater/event_history.cc:227] Emitted a UPDATER_PROCESS END event to the history log
+[49723:9017383:0215/181424.650071:VERBOSE1:chrome/updater/updater.cc:468] UpdaterMain (--wake) returned 0.
+[49720:9017379:0215/181424.705866:VERBOSE1:chrome/updater/app/app_wakeall.cc:66] `/Users/ossianfinch/Library/Application Support/Google/GoogleUpdater/144.0.7547.0/GoogleUpdater.app/Contents/MacOS/GoogleUpdater --wake` exited 0
+[49720:9017366:0215/181424.706717:VERBOSE1:chrome/updater/app/app.cc:53] Shutdown: 0
+[49720:9017366:0215/181424.707877:VERBOSE2:chrome/updater/event_history.cc:227] Emitted a UPDATER_PROCESS END event to the history log
+[49720:9017366:0215/181424.707914:VERBOSE1:chrome/updater/updater.cc:468] UpdaterMain (--wake-all) returned 0.
+[49725:9017387:0215/181434.671336:VERBOSE2:chrome/updater/event_history.cc:227] Emitted a UPDATER_PROCESS END event to the history log
+[49725:9017387:0215/181434.671915:VERBOSE1:chrome/updater/updater.cc:468] UpdaterMain (--crash-handler) returned 0.
+[49722:9017370:0215/181434.674124:VERBOSE2:chrome/updater/event_history.cc:227] Emitted a UPDATER_PROCESS END event to the history log
+[49722:9017370:0215/181434.674223:VERBOSE1:chrome/updater/updater.cc:468] UpdaterMain (--crash-handler) returned 0.
+[56038:9238906:0215/233223.336637:VERBOSE1:chrome/updater/updater.cc:431] Version: 144.0.7547.0, opt, ARM_64, command line: /Users/ossianfinch/Library/Application Support/Google/GoogleUpdater/144.0.7547.0/GoogleUpdater.app/Contents/MacOS/GoogleUpdater --wake-all --enable-logging --vmodule=*/components/update_client/*=2,*/chrome/enterprise_companion/*=2,*/chrome/updater/*=2
+[56038:9238906:0215/233223.337686:VERBOSE1:chrome/updater/updater.cc:434] OS version: 15.0.0, System uptime (seconds): 619572, parent pid: 95781
+[56038:9238906:0215/233223.340373:VERBOSE2:chrome/updater/event_history.cc:227] Emitted a UPDATER_PROCESS START event to the history log
+[56040:9238910:0215/233223.348264:VERBOSE1:chrome/updater/updater.cc:431] Version: 144.0.7547.0, opt, ARM_64, command line: /Users/ossianfinch/Library/Application Support/Google/GoogleUpdater/144.0.7547.0/GoogleUpdater.app/Contents/MacOS/GoogleUpdater --crash-handler --database=/Users/ossianfinch/Library/Application Support/Google/GoogleUpdater/144.0.7547.0/Crashpad --url=https://clients2.google.com/cr/report --annotation=prod=Update4 --annotation=ver=144.0.7547.0 --handshake-fd=6 --enable-logging --vmodule=*/components/update_client/*=2,*/chrome/enterprise_companion/*=2,*/chrome/updater/*=2
+[56040:9238910:0215/233223.348465:VERBOSE1:chrome/updater/updater.cc:434] OS version: 15.0.0, System uptime (seconds): 619572, parent pid: 1
+[56040:9238910:0215/233223.350195:VERBOSE2:chrome/updater/event_history.cc:227] Emitted a UPDATER_PROCESS START event to the history log
+[56038:9238906:0215/233223.350600:VERBOSE1:chrome/updater/crash_reporter.cc:122] Crash handler launched and ready.
+[56038:9238906:0215/233223.351227:VERBOSE1:chrome/updater/crash_client.cc:105] Found 0 completed crash reports
+[56038:9238906:0215/233223.351296:VERBOSE1:chrome/updater/crash_client.cc:123] Found 0 pending crash reports
+[56038:9238906:0215/233223.351378:ERROR:third_party/crashpad/crashpad/util/file/file_io_posix.cc:145] open /Users/ossianfinch/Library/Application Support/Google/RLZ/Crashpad/settings.dat: No such file or directory (2)
+[56038:9238906:0215/233223.351457:VERBOSE1:chrome/updater/updater.cc:106] Crash reporting initialized.
+[56038:9238918:0215/233223.351744:VERBOSE1:chrome/updater/app/app_wakeall.cc:56] Launching `/Users/ossianfinch/Library/Application Support/Google/GoogleUpdater/144.0.7547.0/GoogleUpdater.app/Contents/MacOS/GoogleUpdater --wake`
+[56041:9238922:0215/233223.357449:VERBOSE1:chrome/updater/updater.cc:431] Version: 144.0.7547.0, opt, ARM_64, command line: /Users/ossianfinch/Library/Application Support/Google/GoogleUpdater/144.0.7547.0/GoogleUpdater.app/Contents/MacOS/GoogleUpdater --wake --enable-logging --vmodule=*/components/update_client/*=2,*/chrome/enterprise_companion/*=2,*/chrome/updater/*=2
+[56041:9238922:0215/233223.357643:VERBOSE1:chrome/updater/updater.cc:434] OS version: 15.0.0, System uptime (seconds): 619572, parent pid: 56038
+[56041:9238922:0215/233223.359236:VERBOSE2:chrome/updater/event_history.cc:227] Emitted a UPDATER_PROCESS START event to the history log
+[56043:9238926:0215/233223.364941:VERBOSE1:chrome/updater/updater.cc:431] Version: 144.0.7547.0, opt, ARM_64, command line: /Users/ossianfinch/Library/Application Support/Google/GoogleUpdater/144.0.7547.0/GoogleUpdater.app/Contents/MacOS/GoogleUpdater --crash-handler --database=/Users/ossianfinch/Library/Application Support/Google/GoogleUpdater/144.0.7547.0/Crashpad --url=https://clients2.google.com/cr/report --annotation=prod=Update4 --annotation=ver=144.0.7547.0 --handshake-fd=6 --enable-logging --vmodule=*/components/update_client/*=2,*/chrome/enterprise_companion/*=2,*/chrome/updater/*=2
+[56043:9238926:0215/233223.365123:VERBOSE1:chrome/updater/updater.cc:434] OS version: 15.0.0, System uptime (seconds): 619572, parent pid: 1
+[56043:9238926:0215/233223.366642:VERBOSE2:chrome/updater/event_history.cc:227] Emitted a UPDATER_PROCESS START event to the history log
+[56041:9238922:0215/233223.366971:VERBOSE1:chrome/updater/crash_reporter.cc:122] Crash handler launched and ready.
+[56041:9238922:0215/233223.367463:VERBOSE1:chrome/updater/crash_client.cc:105] Found 0 completed crash reports
+[56041:9238922:0215/233223.367519:VERBOSE1:chrome/updater/crash_client.cc:123] Found 0 pending crash reports
+[56041:9238922:0215/233223.367567:ERROR:third_party/crashpad/crashpad/util/file/file_io_posix.cc:145] open /Users/ossianfinch/Library/Application Support/Google/RLZ/Crashpad/settings.dat: No such file or directory (2)
+[56041:9238922:0215/233223.367600:VERBOSE1:chrome/updater/updater.cc:106] Crash reporting initialized.
+[56041:9238922:0215/233223.367732:VERBOSE1:chrome/updater/ipc/update_service_internal_proxy_mojo.cc:59] Run
+[56041:9238922:0215/233242.681415:VERBOSE1:chrome/updater/app/app.cc:53] Shutdown: 0
+[56041:9238922:0215/233242.682724:VERBOSE2:chrome/updater/event_history.cc:227] Emitted a UPDATER_PROCESS END event to the history log
+[56041:9238922:0215/233242.682753:VERBOSE1:chrome/updater/updater.cc:468] UpdaterMain (--wake) returned 0.
+[56038:9238918:0215/233242.901542:VERBOSE1:chrome/updater/app/app_wakeall.cc:66] `/Users/ossianfinch/Library/Application Support/Google/GoogleUpdater/144.0.7547.0/GoogleUpdater.app/Contents/MacOS/GoogleUpdater --wake` exited 0
+[56038:9238906:0215/233242.901900:VERBOSE1:chrome/updater/app/app.cc:53] Shutdown: 0
+[56038:9238906:0215/233242.902849:VERBOSE2:chrome/updater/event_history.cc:227] Emitted a UPDATER_PROCESS END event to the history log
+[56038:9238906:0215/233242.902920:VERBOSE1:chrome/updater/updater.cc:468] UpdaterMain (--wake-all) returned 0.
+[56043:9238926:0215/233252.698524:VERBOSE2:chrome/updater/event_history.cc:227] Emitted a UPDATER_PROCESS END event to the history log
+[56043:9238926:0215/233252.698817:VERBOSE1:chrome/updater/updater.cc:468] UpdaterMain (--crash-handler) returned 0.
+[56040:9238910:0215/233252.700583:VERBOSE2:chrome/updater/event_history.cc:227] Emitted a UPDATER_PROCESS END event to the history log
+[56040:9238910:0215/233252.700665:VERBOSE1:chrome/updater/updater.cc:468] UpdaterMain (--crash-handler) returned 0.
+[62624:9481591:0216/053514.784958:VERBOSE1:chrome/updater/updater.cc:431] Version: 144.0.7547.0, opt, ARM_64, command line: /Users/ossianfinch/Library/Application Support/Google/GoogleUpdater/144.0.7547.0/GoogleUpdater.app/Contents/MacOS/GoogleUpdater --wake-all --enable-logging --vmodule=*/components/update_client/*=2,*/chrome/enterprise_companion/*=2,*/chrome/updater/*=2
+[62624:9481591:0216/053514.786459:VERBOSE1:chrome/updater/updater.cc:434] OS version: 15.0.0, System uptime (seconds): 637592, parent pid: 95781
+[62624:9481591:0216/053514.788685:VERBOSE2:chrome/updater/event_history.cc:227] Emitted a UPDATER_PROCESS START event to the history log
+[62626:9481595:0216/053514.795140:VERBOSE1:chrome/updater/updater.cc:431] Version: 144.0.7547.0, opt, ARM_64, command line: /Users/ossianfinch/Library/Application Support/Google/GoogleUpdater/144.0.7547.0/GoogleUpdater.app/Contents/MacOS/GoogleUpdater --crash-handler --database=/Users/ossianfinch/Library/Application Support/Google/GoogleUpdater/144.0.7547.0/Crashpad --url=https://clients2.google.com/cr/report --annotation=prod=Update4 --annotation=ver=144.0.7547.0 --handshake-fd=6 --enable-logging --vmodule=*/components/update_client/*=2,*/chrome/enterprise_companion/*=2,*/chrome/updater/*=2
+[62626:9481595:0216/053514.795340:VERBOSE1:chrome/updater/updater.cc:434] OS version: 15.0.0, System uptime (seconds): 637592, parent pid: 1
+[62626:9481595:0216/053514.796924:VERBOSE2:chrome/updater/event_history.cc:227] Emitted a UPDATER_PROCESS START event to the history log
+[62624:9481591:0216/053514.797265:VERBOSE1:chrome/updater/crash_reporter.cc:122] Crash handler launched and ready.
+[62624:9481591:0216/053514.797764:VERBOSE1:chrome/updater/crash_client.cc:105] Found 0 completed crash reports
+[62624:9481591:0216/053514.797819:VERBOSE1:chrome/updater/crash_client.cc:123] Found 0 pending crash reports
+[62624:9481591:0216/053514.797873:ERROR:third_party/crashpad/crashpad/util/file/file_io_posix.cc:145] open /Users/ossianfinch/Library/Application Support/Google/RLZ/Crashpad/settings.dat: No such file or directory (2)
+[62624:9481591:0216/053514.797915:VERBOSE1:chrome/updater/updater.cc:106] Crash reporting initialized.
+[62624:9481604:0216/053514.798152:VERBOSE1:chrome/updater/app/app_wakeall.cc:56] Launching `/Users/ossianfinch/Library/Application Support/Google/GoogleUpdater/144.0.7547.0/GoogleUpdater.app/Contents/MacOS/GoogleUpdater --wake`
+[62627:9481608:0216/053514.803470:VERBOSE1:chrome/updater/updater.cc:431] Version: 144.0.7547.0, opt, ARM_64, command line: /Users/ossianfinch/Library/Application Support/Google/GoogleUpdater/144.0.7547.0/GoogleUpdater.app/Contents/MacOS/GoogleUpdater --wake --enable-logging --vmodule=*/components/update_client/*=2,*/chrome/enterprise_companion/*=2,*/chrome/updater/*=2
+[62627:9481608:0216/053514.803634:VERBOSE1:chrome/updater/updater.cc:434] OS version: 15.0.0, System uptime (seconds): 637592, parent pid: 62624
+[62627:9481608:0216/053514.805106:VERBOSE2:chrome/updater/event_history.cc:227] Emitted a UPDATER_PROCESS START event to the history log
+[62629:9481612:0216/053514.810553:VERBOSE1:chrome/updater/updater.cc:431] Version: 144.0.7547.0, opt, ARM_64, command line: /Users/ossianfinch/Library/Application Support/Google/GoogleUpdater/144.0.7547.0/GoogleUpdater.app/Contents/MacOS/GoogleUpdater --crash-handler --database=/Users/ossianfinch/Library/Application Support/Google/GoogleUpdater/144.0.7547.0/Crashpad --url=https://clients2.google.com/cr/report --annotation=prod=Update4 --annotation=ver=144.0.7547.0 --handshake-fd=6 --enable-logging --vmodule=*/components/update_client/*=2,*/chrome/enterprise_companion/*=2,*/chrome/updater/*=2
+[62629:9481612:0216/053514.810740:VERBOSE1:chrome/updater/updater.cc:434] OS version: 15.0.0, System uptime (seconds): 637592, parent pid: 1
+[62629:9481612:0216/053514.812115:VERBOSE2:chrome/updater/event_history.cc:227] Emitted a UPDATER_PROCESS START event to the history log
+[62627:9481608:0216/053514.812413:VERBOSE1:chrome/updater/crash_reporter.cc:122] Crash handler launched and ready.
+[62627:9481608:0216/053514.812870:VERBOSE1:chrome/updater/crash_client.cc:105] Found 0 completed crash reports
+[62627:9481608:0216/053514.812919:VERBOSE1:chrome/updater/crash_client.cc:123] Found 0 pending crash reports
+[62627:9481608:0216/053514.812962:ERROR:third_party/crashpad/crashpad/util/file/file_io_posix.cc:145] open /Users/ossianfinch/Library/Application Support/Google/RLZ/Crashpad/settings.dat: No such file or directory (2)
+[62627:9481608:0216/053514.812994:VERBOSE1:chrome/updater/updater.cc:106] Crash reporting initialized.
+[62627:9481608:0216/053514.813100:VERBOSE1:chrome/updater/ipc/update_service_internal_proxy_mojo.cc:59] Run
+[62627:9481608:0216/053531.319677:VERBOSE1:chrome/updater/app/app.cc:53] Shutdown: 0
+[62627:9481608:0216/053531.320514:VERBOSE2:chrome/updater/event_history.cc:227] Emitted a UPDATER_PROCESS END event to the history log
+[62627:9481608:0216/053531.320549:VERBOSE1:chrome/updater/updater.cc:468] UpdaterMain (--wake) returned 0.
+[62624:9481604:0216/053531.371885:VERBOSE1:chrome/updater/app/app_wakeall.cc:66] `/Users/ossianfinch/Library/Application Support/Google/GoogleUpdater/144.0.7547.0/GoogleUpdater.app/Contents/MacOS/GoogleUpdater --wake` exited 0
+[62624:9481591:0216/053531.372136:VERBOSE1:chrome/updater/app/app.cc:53] Shutdown: 0
+[62624:9481591:0216/053531.372736:VERBOSE2:chrome/updater/event_history.cc:227] Emitted a UPDATER_PROCESS END event to the history log
+[62624:9481591:0216/053531.372775:VERBOSE1:chrome/updater/updater.cc:468] UpdaterMain (--wake-all) returned 0.
+[62629:9481612:0216/053541.336070:VERBOSE2:chrome/updater/event_history.cc:227] Emitted a UPDATER_PROCESS END event to the history log
+[62629:9481612:0216/053541.336158:VERBOSE1:chrome/updater/updater.cc:468] UpdaterMain (--crash-handler) returned 0.
+[62626:9481595:0216/053541.337812:VERBOSE2:chrome/updater/event_history.cc:227] Emitted a UPDATER_PROCESS END event to the history log
+[62626:9481595:0216/053541.337889:VERBOSE1:chrome/updater/updater.cc:468] UpdaterMain (--crash-handler) returned 0.
+[95781:7126834:0216/093355.179086:WARNING:net/dns/dns_config_service_posix.cc:197] Failed to read DnsConfig.
+[95786:7126875:0216/093355.179086:WARNING:net/dns/dns_config_service_posix.cc:197] Failed to read DnsConfig.
+[95786:7126878:0216/093400.983367:WARNING:net/dns/dns_config_service_posix.cc:197] Failed to read DnsConfig.
+[95781:7126834:0216/093400.987724:WARNING:net/dns/dns_config_service_posix.cc:197] Failed to read DnsConfig.
+[95786:7126878:0216/093550.856911:WARNING:net/dns/dns_config_service_posix.cc:197] Failed to read DnsConfig.
+[95781:7126836:0216/093550.856907:WARNING:net/dns/dns_config_service_posix.cc:197] Failed to read DnsConfig.
+[95786:7126875:0216/093702.100522:WARNING:net/dns/dns_config_service_posix.cc:197] Failed to read DnsConfig.
+[95781:7126834:0216/093702.101862:WARNING:net/dns/dns_config_service_posix.cc:197] Failed to read DnsConfig.
+[95786:7126875:0216/093733.402309:WARNING:net/dns/dns_config_service_posix.cc:197] Failed to read DnsConfig.
+[95781:7126834:0216/093733.402415:WARNING:net/dns/dns_config_service_posix.cc:197] Failed to read DnsConfig.
+[95781:7126834:0216/093742.681390:WARNING:net/dns/dns_config_service_posix.cc:197] Failed to read DnsConfig.
+[95786:7126875:0216/093742.681599:WARNING:net/dns/dns_config_service_posix.cc:197] Failed to read DnsConfig.
+[95781:7126834:0216/093811.461597:WARNING:net/dns/dns_config_service_posix.cc:197] Failed to read DnsConfig.
+[95786:7126875:0216/093811.461527:WARNING:net/dns/dns_config_service_posix.cc:197] Failed to read DnsConfig.
+[95786:7126875:0216/094003.011230:WARNING:net/dns/dns_config_service_posix.cc:197] Failed to read DnsConfig.
+[95781:7126834:0216/094003.011438:WARNING:net/dns/dns_config_service_posix.cc:197] Failed to read DnsConfig.
+[95786:7126875:0216/094041.615749:WARNING:net/dns/dns_config_service_posix.cc:197] Failed to read DnsConfig.
+[95781:7126834:0216/094041.615905:WARNING:net/dns/dns_config_service_posix.cc:197] Failed to read DnsConfig.
+[95786:7126875:0216/094637.231259:WARNING:net/dns/dns_config_service_posix.cc:197] Failed to read DnsConfig.
+[95781:7126834:0216/094637.231518:WARNING:net/dns/dns_config_service_posix.cc:197] Failed to read DnsConfig.
+[69881:9786980:0216/110616.636202:VERBOSE1:chrome/updater/updater.cc:431] Version: 144.0.7547.0, opt, ARM_64, command line: /Users/ossianfinch/Library/Application Support/Google/GoogleUpdater/144.0.7547.0/GoogleUpdater.app/Contents/MacOS/GoogleUpdater --wake-all --enable-logging --vmodule=*/components/update_client/*=2,*/chrome/enterprise_companion/*=2,*/chrome/updater/*=2
+[69881:9786980:0216/110616.637208:VERBOSE1:chrome/updater/updater.cc:434] OS version: 15.0.0, System uptime (seconds): 655609, parent pid: 95781
+[69881:9786980:0216/110616.639445:VERBOSE2:chrome/updater/event_history.cc:227] Emitted a UPDATER_PROCESS START event to the history log
+[69883:9786985:0216/110616.646265:VERBOSE1:chrome/updater/updater.cc:431] Version: 144.0.7547.0, opt, ARM_64, command line: /Users/ossianfinch/Library/Application Support/Google/GoogleUpdater/144.0.7547.0/GoogleUpdater.app/Contents/MacOS/GoogleUpdater --crash-handler --database=/Users/ossianfinch/Library/Application Support/Google/GoogleUpdater/144.0.7547.0/Crashpad --url=https://clients2.google.com/cr/report --annotation=prod=Update4 --annotation=ver=144.0.7547.0 --handshake-fd=6 --enable-logging --vmodule=*/components/update_client/*=2,*/chrome/enterprise_companion/*=2,*/chrome/updater/*=2
+[69883:9786985:0216/110616.646443:VERBOSE1:chrome/updater/updater.cc:434] OS version: 15.0.0, System uptime (seconds): 655609, parent pid: 1
+[69883:9786985:0216/110616.648007:VERBOSE2:chrome/updater/event_history.cc:227] Emitted a UPDATER_PROCESS START event to the history log
+[69881:9786980:0216/110616.648379:VERBOSE1:chrome/updater/crash_reporter.cc:122] Crash handler launched and ready.
+[69881:9786980:0216/110616.648899:VERBOSE1:chrome/updater/crash_client.cc:105] Found 0 completed crash reports
+[69881:9786980:0216/110616.648956:VERBOSE1:chrome/updater/crash_client.cc:123] Found 0 pending crash reports
+[69881:9786980:0216/110616.649007:ERROR:third_party/crashpad/crashpad/util/file/file_io_posix.cc:145] open /Users/ossianfinch/Library/Application Support/Google/RLZ/Crashpad/settings.dat: No such file or directory (2)
+[69881:9786980:0216/110616.649046:VERBOSE1:chrome/updater/updater.cc:106] Crash reporting initialized.
+[69881:9786993:0216/110616.649274:VERBOSE1:chrome/updater/app/app_wakeall.cc:56] Launching `/Users/ossianfinch/Library/Application Support/Google/GoogleUpdater/144.0.7547.0/GoogleUpdater.app/Contents/MacOS/GoogleUpdater --wake`
+[69884:9786997:0216/110616.655644:VERBOSE1:chrome/updater/updater.cc:431] Version: 144.0.7547.0, opt, ARM_64, command line: /Users/ossianfinch/Library/Application Support/Google/GoogleUpdater/144.0.7547.0/GoogleUpdater.app/Contents/MacOS/GoogleUpdater --wake --enable-logging --vmodule=*/components/update_client/*=2,*/chrome/enterprise_companion/*=2,*/chrome/updater/*=2
+[69884:9786997:0216/110616.655867:VERBOSE1:chrome/updater/updater.cc:434] OS version: 15.0.0, System uptime (seconds): 655609, parent pid: 69881
+[69884:9786997:0216/110616.657473:VERBOSE2:chrome/updater/event_history.cc:227] Emitted a UPDATER_PROCESS START event to the history log
+[69886:9787001:0216/110616.664770:VERBOSE1:chrome/updater/updater.cc:431] Version: 144.0.7547.0, opt, ARM_64, command line: /Users/ossianfinch/Library/Application Support/Google/GoogleUpdater/144.0.7547.0/GoogleUpdater.app/Contents/MacOS/GoogleUpdater --crash-handler --database=/Users/ossianfinch/Library/Application Support/Google/GoogleUpdater/144.0.7547.0/Crashpad --url=https://clients2.google.com/cr/report --annotation=prod=Update4 --annotation=ver=144.0.7547.0 --handshake-fd=6 --enable-logging --vmodule=*/components/update_client/*=2,*/chrome/enterprise_companion/*=2,*/chrome/updater/*=2
+[69886:9787001:0216/110616.664939:VERBOSE1:chrome/updater/updater.cc:434] OS version: 15.0.0, System uptime (seconds): 655609, parent pid: 1
+[69886:9787001:0216/110616.666332:VERBOSE2:chrome/updater/event_history.cc:227] Emitted a UPDATER_PROCESS START event to the history log
+[69884:9786997:0216/110616.666657:VERBOSE1:chrome/updater/crash_reporter.cc:122] Crash handler launched and ready.
+[69884:9786997:0216/110616.667143:VERBOSE1:chrome/updater/crash_client.cc:105] Found 0 completed crash reports
+[69884:9786997:0216/110616.667193:VERBOSE1:chrome/updater/crash_client.cc:123] Found 0 pending crash reports
+[69884:9786997:0216/110616.667239:ERROR:third_party/crashpad/crashpad/util/file/file_io_posix.cc:145] open /Users/ossianfinch/Library/Application Support/Google/RLZ/Crashpad/settings.dat: No such file or directory (2)
+[69884:9786997:0216/110616.667298:VERBOSE1:chrome/updater/updater.cc:106] Crash reporting initialized.
+[69884:9786997:0216/110616.667445:VERBOSE1:chrome/updater/ipc/update_service_internal_proxy_mojo.cc:59] Run
+[69884:9786997:0216/110634.179187:VERBOSE1:chrome/updater/app/app.cc:53] Shutdown: 0
+[69884:9786997:0216/110634.180414:VERBOSE2:chrome/updater/event_history.cc:227] Emitted a UPDATER_PROCESS END event to the history log
+[69884:9786997:0216/110634.180454:VERBOSE1:chrome/updater/updater.cc:468] UpdaterMain (--wake) returned 0.
+[69881:9786993:0216/110634.267455:VERBOSE1:chrome/updater/app/app_wakeall.cc:66] `/Users/ossianfinch/Library/Application Support/Google/GoogleUpdater/144.0.7547.0/GoogleUpdater.app/Contents/MacOS/GoogleUpdater --wake` exited 0
+[69881:9786980:0216/110634.267968:VERBOSE1:chrome/updater/app/app.cc:53] Shutdown: 0
+[69881:9786980:0216/110634.268541:VERBOSE2:chrome/updater/event_history.cc:227] Emitted a UPDATER_PROCESS END event to the history log
+[69881:9786980:0216/110634.268650:VERBOSE1:chrome/updater/updater.cc:468] UpdaterMain (--wake-all) returned 0.
+[69886:9787001:0216/110644.193353:VERBOSE2:chrome/updater/event_history.cc:227] Emitted a UPDATER_PROCESS END event to the history log
+[69886:9787001:0216/110644.194219:VERBOSE1:chrome/updater/updater.cc:468] UpdaterMain (--crash-handler) returned 0.
+[69883:9786985:0216/110644.196417:VERBOSE2:chrome/updater/event_history.cc:227] Emitted a UPDATER_PROCESS END event to the history log
+[69883:9786985:0216/110644.196482:VERBOSE1:chrome/updater/updater.cc:468] UpdaterMain (--crash-handler) returned 0.
+[95786:7126878:0216/141145.998368:WARNING:net/dns/dns_config_service_posix.cc:197] Failed to read DnsConfig.
+[95781:7126836:0216/141145.998375:WARNING:net/dns/dns_config_service_posix.cc:197] Failed to read DnsConfig.
+[95786:7126875:0216/141434.503423:WARNING:net/dns/dns_config_service_posix.cc:197] Failed to read DnsConfig.
+[95781:7126834:0216/141434.503598:WARNING:net/dns/dns_config_service_posix.cc:197] Failed to read DnsConfig.
+[95781:7126834:0216/172032.719269:WARNING:net/dns/dns_config_service_posix.cc:197] Failed to read DnsConfig.
+[95786:7126878:0216/172032.719279:WARNING:net/dns/dns_config_service_posix.cc:197] Failed to read DnsConfig.
+[95786:7126878:0216/191310.019533:WARNING:net/dns/dns_config_service_posix.cc:197] Failed to read DnsConfig.
+[95781:7126836:0216/191310.019528:WARNING:net/dns/dns_config_service_posix.cc:197] Failed to read DnsConfig.
+[95781:7126834:0216/202534.590361:WARNING:net/dns/dns_config_service_posix.cc:197] Failed to read DnsConfig.
+[95786:7126878:0216/202534.590361:WARNING:net/dns/dns_config_service_posix.cc:197] Failed to read DnsConfig.
+[95786:7126875:0216/202543.214886:WARNING:net/dns/dns_config_service_posix.cc:197] Failed to read DnsConfig.
+[95781:7126834:0216/202543.215480:WARNING:net/dns/dns_config_service_posix.cc:197] Failed to read DnsConfig.
+[95786:7126878:0216/204102.089487:WARNING:net/dns/dns_config_service_posix.cc:197] Failed to read DnsConfig.
+[95781:7126836:0216/204102.089486:WARNING:net/dns/dns_config_service_posix.cc:197] Failed to read DnsConfig.
+[95786:7126875:0216/204102.226373:WARNING:net/dns/dns_config_service_posix.cc:197] Failed to read DnsConfig.
+[95781:7126834:0216/204102.226393:WARNING:net/dns/dns_config_service_posix.cc:197] Failed to read DnsConfig.
+[95786:7126875:0216/211525.570977:WARNING:net/dns/dns_config_service_posix.cc:197] Failed to read DnsConfig.
+[95781:7126834:0216/211525.571010:WARNING:net/dns/dns_config_service_posix.cc:197] Failed to read DnsConfig.
+[95781:7126836:0216/211529.770750:WARNING:net/dns/dns_config_service_posix.cc:197] Failed to read DnsConfig.
+[95786:7126875:0216/211529.771042:WARNING:net/dns/dns_config_service_posix.cc:197] Failed to read DnsConfig.
+[95781:7126834:0216/214441.028134:WARNING:net/dns/dns_config_service_posix.cc:197] Failed to read DnsConfig.
+[95786:7126875:0216/214441.028131:WARNING:net/dns/dns_config_service_posix.cc:197] Failed to read DnsConfig.
+[95781:7126834:0216/214939.487991:WARNING:net/dns/dns_config_service_posix.cc:197] Failed to read DnsConfig.
+[95786:7126875:0216/214939.487985:WARNING:net/dns/dns_config_service_posix.cc:197] Failed to read DnsConfig.
+[95786:7126875:0216/215122.144220:WARNING:net/dns/dns_config_service_posix.cc:197] Failed to read DnsConfig.
+[95781:7126834:0216/215122.144216:WARNING:net/dns/dns_config_service_posix.cc:197] Failed to read DnsConfig.
+[95781:7126834:0216/215240.406337:WARNING:net/dns/dns_config_service_posix.cc:197] Failed to read DnsConfig.
+[95786:7126875:0216/215240.406339:WARNING:net/dns/dns_config_service_posix.cc:197] Failed to read DnsConfig.
+[95786:7126875:0216/215516.206193:WARNING:net/dns/dns_config_service_posix.cc:197] Failed to read DnsConfig.
+[95781:7126834:0216/215516.206149:WARNING:net/dns/dns_config_service_posix.cc:197] Failed to read DnsConfig.
+[95786:7126875:0216/215519.986651:WARNING:net/dns/dns_config_service_posix.cc:197] Failed to read DnsConfig.
+[95781:7126834:0216/215519.986656:WARNING:net/dns/dns_config_service_posix.cc:197] Failed to read DnsConfig.
+[77715:10289217:0216/215910.530936:VERBOSE1:chrome/updater/updater.cc:431] Version: 144.0.7547.0, opt, ARM_64, command line: /Users/ossianfinch/Library/Application Support/Google/GoogleUpdater/144.0.7547.0/GoogleUpdater.app/Contents/MacOS/GoogleUpdater --wake-all --enable-logging --vmodule=*/components/update_client/*=2,*/chrome/enterprise_companion/*=2,*/chrome/updater/*=2
+[77715:10289217:0216/215910.531902:VERBOSE1:chrome/updater/updater.cc:434] OS version: 15.0.0, System uptime (seconds): 673628, parent pid: 95781
+[77715:10289217:0216/215910.533937:VERBOSE2:chrome/updater/event_history.cc:227] Emitted a UPDATER_PROCESS START event to the history log
+[77717:10289224:0216/215910.540177:VERBOSE1:chrome/updater/updater.cc:431] Version: 144.0.7547.0, opt, ARM_64, command line: /Users/ossianfinch/Library/Application Support/Google/GoogleUpdater/144.0.7547.0/GoogleUpdater.app/Contents/MacOS/GoogleUpdater --crash-handler --database=/Users/ossianfinch/Library/Application Support/Google/GoogleUpdater/144.0.7547.0/Crashpad --url=https://clients2.google.com/cr/report --annotation=prod=Update4 --annotation=ver=144.0.7547.0 --handshake-fd=6 --enable-logging --vmodule=*/components/update_client/*=2,*/chrome/enterprise_companion/*=2,*/chrome/updater/*=2
+[77717:10289224:0216/215910.540359:VERBOSE1:chrome/updater/updater.cc:434] OS version: 15.0.0, System uptime (seconds): 673628, parent pid: 1
+[77717:10289224:0216/215910.541880:VERBOSE2:chrome/updater/event_history.cc:227] Emitted a UPDATER_PROCESS START event to the history log
+[77715:10289217:0216/215910.542279:VERBOSE1:chrome/updater/crash_reporter.cc:122] Crash handler launched and ready.
+[77715:10289217:0216/215910.542807:VERBOSE1:chrome/updater/crash_client.cc:105] Found 0 completed crash reports
+[77715:10289217:0216/215910.542868:VERBOSE1:chrome/updater/crash_client.cc:123] Found 0 pending crash reports
+[77715:10289217:0216/215910.542922:ERROR:third_party/crashpad/crashpad/util/file/file_io_posix.cc:145] open /Users/ossianfinch/Library/Application Support/Google/RLZ/Crashpad/settings.dat: No such file or directory (2)
+[77715:10289217:0216/215910.543117:VERBOSE1:chrome/updater/updater.cc:106] Crash reporting initialized.
+[77715:10289233:0216/215910.543348:VERBOSE1:chrome/updater/app/app_wakeall.cc:56] Launching `/Users/ossianfinch/Library/Application Support/Google/GoogleUpdater/144.0.7547.0/GoogleUpdater.app/Contents/MacOS/GoogleUpdater --wake`
+[77718:10289237:0216/215910.548476:VERBOSE1:chrome/updater/updater.cc:431] Version: 144.0.7547.0, opt, ARM_64, command line: /Users/ossianfinch/Library/Application Support/Google/GoogleUpdater/144.0.7547.0/GoogleUpdater.app/Contents/MacOS/GoogleUpdater --wake --enable-logging --vmodule=*/components/update_client/*=2,*/chrome/enterprise_companion/*=2,*/chrome/updater/*=2
+[77718:10289237:0216/215910.548645:VERBOSE1:chrome/updater/updater.cc:434] OS version: 15.0.0, System uptime (seconds): 673628, parent pid: 77715
+[77718:10289237:0216/215910.550136:VERBOSE2:chrome/updater/event_history.cc:227] Emitted a UPDATER_PROCESS START event to the history log
+[77720:10289242:0216/215910.558555:VERBOSE1:chrome/updater/updater.cc:431] Version: 144.0.7547.0, opt, ARM_64, command line: /Users/ossianfinch/Library/Application Support/Google/GoogleUpdater/144.0.7547.0/GoogleUpdater.app/Contents/MacOS/GoogleUpdater --crash-handler --database=/Users/ossianfinch/Library/Application Support/Google/GoogleUpdater/144.0.7547.0/Crashpad --url=https://clients2.google.com/cr/report --annotation=prod=Update4 --annotation=ver=144.0.7547.0 --handshake-fd=6 --enable-logging --vmodule=*/components/update_client/*=2,*/chrome/enterprise_companion/*=2,*/chrome/updater/*=2
+[77720:10289242:0216/215910.558778:VERBOSE1:chrome/updater/updater.cc:434] OS version: 15.0.0, System uptime (seconds): 673628, parent pid: 1
+[77720:10289242:0216/215910.560504:VERBOSE2:chrome/updater/event_history.cc:227] Emitted a UPDATER_PROCESS START event to the history log
+[77718:10289237:0216/215910.560921:VERBOSE1:chrome/updater/crash_reporter.cc:122] Crash handler launched and ready.
+[77718:10289237:0216/215910.561499:VERBOSE1:chrome/updater/crash_client.cc:105] Found 0 completed crash reports
+[77718:10289237:0216/215910.561573:VERBOSE1:chrome/updater/crash_client.cc:123] Found 0 pending crash reports
+[77718:10289237:0216/215910.561631:ERROR:third_party/crashpad/crashpad/util/file/file_io_posix.cc:145] open /Users/ossianfinch/Library/Application Support/Google/RLZ/Crashpad/settings.dat: No such file or directory (2)
+[77718:10289237:0216/215910.561671:VERBOSE1:chrome/updater/updater.cc:106] Crash reporting initialized.
+[77718:10289237:0216/215910.561810:VERBOSE1:chrome/updater/ipc/update_service_internal_proxy_mojo.cc:59] Run
+[77718:10289237:0216/220740.075683:VERBOSE1:chrome/updater/app/app.cc:53] Shutdown: 0
+[77718:10289237:0216/220740.076514:VERBOSE2:chrome/updater/event_history.cc:227] Emitted a UPDATER_PROCESS END event to the history log
+[77718:10289237:0216/220740.076531:VERBOSE1:chrome/updater/updater.cc:468] UpdaterMain (--wake) returned 0.
+[77715:10289233:0216/220740.128259:VERBOSE1:chrome/updater/app/app_wakeall.cc:66] `/Users/ossianfinch/Library/Application Support/Google/GoogleUpdater/144.0.7547.0/GoogleUpdater.app/Contents/MacOS/GoogleUpdater --wake` exited 0
+[77715:10289217:0216/220740.128598:VERBOSE1:chrome/updater/app/app.cc:53] Shutdown: 0
+[77715:10289217:0216/220740.128888:VERBOSE2:chrome/updater/event_history.cc:227] Emitted a UPDATER_PROCESS END event to the history log
+[77715:10289217:0216/220740.128904:VERBOSE1:chrome/updater/updater.cc:468] UpdaterMain (--wake-all) returned 0.
+[77720:10289242:0216/220904.651978:VERBOSE2:chrome/updater/event_history.cc:227] Emitted a UPDATER_PROCESS END event to the history log
+[77720:10289242:0216/220904.652206:VERBOSE1:chrome/updater/updater.cc:468] UpdaterMain (--crash-handler) returned 0.
+[77717:10289224:0216/220904.653122:VERBOSE2:chrome/updater/event_history.cc:227] Emitted a UPDATER_PROCESS END event to the history log
+[77717:10289224:0216/220904.653142:VERBOSE1:chrome/updater/updater.cc:468] UpdaterMain (--crash-handler) returned 0.
+[81702:10522992:0217/072803.143035:VERBOSE1:chrome/updater/updater.cc:431] Version: 144.0.7547.0, opt, ARM_64, command line: /Users/ossianfinch/Library/Application Support/Google/GoogleUpdater/144.0.7547.0/GoogleUpdater.app/Contents/MacOS/GoogleUpdater --wake-all --enable-logging --vmodule=*/components/update_client/*=2,*/chrome/enterprise_companion/*=2,*/chrome/updater/*=2
+[81702:10522992:0217/072803.145088:VERBOSE1:chrome/updater/updater.cc:434] OS version: 15.0.0, System uptime (seconds): 691645, parent pid: 95781
+[81702:10522992:0217/072803.147826:VERBOSE2:chrome/updater/event_history.cc:227] Emitted a UPDATER_PROCESS START event to the history log
+[81704:10522997:0217/072803.155904:VERBOSE1:chrome/updater/updater.cc:431] Version: 144.0.7547.0, opt, ARM_64, command line: /Users/ossianfinch/Library/Application Support/Google/GoogleUpdater/144.0.7547.0/GoogleUpdater.app/Contents/MacOS/GoogleUpdater --crash-handler --database=/Users/ossianfinch/Library/Application Support/Google/GoogleUpdater/144.0.7547.0/Crashpad --url=https://clients2.google.com/cr/report --annotation=prod=Update4 --annotation=ver=144.0.7547.0 --handshake-fd=6 --enable-logging --vmodule=*/components/update_client/*=2,*/chrome/enterprise_companion/*=2,*/chrome/updater/*=2
+[81704:10522997:0217/072803.156119:VERBOSE1:chrome/updater/updater.cc:434] OS version: 15.0.0, System uptime (seconds): 691645, parent pid: 1
+[81704:10522997:0217/072803.157968:VERBOSE2:chrome/updater/event_history.cc:227] Emitted a UPDATER_PROCESS START event to the history log
+[81702:10522992:0217/072803.158515:VERBOSE1:chrome/updater/crash_reporter.cc:122] Crash handler launched and ready.
+[81702:10522992:0217/072803.159232:VERBOSE1:chrome/updater/crash_client.cc:105] Found 0 completed crash reports
+[81702:10522992:0217/072803.159299:VERBOSE1:chrome/updater/crash_client.cc:123] Found 0 pending crash reports
+[81702:10522992:0217/072803.159358:ERROR:third_party/crashpad/crashpad/util/file/file_io_posix.cc:145] open /Users/ossianfinch/Library/Application Support/Google/RLZ/Crashpad/settings.dat: No such file or directory (2)
+[81702:10522992:0217/072803.159419:VERBOSE1:chrome/updater/updater.cc:106] Crash reporting initialized.
+[81702:10523005:0217/072803.159649:VERBOSE1:chrome/updater/app/app_wakeall.cc:56] Launching `/Users/ossianfinch/Library/Application Support/Google/GoogleUpdater/144.0.7547.0/GoogleUpdater.app/Contents/MacOS/GoogleUpdater --wake`
+[81705:10523009:0217/072803.166429:VERBOSE1:chrome/updater/updater.cc:431] Version: 144.0.7547.0, opt, ARM_64, command line: /Users/ossianfinch/Library/Application Support/Google/GoogleUpdater/144.0.7547.0/GoogleUpdater.app/Contents/MacOS/GoogleUpdater --wake --enable-logging --vmodule=*/components/update_client/*=2,*/chrome/enterprise_companion/*=2,*/chrome/updater/*=2
+[81705:10523009:0217/072803.166608:VERBOSE1:chrome/updater/updater.cc:434] OS version: 15.0.0, System uptime (seconds): 691645, parent pid: 81702
+[81705:10523009:0217/072803.168372:VERBOSE2:chrome/updater/event_history.cc:227] Emitted a UPDATER_PROCESS START event to the history log
+[81707:10523013:0217/072803.174043:VERBOSE1:chrome/updater/updater.cc:431] Version: 144.0.7547.0, opt, ARM_64, command line: /Users/ossianfinch/Library/Application Support/Google/GoogleUpdater/144.0.7547.0/GoogleUpdater.app/Contents/MacOS/GoogleUpdater --crash-handler --database=/Users/ossianfinch/Library/Application Support/Google/GoogleUpdater/144.0.7547.0/Crashpad --url=https://clients2.google.com/cr/report --annotation=prod=Update4 --annotation=ver=144.0.7547.0 --handshake-fd=6 --enable-logging --vmodule=*/components/update_client/*=2,*/chrome/enterprise_companion/*=2,*/chrome/updater/*=2
+[81707:10523013:0217/072803.174215:VERBOSE1:chrome/updater/updater.cc:434] OS version: 15.0.0, System uptime (seconds): 691645, parent pid: 1
+[81707:10523013:0217/072803.175684:VERBOSE2:chrome/updater/event_history.cc:227] Emitted a UPDATER_PROCESS START event to the history log
+[81705:10523009:0217/072803.176005:VERBOSE1:chrome/updater/crash_reporter.cc:122] Crash handler launched and ready.
+[81705:10523009:0217/072803.176490:VERBOSE1:chrome/updater/crash_client.cc:105] Found 0 completed crash reports
+[81705:10523009:0217/072803.176547:VERBOSE1:chrome/updater/crash_client.cc:123] Found 0 pending crash reports
+[81705:10523009:0217/072803.176598:ERROR:third_party/crashpad/crashpad/util/file/file_io_posix.cc:145] open /Users/ossianfinch/Library/Application Support/Google/RLZ/Crashpad/settings.dat: No such file or directory (2)
+[81705:10523009:0217/072803.176635:VERBOSE1:chrome/updater/updater.cc:106] Crash reporting initialized.
+[81705:10523009:0217/072803.176760:VERBOSE1:chrome/updater/ipc/update_service_internal_proxy_mojo.cc:59] Run
+[81705:10523009:0217/072821.171046:VERBOSE1:chrome/updater/app/app.cc:53] Shutdown: 0
+[81705:10523009:0217/072821.171939:VERBOSE2:chrome/updater/event_history.cc:227] Emitted a UPDATER_PROCESS END event to the history log
+[81705:10523009:0217/072821.171974:VERBOSE1:chrome/updater/updater.cc:468] UpdaterMain (--wake) returned 0.
+[81702:10523005:0217/072821.325196:VERBOSE1:chrome/updater/app/app_wakeall.cc:66] `/Users/ossianfinch/Library/Application Support/Google/GoogleUpdater/144.0.7547.0/GoogleUpdater.app/Contents/MacOS/GoogleUpdater --wake` exited 0
+[81702:10522992:0217/072821.325507:VERBOSE1:chrome/updater/app/app.cc:53] Shutdown: 0
+[81702:10522992:0217/072821.326462:VERBOSE2:chrome/updater/event_history.cc:227] Emitted a UPDATER_PROCESS END event to the history log
+[81702:10522992:0217/072821.326531:VERBOSE1:chrome/updater/updater.cc:468] UpdaterMain (--wake-all) returned 0.
+[81707:10523013:0217/072831.192547:VERBOSE2:chrome/updater/event_history.cc:227] Emitted a UPDATER_PROCESS END event to the history log
+[81707:10523013:0217/072831.192905:VERBOSE1:chrome/updater/updater.cc:468] UpdaterMain (--crash-handler) returned 0.
+[81704:10522997:0217/072831.194656:VERBOSE2:chrome/updater/event_history.cc:227] Emitted a UPDATER_PROCESS END event to the history log
+[81704:10522997:0217/072831.194713:VERBOSE1:chrome/updater/updater.cc:468] UpdaterMain (--crash-handler) returned 0.
+[95786:7126878:0217/085008.698004:WARNING:net/dns/dns_config_service_posix.cc:197] Failed to read DnsConfig.
+[95781:7126836:0217/085008.698005:WARNING:net/dns/dns_config_service_posix.cc:197] Failed to read DnsConfig.
+[95786:7126875:0217/085911.061956:WARNING:net/dns/dns_config_service_posix.cc:197] Failed to read DnsConfig.
+[95781:7126834:0217/085911.061979:WARNING:net/dns/dns_config_service_posix.cc:197] Failed to read DnsConfig.
+[88873:10801934:0217/132007.382502:VERBOSE1:chrome/updater/updater.cc:431] Version: 144.0.7547.0, opt, ARM_64, command line: /Users/ossianfinch/Library/Application Support/Google/GoogleUpdater/144.0.7547.0/GoogleUpdater.app/Contents/MacOS/GoogleUpdater --wake-all --enable-logging --vmodule=*/components/update_client/*=2,*/chrome/enterprise_companion/*=2,*/chrome/updater/*=2
+[88873:10801934:0217/132007.383975:VERBOSE1:chrome/updater/updater.cc:434] OS version: 15.0.0, System uptime (seconds): 709664, parent pid: 95781
+[88873:10801934:0217/132007.386862:VERBOSE2:chrome/updater/event_history.cc:227] Emitted a UPDATER_PROCESS START event to the history log
+[88875:10801938:0217/132007.394961:VERBOSE1:chrome/updater/updater.cc:431] Version: 144.0.7547.0, opt, ARM_64, command line: /Users/ossianfinch/Library/Application Support/Google/GoogleUpdater/144.0.7547.0/GoogleUpdater.app/Contents/MacOS/GoogleUpdater --crash-handler --database=/Users/ossianfinch/Library/Application Support/Google/GoogleUpdater/144.0.7547.0/Crashpad --url=https://clients2.google.com/cr/report --annotation=prod=Update4 --annotation=ver=144.0.7547.0 --handshake-fd=6 --enable-logging --vmodule=*/components/update_client/*=2,*/chrome/enterprise_companion/*=2,*/chrome/updater/*=2
+[88875:10801938:0217/132007.395377:VERBOSE1:chrome/updater/updater.cc:434] OS version: 15.0.0, System uptime (seconds): 709664, parent pid: 1
+[88875:10801938:0217/132007.397224:VERBOSE2:chrome/updater/event_history.cc:227] Emitted a UPDATER_PROCESS START event to the history log
+[88873:10801934:0217/132007.397634:VERBOSE1:chrome/updater/crash_reporter.cc:122] Crash handler launched and ready.
+[88873:10801934:0217/132007.398202:VERBOSE1:chrome/updater/crash_client.cc:105] Found 0 completed crash reports
+[88873:10801934:0217/132007.398269:VERBOSE1:chrome/updater/crash_client.cc:123] Found 0 pending crash reports
+[88873:10801934:0217/132007.398330:ERROR:third_party/crashpad/crashpad/util/file/file_io_posix.cc:145] open /Users/ossianfinch/Library/Application Support/Google/RLZ/Crashpad/settings.dat: No such file or directory (2)
+[88873:10801934:0217/132007.398374:VERBOSE1:chrome/updater/updater.cc:106] Crash reporting initialized.
+[88873:10801946:0217/132007.398648:VERBOSE1:chrome/updater/app/app_wakeall.cc:56] Launching `/Users/ossianfinch/Library/Application Support/Google/GoogleUpdater/144.0.7547.0/GoogleUpdater.app/Contents/MacOS/GoogleUpdater --wake`
+[88876:10801950:0217/132007.404597:VERBOSE1:chrome/updater/updater.cc:431] Version: 144.0.7547.0, opt, ARM_64, command line: /Users/ossianfinch/Library/Application Support/Google/GoogleUpdater/144.0.7547.0/GoogleUpdater.app/Contents/MacOS/GoogleUpdater --wake --enable-logging --vmodule=*/components/update_client/*=2,*/chrome/enterprise_companion/*=2,*/chrome/updater/*=2
+[88876:10801950:0217/132007.404800:VERBOSE1:chrome/updater/updater.cc:434] OS version: 15.0.0, System uptime (seconds): 709664, parent pid: 88873
+[88876:10801950:0217/132007.406426:VERBOSE2:chrome/updater/event_history.cc:227] Emitted a UPDATER_PROCESS START event to the history log
+[88878:10801954:0217/132007.412469:VERBOSE1:chrome/updater/updater.cc:431] Version: 144.0.7547.0, opt, ARM_64, command line: /Users/ossianfinch/Library/Application Support/Google/GoogleUpdater/144.0.7547.0/GoogleUpdater.app/Contents/MacOS/GoogleUpdater --crash-handler --database=/Users/ossianfinch/Library/Application Support/Google/GoogleUpdater/144.0.7547.0/Crashpad --url=https://clients2.google.com/cr/report --annotation=prod=Update4 --annotation=ver=144.0.7547.0 --handshake-fd=6 --enable-logging --vmodule=*/components/update_client/*=2,*/chrome/enterprise_companion/*=2,*/chrome/updater/*=2
+[88878:10801954:0217/132007.412657:VERBOSE1:chrome/updater/updater.cc:434] OS version: 15.0.0, System uptime (seconds): 709664, parent pid: 1
+[88878:10801954:0217/132007.414220:VERBOSE2:chrome/updater/event_history.cc:227] Emitted a UPDATER_PROCESS START event to the history log
+[88876:10801950:0217/132007.414578:VERBOSE1:chrome/updater/crash_reporter.cc:122] Crash handler launched and ready.
+[88876:10801950:0217/132007.415076:VERBOSE1:chrome/updater/crash_client.cc:105] Found 0 completed crash reports
+[88876:10801950:0217/132007.415130:VERBOSE1:chrome/updater/crash_client.cc:123] Found 0 pending crash reports
+[88876:10801950:0217/132007.415180:ERROR:third_party/crashpad/crashpad/util/file/file_io_posix.cc:145] open /Users/ossianfinch/Library/Application Support/Google/RLZ/Crashpad/settings.dat: No such file or directory (2)
+[88876:10801950:0217/132007.415219:VERBOSE1:chrome/updater/updater.cc:106] Crash reporting initialized.
+[88876:10801950:0217/132007.415358:VERBOSE1:chrome/updater/ipc/update_service_internal_proxy_mojo.cc:59] Run
+[88876:10801950:0217/132024.609600:VERBOSE1:chrome/updater/app/app.cc:53] Shutdown: 0
+[88876:10801950:0217/132024.610849:VERBOSE2:chrome/updater/event_history.cc:227] Emitted a UPDATER_PROCESS END event to the history log
+[88876:10801950:0217/132024.610893:VERBOSE1:chrome/updater/updater.cc:468] UpdaterMain (--wake) returned 0.
+[88873:10801946:0217/132024.747753:VERBOSE1:chrome/updater/app/app_wakeall.cc:66] `/Users/ossianfinch/Library/Application Support/Google/GoogleUpdater/144.0.7547.0/GoogleUpdater.app/Contents/MacOS/GoogleUpdater --wake` exited 0
+[88873:10801934:0217/132024.748723:VERBOSE1:chrome/updater/app/app.cc:53] Shutdown: 0
+[88873:10801934:0217/132024.749910:VERBOSE2:chrome/updater/event_history.cc:227] Emitted a UPDATER_PROCESS END event to the history log
+[88873:10801934:0217/132024.749950:VERBOSE1:chrome/updater/updater.cc:468] UpdaterMain (--wake-all) returned 0.
+[88878:10801954:0217/132034.627776:VERBOSE2:chrome/updater/event_history.cc:227] Emitted a UPDATER_PROCESS END event to the history log
+[88878:10801954:0217/132034.628309:VERBOSE1:chrome/updater/updater.cc:468] UpdaterMain (--crash-handler) returned 0.
+[88875:10801938:0217/132034.630157:VERBOSE2:chrome/updater/event_history.cc:227] Emitted a UPDATER_PROCESS END event to the history log
+[88875:10801938:0217/132034.630187:VERBOSE1:chrome/updater/updater.cc:468] UpdaterMain (--crash-handler) returned 0.
+[95781:7126836:0217/180020.597603:WARNING:net/dns/dns_config_service_posix.cc:197] Failed to read DnsConfig.
+[95786:7126878:0217/180020.597605:WARNING:net/dns/dns_config_service_posix.cc:197] Failed to read DnsConfig.
+[95781:7126834:0217/180036.839043:WARNING:net/dns/dns_config_service_posix.cc:197] Failed to read DnsConfig.
+[95786:7126875:0217/180036.839037:WARNING:net/dns/dns_config_service_posix.cc:197] Failed to read DnsConfig.
+[95786:7126875:0217/180052.877139:WARNING:net/dns/dns_config_service_posix.cc:197] Failed to read DnsConfig.
+[95781:7126834:0217/180052.877199:WARNING:net/dns/dns_config_service_posix.cc:197] Failed to read DnsConfig.
+[95781:7126834:0217/181140.390411:WARNING:net/dns/dns_config_service_posix.cc:197] Failed to read DnsConfig.
+[95786:7126878:0217/181140.390406:WARNING:net/dns/dns_config_service_posix.cc:197] Failed to read DnsConfig.
+[95781:7126834:0217/181432.722546:WARNING:net/dns/dns_config_service_posix.cc:197] Failed to read DnsConfig.
+[95786:7126875:0217/181432.722547:WARNING:net/dns/dns_config_service_posix.cc:197] Failed to read DnsConfig.
+[95781:7126834:0217/181436.287669:WARNING:net/dns/dns_config_service_posix.cc:197] Failed to read DnsConfig.
+[95786:7126875:0217/181436.288788:WARNING:net/dns/dns_config_service_posix.cc:197] Failed to read DnsConfig.
+[95786:7126875:0217/184802.355170:WARNING:net/dns/dns_config_service_posix.cc:197] Failed to read DnsConfig.
+[95781:7126834:0217/184802.354973:WARNING:net/dns/dns_config_service_posix.cc:197] Failed to read DnsConfig.
+[95781:7126834:0217/185145.674093:WARNING:net/dns/dns_config_service_posix.cc:197] Failed to read DnsConfig.
+[95786:7126875:0217/185145.674093:WARNING:net/dns/dns_config_service_posix.cc:197] Failed to read DnsConfig.
+[4405:11210186:0217/222653.325044:VERBOSE1:chrome/updater/updater.cc:431] Version: 144.0.7547.0, opt, ARM_64, command line: /Users/ossianfinch/Library/Application Support/Google/GoogleUpdater/144.0.7547.0/GoogleUpdater.app/Contents/MacOS/GoogleUpdater --wake-all --enable-logging --vmodule=*/components/update_client/*=2,*/chrome/enterprise_companion/*=2,*/chrome/updater/*=2
+[4405:11210186:0217/222653.326816:VERBOSE1:chrome/updater/updater.cc:434] OS version: 15.0.0, System uptime (seconds): 727682, parent pid: 95781
+[4405:11210186:0217/222653.329954:VERBOSE2:chrome/updater/event_history.cc:227] Emitted a UPDATER_PROCESS START event to the history log
+[4407:11210190:0217/222653.341586:VERBOSE1:chrome/updater/updater.cc:431] Version: 144.0.7547.0, opt, ARM_64, command line: /Users/ossianfinch/Library/Application Support/Google/GoogleUpdater/144.0.7547.0/GoogleUpdater.app/Contents/MacOS/GoogleUpdater --crash-handler --database=/Users/ossianfinch/Library/Application Support/Google/GoogleUpdater/144.0.7547.0/Crashpad --url=https://clients2.google.com/cr/report --annotation=prod=Update4 --annotation=ver=144.0.7547.0 --handshake-fd=6 --enable-logging --vmodule=*/components/update_client/*=2,*/chrome/enterprise_companion/*=2,*/chrome/updater/*=2
+[4407:11210190:0217/222653.341977:VERBOSE1:chrome/updater/updater.cc:434] OS version: 15.0.0, System uptime (seconds): 727682, parent pid: 1
+[4407:11210190:0217/222653.344944:VERBOSE2:chrome/updater/event_history.cc:227] Emitted a UPDATER_PROCESS START event to the history log
+[4405:11210186:0217/222653.345664:VERBOSE1:chrome/updater/crash_reporter.cc:122] Crash handler launched and ready.
+[4405:11210186:0217/222653.346563:VERBOSE1:chrome/updater/crash_client.cc:105] Found 0 completed crash reports
+[4405:11210186:0217/222653.346647:VERBOSE1:chrome/updater/crash_client.cc:123] Found 0 pending crash reports
+[4405:11210186:0217/222653.346727:ERROR:third_party/crashpad/crashpad/util/file/file_io_posix.cc:145] open /Users/ossianfinch/Library/Application Support/Google/RLZ/Crashpad/settings.dat: No such file or directory (2)
+[4405:11210186:0217/222653.346779:VERBOSE1:chrome/updater/updater.cc:106] Crash reporting initialized.
+[4405:11210198:0217/222653.347065:VERBOSE1:chrome/updater/app/app_wakeall.cc:56] Launching `/Users/ossianfinch/Library/Application Support/Google/GoogleUpdater/144.0.7547.0/GoogleUpdater.app/Contents/MacOS/GoogleUpdater --wake`
+[4408:11210202:0217/222653.358681:VERBOSE1:chrome/updater/updater.cc:431] Version: 144.0.7547.0, opt, ARM_64, command line: /Users/ossianfinch/Library/Application Support/Google/GoogleUpdater/144.0.7547.0/GoogleUpdater.app/Contents/MacOS/GoogleUpdater --wake --enable-logging --vmodule=*/components/update_client/*=2,*/chrome/enterprise_companion/*=2,*/chrome/updater/*=2
+[4408:11210202:0217/222653.358912:VERBOSE1:chrome/updater/updater.cc:434] OS version: 15.0.0, System uptime (seconds): 727682, parent pid: 4405
+[4408:11210202:0217/222653.360880:VERBOSE2:chrome/updater/event_history.cc:227] Emitted a UPDATER_PROCESS START event to the history log
+[4410:11210207:0217/222653.367795:VERBOSE1:chrome/updater/updater.cc:431] Version: 144.0.7547.0, opt, ARM_64, command line: /Users/ossianfinch/Library/Application Support/Google/GoogleUpdater/144.0.7547.0/GoogleUpdater.app/Contents/MacOS/GoogleUpdater --crash-handler --database=/Users/ossianfinch/Library/Application Support/Google/GoogleUpdater/144.0.7547.0/Crashpad --url=https://clients2.google.com/cr/report --annotation=prod=Update4 --annotation=ver=144.0.7547.0 --handshake-fd=6 --enable-logging --vmodule=*/components/update_client/*=2,*/chrome/enterprise_companion/*=2,*/chrome/updater/*=2
+[4410:11210207:0217/222653.367991:VERBOSE1:chrome/updater/updater.cc:434] OS version: 15.0.0, System uptime (seconds): 727682, parent pid: 1
+[4410:11210207:0217/222653.369654:VERBOSE2:chrome/updater/event_history.cc:227] Emitted a UPDATER_PROCESS START event to the history log
+[4408:11210202:0217/222653.370019:VERBOSE1:chrome/updater/crash_reporter.cc:122] Crash handler launched and ready.
+[4408:11210202:0217/222653.370548:VERBOSE1:chrome/updater/crash_client.cc:105] Found 0 completed crash reports
+[4408:11210202:0217/222653.370605:VERBOSE1:chrome/updater/crash_client.cc:123] Found 0 pending crash reports
+[4408:11210202:0217/222653.370657:ERROR:third_party/crashpad/crashpad/util/file/file_io_posix.cc:145] open /Users/ossianfinch/Library/Application Support/Google/RLZ/Crashpad/settings.dat: No such file or directory (2)
+[4408:11210202:0217/222653.370696:VERBOSE1:chrome/updater/updater.cc:106] Crash reporting initialized.
+[4408:11210202:0217/222653.370828:VERBOSE1:chrome/updater/ipc/update_service_internal_proxy_mojo.cc:59] Run
+[4408:11210202:0217/222750.000148:VERBOSE1:chrome/updater/app/app.cc:53] Shutdown: 0
+[4408:11210202:0217/222750.005182:VERBOSE2:chrome/updater/event_history.cc:227] Emitted a UPDATER_PROCESS END event to the history log
+[4408:11210202:0217/222750.005205:VERBOSE1:chrome/updater/updater.cc:468] UpdaterMain (--wake) returned 0.
+[4405:11210198:0217/222750.131996:VERBOSE1:chrome/updater/app/app_wakeall.cc:66] `/Users/ossianfinch/Library/Application Support/Google/GoogleUpdater/144.0.7547.0/GoogleUpdater.app/Contents/MacOS/GoogleUpdater --wake` exited 0
+[4405:11210186:0217/222750.132304:VERBOSE1:chrome/updater/app/app.cc:53] Shutdown: 0
+[4405:11210186:0217/222750.132643:VERBOSE2:chrome/updater/event_history.cc:227] Emitted a UPDATER_PROCESS END event to the history log
+[4405:11210186:0217/222750.132662:VERBOSE1:chrome/updater/updater.cc:468] UpdaterMain (--wake-all) returned 0.
+[4410:11210207:0217/222800.017750:VERBOSE2:chrome/updater/event_history.cc:227] Emitted a UPDATER_PROCESS END event to the history log
+[4410:11210207:0217/222800.017989:VERBOSE1:chrome/updater/updater.cc:468] UpdaterMain (--crash-handler) returned 0.
+[4407:11210190:0217/222800.023141:VERBOSE2:chrome/updater/event_history.cc:227] Emitted a UPDATER_PROCESS END event to the history log
+[4407:11210190:0217/222800.023229:VERBOSE1:chrome/updater/updater.cc:468] UpdaterMain (--crash-handler) returned 0.
+[95781:7126795:0217/230112.512839:ERROR:chrome/browser/ui/views/user_education/impl/browser_user_education_interface_impl.cc:154] Attempting to show IPH IPH_ExtensionsZeroStatePromo before browser initialization complete; IPH will not be shown.
+[95781:7126838:0217/230113.230703:ERROR:google_apis/gcm/engine/registration_request.cc:291] Registration response error message: PHONE_REGISTRATION_ERROR
+[95781:7126838:0217/230113.255257:ERROR:google_apis/gcm/engine/mcs_client.cc:700]   Error code: 401  Error message: Authentication Failed: wrong_secret
+[95781:7126838:0217/230113.255279:ERROR:google_apis/gcm/engine/mcs_client.cc:702] Failed to log in to GCM, resetting connection.
+[95781:7126795:0217/230118.163188:INFO:CONSOLE:0] "An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing.", source: https://www.google.com/recaptcha/enterprise/anchor?ar=1&k=6LdLLIMbAAAAAIl-KLj9p1ePhM-4LCCDbjtJLqRO&co=aHR0cHM6Ly93d3cuZ29vZ2xlLmNvbTo0NDM.&hl=en&v=vUgXt_KV952_-5BB2jjloYzl&size=normal&s=z5F9aA1yOCYMsck8sOJaql_Ff3q6fpW8s1StUvbScUtiEWfqoEdbmHl4m91R3R4gWyAYoT2WZpoVOjTfsA7xCR5K62bFrXlKSq29mfj16QGquZ4YLb2h-lrxn5igYNECMfDBZf4HmnMgo6nukbL1lCeLXVFTkJHuFavYXfxxrN8WN--7DIU7yhGvS5wIVn62IM01oNKrfvzPIBePqFYIQ-QC5PntY-ydRriWlxZLbHbLFWcCBxQPBC80-B4-FAki96Wpc69LYz1yCxMya1HC2xHH-dgbfcw&anchor-ms=20000&execute-ms=30000&cb=wg83q6ktt2iq (0)
+[95781:7126795:0217/230118.277535:INFO:CONSOLE:4] "Uncaught ReferenceError: solveSimpleChallenge is not defined", source: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Dquizlet%26oq%3Dquizlet%26gs_lcrp%3DEgZjaHJvbWUqDQgAEAAY4wIYsQMYgAQyDQgAEAAY4wIYsQMYgAQyEAgBEC4YxwEYsQMY0QMYgAQyCggCEAAYsQMYgAQyCggDEAAYsQMYgAQyBwgEEAAYgAQyBwgFEAAYgAQyBwgGEAAYgAQyBggHEAUYQNIBCDE4NjRqMGo3qAIAsAIA%26sourceid%3Dchrome%26ie%3DUTF-8%26sei%3DO_OUaae0EcifhbIPnLOroQc&q=EgSDb7jSGL3m08wGIjBG_qADObn6X64Zfaonew893uxvIgt_arL30pz4-malWxSuc07EAIODl-jLPpAaoxYyAVJaAUM (4)
+[95781:7126795:0217/230118.413325:INFO:CONSOLE:0] "An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing.", source: https://www.google.com/recaptcha/enterprise/bframe?hl=en&v=vUgXt_KV952_-5BB2jjloYzl&k=6LdLLIMbAAAAAIl-KLj9p1ePhM-4LCCDbjtJLqRO&bft=0dAFcWeA5mMIpp-Q-EcDBLRmZjTskKUhHEnRpT41y0pYmhxksUkx2ncbYjvzKQ6gnyzj-8eLe7Lm9U53HtXK2TTP0rsrfrzq5LTg (0)
+[95781:7126834:0217/230123.995584:WARNING:components/services/quarantine/quarantine_mac.mm:67] MDItemCreate failed for path /private/var/folders/xw/rtnxpqfs5x1c24fnd80jdymh0000gn/T/org.chromium.Chromium.scoped_dir.7gPUF9/Default/Download Service/Files/19e128a6-1f4f-42aa-86da-6814cdc791a1
+[95781:7126836:0217/230124.014251:WARNING:components/services/quarantine/quarantine_mac.mm:67] MDItemCreate failed for path /private/var/folders/xw/rtnxpqfs5x1c24fnd80jdymh0000gn/T/org.chromium.Chromium.scoped_dir.7gPUF9/Default/Download Service/Files/b3f3d730-75aa-4e00-9c1c-d823008541e0
+[95781:7126834:0217/230124.133790:WARNING:components/services/quarantine/quarantine_mac.mm:67] MDItemCreate failed for path /private/var/folders/xw/rtnxpqfs5x1c24fnd80jdymh0000gn/T/org.chromium.Chromium.scoped_dir.7gPUF9/Default/Download Service/Files/50f29121-a448-47f6-aa2a-44b12e4405a2
+[95781:7126834:0217/230124.168067:WARNING:components/services/quarantine/quarantine_mac.mm:67] MDItemCreate failed for path /private/var/folders/xw/rtnxpqfs5x1c24fnd80jdymh0000gn/T/org.chromium.Chromium.scoped_dir.7gPUF9/Default/Download Service/Files/afddd648-a2c6-426d-b4aa-179330492af6
+[95781:7126834:0217/230124.204868:WARNING:components/services/quarantine/quarantine_mac.mm:67] MDItemCreate failed for path /private/var/folders/xw/rtnxpqfs5x1c24fnd80jdymh0000gn/T/org.chromium.Chromium.scoped_dir.7gPUF9/Default/Download Service/Files/f3595cc9-3767-4f73-9d3c-e1c7f15e7109
+[95781:7126836:0217/230124.482837:WARNING:components/services/quarantine/quarantine_mac.mm:67] MDItemCreate failed for path /private/var/folders/xw/rtnxpqfs5x1c24fnd80jdymh0000gn/T/org.chromium.Chromium.scoped_dir.7gPUF9/Default/Download Service/Files/4217de84-2f7c-4984-86d9-d142fcc71e63
+[95781:7126836:0217/230124.487082:WARNING:components/services/quarantine/quarantine_mac.mm:67] MDItemCreate failed for path /private/var/folders/xw/rtnxpqfs5x1c24fnd80jdymh0000gn/T/org.chromium.Chromium.scoped_dir.7gPUF9/Default/Download Service/Files/2ec89294-f6c1-444d-966c-aa029e44ab3b
+[95781:7126836:0217/230124.520365:WARNING:components/services/quarantine/quarantine_mac.mm:67] MDItemCreate failed for path /private/var/folders/xw/rtnxpqfs5x1c24fnd80jdymh0000gn/T/org.chromium.Chromium.scoped_dir.7gPUF9/Default/Download Service/Files/ff6b1455-f373-41ad-9bb6-427ef0865f17
+[95781:7126836:0217/230124.574103:WARNING:components/services/quarantine/quarantine_mac.mm:67] MDItemCreate failed for path /private/var/folders/xw/rtnxpqfs5x1c24fnd80jdymh0000gn/T/org.chromium.Chromium.scoped_dir.7gPUF9/Default/Download Service/Files/aa6029b6-6920-40ea-a2ec-1b114dba505b
+[95781:7126834:0217/230125.751061:WARNING:components/services/quarantine/quarantine_mac.mm:67] MDItemCreate failed for path /private/var/folders/xw/rtnxpqfs5x1c24fnd80jdymh0000gn/T/org.chromium.Chromium.scoped_dir.7gPUF9/Default/Download Service/Files/24c939b2-d307-4c7a-a5d3-a752a4a72c76
+[95781:7126795:0217/230128.984546:ERROR:mojo/public/cpp/bindings/lib/interface_endpoint_client.cc:732] Message 5 rejected by interface blink.mojom.WidgetHost
+[95781:7126795:0217/230134.247962:INFO:CONSOLE:1] "Retry promise failed on attempt 1 undefined", source: https://assets.quizlet.com/_next/static/chunks/pages/_app-849403815753e570.js (1)
+[95781:7126795:0217/230134.768097:INFO:CONSOLE:81] "[GSI_LOGGER]: Your client application uses one of the Google One Tap prompt UI status methods that may stop functioning when FedCM becomes mandatory. Refer to the migration guide to update your code accordingly and opt-in to FedCM to test your changes. Learn more: https://developers.google.com/identity/gsi/web/guides/fedcm-migration?s=dc#display_moment and https://developers.google.com/identity/gsi/web/guides/fedcm-migration?s=dc#skipped_moment", source: https://accounts.google.com/gsi/client (81)
+[95781:7126795:0217/230134.783408:INFO:CONSOLE:0] "Not signed in with the identity provider.", source: https://quizlet.com/gb (0)
+[95781:7126795:0217/230134.793414:INFO:CONSOLE:1] "setInWindow: gtmConsentListeners success:  true", source: https://cdnjs.cloudflare.com/ajax/libs/rollbar.js/2.26.1/rollbar.min.js (1)
+[95781:7126795:0217/230134.924147:INFO:CONSOLE:2] "%c ", source: https://client.px-cloud.net/PXVlUfj7uV/main.min.js (2)
+[95781:7126795:0217/230135.532959:INFO:CONSOLE:0] "Error while trying to use the following icon from the Manifest: https://quizlet.com/static/brandmark/180.png (Download error or resource isn't a valid image)", source: https://quizlet.com/gb (0)
+[95781:7126795:0217/230135.903316:INFO:CONSOLE:1] "[GSI_LOGGER]: FedCM get() rejects with AbortError: signal is aborted without reason", source: https://cdnjs.cloudflare.com/ajax/libs/rollbar.js/2.26.1/rollbar.min.js (1)
+[95781:7126838:0217/230137.878340:ERROR:google_apis/gcm/engine/registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+[95781:7126795:0217/230140.319982:INFO:CONSOLE:2] "%c ", source: https://client.px-cloud.net/PXVlUfj7uV/main.min.js (2)
+[5146:11246297:0217/230140.931992:INFO:third_party/blink/renderer/modules/peerconnection/peer_connection_dependency_factory.cc:911] Running WebRTC with a combined Network and Worker thread.
+[95781:7126795:0217/230141.672756:INFO:CONSOLE:1] "%c ", source: https://crcldu.com/bd/auditor.js?v=1771369200000 (1)
+[95781:7126838:0217/230221.145101:ERROR:google_apis/gcm/engine/registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+[95781:7126795:0217/230341.793384:INFO:CONSOLE:1] "%c ", source: https://crcldu.com/bd/auditor.js?v=1771369320000 (1)
+[95781:7126838:0217/230346.624254:ERROR:google_apis/gcm/engine/registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+ve you a ring. https://forms.gle/FpAY1QnMT4nFVLvk8 ",
+   "value": [ "S", "t", "a", "s", "h", " ", "a", "n", "d", " ", "s", "e", "l", "e", "c", "t", "i", "o", "n", " ", "f", "o", "r", "m", "!", " ", "P", "l", "e", "a", "s", "e", " ", "f", "i", "l", "l", " ", "t", "h", "i", "s", " ", "i", "n", " ", "A", "S", "A", "P", ".", " ", "F", "o", "r", "m", "a", "l", " ", "s", "e", "l", "e", "c", "t", "i", "o", "n", " ", "w", "i", "l", "l", " ", "b", "e", " ", "h", "a", "p", "p", "e", "n", "i", "n", "g", " ", "i", "n", " ", "H", "a", "w", "k", "s", " ", "t", "o", "m", "o", "r", "r", "o", "w", " ", "e", "v", "e", "n", "i", "n", "g", " ", "(", "f", "o", "l", "l", "o", "w", "e", "d", " ", "b", "y", " ", "f", "o", "o", "d", " ", "i", "f", " ", "y", "o", "u", " ", "c", "a", "n", " ", "s", "t", "a", "y", ")", ",", " ", "p", "l", "e", "a", "s", "e", " ", "l", "e", "t", " ", "m", "e", " ", "k", "n", "o", "w", " ", "i", "f", " ", "y", "o", "u", " ", "c", "a", "n", "'", "t", " ", "m", "a", "k", "e", " ", "a", "n", "y", " ", "o", "f", " ", "t", "h", "e", " ", "t", "i", "m", "e", "s", " ", "a", "n", "d", " ", "w", "e", "'", "l", "l", " ", "g", "i", "v", "e", " ", "y", "o", "u", " ", "a", " ", "r", "i", "n", "g", ".", " ", "h", "t", "t", "p", "s", ":", "/", "/", "f", "o", "r", "m", "s", ".", "g", "l", "e", "/", "F", "p", "A", "Y", "1", "Q", "n", "M", "T", "4", "n", "F", "V", "L", "v", "k", "8", " " ]
+}
+[1770940334.795][INFO]: Waiting for pending navigations...
+[1770940334.795][INFO]: Done waiting for pending navigations. Status: ok
+[1770940334.959][INFO]: Waiting for pending navigations...
+[1770940334.964][INFO]: Done waiting for pending navigations. Status: ok
+[1770940334.964][INFO]: [01f0c5e1f5541e5cbbfde83f0342f790] RESPONSE TypeElement
+[1770940334.966][INFO]: [01f0c5e1f5541e5cbbfde83f0342f790] COMMAND TypeElement {
+   "id": "f.BF4589B5B579B1FD39F0368807CB235D.d.1BCE442493B4754CB3C5ED57508173B5.e.354",
+   "text": "",
+   "value": [ "", "" ]
+}
+[1770940334.966][INFO]: Waiting for pending navigations...
+[1770940334.968][INFO]: Done waiting for pending navigations. Status: ok
+[1770940334.986][INFO]: Waiting for pending navigations...
+[1770940334.986][INFO]: Done waiting for pending navigations. Status: ok
+[1770940334.986][INFO]: [01f0c5e1f5541e5cbbfde83f0342f790] RESPONSE TypeElement
+[1770940334.987][INFO]: [01f0c5e1f5541e5cbbfde83f0342f790] COMMAND TypeElement {
+   "id": "f.BF4589B5B579B1FD39F0368807CB235D.d.1BCE442493B4754CB3C5ED57508173B5.e.354",
+   "text": "",
+   "value": [  ]
+}
+[1770940334.987][INFO]: Waiting for pending navigations...
+[1770940334.987][INFO]: Done waiting for pending navigations. Status: ok
+[1770940335.005][INFO]: Waiting for pending navigations...
+[1770940335.005][INFO]: Done waiting for pending navigations. Status: ok
+[1770940335.005][INFO]: [01f0c5e1f5541e5cbbfde83f0342f790] RESPONSE TypeElement
+[1770940335.006][INFO]: [01f0c5e1f5541e5cbbfde83f0342f790] COMMAND TypeElement {
+   "id": "f.BF4589B5B579B1FD39F0368807CB235D.d.1BCE442493B4754CB3C5ED57508173B5.e.354",
+   "text": "",
+   "value": [ "", "" ]
+}
+[1770940335.006][INFO]: Waiting for pending navigations...
+[1770940335.006][INFO]: Done waiting for pending navigations. Status: ok
+[1770940335.024][INFO]: Waiting for pending navigations...
+[1770940335.026][INFO]: Done waiting for pending navigations. Status: ok
+[1770940335.026][INFO]: [01f0c5e1f5541e5cbbfde83f0342f790] RESPONSE TypeElement
+[1770940335.028][INFO]: [01f0c5e1f5541e5cbbfde83f0342f790] COMMAND TypeElement {
+   "id": "f.BF4589B5B579B1FD39F0368807CB235D.d.1BCE442493B4754CB3C5ED57508173B5.e.354",
+   "text": "If there are any worries about paying for stuff please let me know and I can try sort something.",
+   "value": [ "I", "f", " ", "t", "h", "e", "r", "e", " ", "a", "r", "e", " ", "a", "n", "y", " ", "w", "o", "r", "r", "i", "e", "s", " ", "a", "b", "o", "u", "t", " ", "p", "a", "y", "i", "n", "g", " ", "f", "o", "r", " ", "s", "t", "u", "f", "f", " ", "p", "l", "e", "a", "s", "e", " ", "l", "e", "t", " ", "m", "e", " ", "k", "n", "o", "w", " ", "a", "n", "d", " ", "I", " ", "c", "a", "n", " ", "t", "r", "y", " ", "s", "o", "r", "t", " ", "s", "o", "m", "e", "t", "h", "i", "n", "g", "." ]
+}
+[1770940335.028][INFO]: Waiting for pending navigations...
+[1770940335.028][INFO]: Done waiting for pending navigations. Status: ok
+[1770940335.108][INFO]: Waiting for pending navigations...
+[1770940335.112][INFO]: Done waiting for pending navigations. Status: ok
+[1770940335.112][INFO]: [01f0c5e1f5541e5cbbfde83f0342f790] RESPONSE TypeElement
+[1770940335.112][INFO]: [01f0c5e1f5541e5cbbfde83f0342f790] COMMAND TypeElement {
+   "id": "f.BF4589B5B579B1FD39F0368807CB235D.d.1BCE442493B4754CB3C5ED57508173B5.e.354",
+   "text": "",
+   "value": [ "", "" ]
+}
+[1770940335.112][INFO]: Waiting for pending navigations...
+[1770940335.113][INFO]: Done waiting for pending navigations. Status: ok
+[1770940335.130][INFO]: Waiting for pending navigations...
+[1770940335.131][INFO]: Done waiting for pending navigations. Status: ok
+[1770940335.131][INFO]: [01f0c5e1f5541e5cbbfde83f0342f790] RESPONSE TypeElement
+[1770940335.131][INFO]: [01f0c5e1f5541e5cbbfde83f0342f790] COMMAND TypeElement {
+   "id": "f.BF4589B5B579B1FD39F0368807CB235D.d.1BCE442493B4754CB3C5ED57508173B5.e.354",
+   "text": "",
+   "value": [  ]
+}
+[1770940335.131][INFO]: Waiting for pending navigations...
+[1770940335.132][INFO]: Done waiting for pending navigations. Status: ok
+[1770940335.146][INFO]: Waiting for pending navigations...
+[1770940335.146][INFO]: Done waiting for pending navigations. Status: ok
+[1770940335.146][INFO]: [01f0c5e1f5541e5cbbfde83f0342f790] RESPONSE TypeElement
+[1770940335.146][INFO]: [01f0c5e1f5541e5cbbfde83f0342f790] COMMAND TypeElement {
+   "id": "f.BF4589B5B579B1FD39F0368807CB235D.d.1BCE442493B4754CB3C5ED57508173B5.e.354",
+   "text": "",
+   "value": [ "", "" ]
+}
+[1770940335.146][INFO]: Waiting for pending navigations...
+[1770940335.147][INFO]: Done waiting for pending navigations. Status: ok
+[1770940335.163][INFO]: Waiting for pending navigations...
+[1770940335.163][INFO]: Done waiting for pending navigations. Status: ok
+[1770940335.163][INFO]: [01f0c5e1f5541e5cbbfde83f0342f790] RESPONSE TypeElement
+[1770940335.164][INFO]: [01f0c5e1f5541e5cbbfde83f0342f790] COMMAND TypeElement {
+   "id": "f.BF4589B5B579B1FD39F0368807CB235D.d.1BCE442493B4754CB3C5ED57508173B5.e.354",
+   "text": "Love,",
+   "value": [ "L", "o", "v", "e", "," ]
+}
+[1770940335.164][INFO]: Waiting for pending navigations...
+[1770940335.164][INFO]: Done waiting for pending navigations. Status: ok
+[1770940335.184][INFO]: Waiting for pending navigations...
+[1770940335.185][INFO]: Done waiting for pending navigations. Status: ok
+[1770940335.185][INFO]: [01f0c5e1f5541e5cbbfde83f0342f790] RESPONSE TypeElement
+[1770940335.185][INFO]: [01f0c5e1f5541e5cbbfde83f0342f790] COMMAND TypeElement {
+   "id": "f.BF4589B5B579B1FD39F0368807CB235D.d.1BCE442493B4754CB3C5ED57508173B5.e.354",
+   "text": "",
+   "value": [ "", "" ]
+}
+[1770940335.185][INFO]: Waiting for pending navigations...
+[1770940335.186][INFO]: Done waiting for pending navigations. Status: ok
+[1770940335.204][INFO]: Waiting for pending navigations...
+[1770940335.205][INFO]: Done waiting for pending navigations. Status: ok
+[1770940335.205][INFO]: [01f0c5e1f5541e5cbbfde83f0342f790] RESPONSE TypeElement
+[1770940335.206][INFO]: [01f0c5e1f5541e5cbbfde83f0342f790] COMMAND TypeElement {
+   "id": "f.BF4589B5B579B1FD39F0368807CB235D.d.1BCE442493B4754CB3C5ED57508173B5.e.354",
+   "text": "Osh",
+   "value": [ "O", "s", "h" ]
+}
+[1770940335.206][INFO]: Waiting for pending navigations...
+[1770940335.206][INFO]: Done waiting for pending navigations. Status: ok
+[1770940335.227][INFO]: Waiting for pending navigations...
+[1770940335.228][INFO]: Done waiting for pending navigations. Status: ok
+[1770940335.228][INFO]: [01f0c5e1f5541e5cbbfde83f0342f790] RESPONSE TypeElement
+[1770940335.228][INFO]: [01f0c5e1f5541e5cbbfde83f0342f790] COMMAND TypeElement {
+   "id": "f.BF4589B5B579B1FD39F0368807CB235D.d.1BCE442493B4754CB3C5ED57508173B5.e.354",
+   "text": "",
+   "value": [ "", "" ]
+}
+[1770940335.228][INFO]: Waiting for pending navigations...
+[1770940335.228][INFO]: Done waiting for pending navigations. Status: ok
+[1770940335.245][INFO]: Waiting for pending navigations...
+[1770940335.246][INFO]: Done waiting for pending navigations. Status: ok
+[1770940335.246][INFO]: [01f0c5e1f5541e5cbbfde83f0342f790] RESPONSE TypeElement
+[1770940335.247][INFO]: [01f0c5e1f5541e5cbbfde83f0342f790] COMMAND TypeElement {
+   "id": "f.BF4589B5B579B1FD39F0368807CB235D.d.1BCE442493B4754CB3C5ED57508173B5.e.354",
+   "text": "",
+   "value": [  ]
+}
+[1770940335.247][INFO]: Waiting for pending navigations...
+[1770940335.247][INFO]: Done waiting for pending navigations. Status: ok
+[1770940335.264][INFO]: Waiting for pending navigations...
+[1770940335.264][INFO]: Done waiting for pending navigations. Status: ok
+[1770940335.264][INFO]: [01f0c5e1f5541e5cbbfde83f0342f790] RESPONSE TypeElement
+[1770940335.264][INFO]: [01f0c5e1f5541e5cbbfde83f0342f790] COMMAND TypeElement {
+   "id": "f.BF4589B5B579B1FD39F0368807CB235D.d.1BCE442493B4754CB3C5ED57508173B5.e.354",
+   "text": "",
+   "value": [ "", "" ]
+}
+[1770940335.264][INFO]: Waiting for pending navigations...
+[1770940335.265][INFO]: Done waiting for pending navigations. Status: ok
+[1770940335.281][INFO]: Waiting for pending navigations...
+[1770940335.282][INFO]: Done waiting for pending navigations. Status: ok
+[1770940335.282][INFO]: [01f0c5e1f5541e5cbbfde83f0342f790] RESPONSE TypeElement
+[1770940335.282][INFO]: [01f0c5e1f5541e5cbbfde83f0342f790] COMMAND TypeElement {
+   "id": "f.BF4589B5B579B1FD39F0368807CB235D.d.1BCE442493B4754CB3C5ED57508173B5.e.354",
+   "text": "",
+   "value": [ "" ]
+}
+[1770940335.282][INFO]: Waiting for pending navigations...
+[1770940335.283][INFO]: Done waiting for pending navigations. Status: ok
+[1770940335.310][INFO]: Waiting for pending navigations...
+[1770940335.311][INFO]: Done waiting for pending navigations. Status: ok
+[1770940335.311][INFO]: [01f0c5e1f5541e5cbbfde83f0342f790] RESPONSE TypeElement
+[1770940340.325][INFO]: [01f0c5e1f5541e5cbbfde83f0342f790] COMMAND Quit {
+}
+[1770940340.380][INFO]: [01f0c5e1f5541e5cbbfde83f0342f790] RESPONSE Quit

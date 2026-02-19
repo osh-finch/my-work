@@ -4,3 +4,4 @@ oauth2client
 openpyxl
 selenium
 PySide6
+openai
