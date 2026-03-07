@@ -1,0 +1,244 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Production Game Ops Cockpit</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <h1>Production Game Ops Cockpit</h1>
+    <div class="topbar-controls">
+      <label>Game Minute
+        <input id="gameMinute" type="number" min="0" value="0" />
+      </label>
+      <label>Operators
+        <input id="operatorCount" type="number" min="1" value="6" />
+      </label>
+      <label>Total Minutes
+        <input id="timerTotalMinutes" type="number" min="1" value="120" />
+      </label>
+      <div id="timerDisplay" class="timer-display">02:00:00</div>
+      <button id="timerStart">Start</button>
+      <button id="timerPause">Pause</button>
+      <button id="timerReset">Reset</button>
+      <button id="saveSettings">Save Settings</button>
+      <button id="resetData" class="danger">Reset Data</button>
+    </div>
+  </header>
+
+  <nav class="tabs">
+    <button class="tab" data-tab="dashboard">Dashboard</button>
+    <button class="tab active" data-tab="orders">Sales</button>
+    <button class="tab" data-tab="production">Production</button>
+    <button class="tab" data-tab="procurement">Procurement</button>
+    <button class="tab" data-tab="accounts">Accounts</button>
+    <button class="tab" data-tab="settings">Settings</button>
+  </nav>
+
+  <main>
+    <section id="dashboard" class="tab-panel">
+      <div id="dashboardKpis" class="kpi-grid"></div>
+      <div class="dashboard-charts">
+        <article class="card">
+          <h2>Cumulative Revenue Trend</h2>
+          <div id="chartRevenue" class="chart-canvas"></div>
+        </article>
+        <article class="card">
+          <h2>Productivity (Earnings / 10 Min)</h2>
+          <div id="chartProductivity" class="chart-canvas"></div>
+        </article>
+        <article class="card">
+          <h2>Accepted vs Ongoing Orders</h2>
+          <div id="chartOrderFlow" class="chart-canvas"></div>
+        </article>
+        <article class="card">
+          <h2>Lost Revenue Composition</h2>
+          <div id="chartLoss" class="chart-canvas"></div>
+        </article>
+      </div>
+      <div class="dashboard-orders">
+        <article class="card">
+          <h2>Accepted Orders</h2>
+          <div id="dashboardAccepted"></div>
+        </article>
+        <article class="card">
+          <h2>Ongoing Orders</h2>
+          <div id="dashboardOngoing"></div>
+        </article>
+      </div>
+    </section>
+
+    <section id="orders" class="tab-panel active">
+      <div class="grid two-col">
+        <article class="card">
+          <h2>Add Order (SODN)</h2>
+          <form id="orderForm" class="form-grid">
+            <label>Order ID <input name="id" required /></label>
+            <label>Occasion <input name="occasion" required /></label>
+            <label>Quantity <input name="qty" type="number" min="1" required /></label>
+            <label>Colour
+              <select name="colour" required>
+                <option>White</option><option>Salmon</option><option>Pink</option>
+                <option>Blue</option><option>Green</option><option>Yellow</option>
+              </select>
+            </label>
+            <label>Size
+              <select name="size" required>
+                <option>A5</option><option>A6</option><option>A7</option>
+              </select>
+            </label>
+            <label>Verse Lines <input name="lines" type="number" min="1" required /></label>
+            <label>Price (£) <input name="price" type="number" min="1" step="1" required /></label>
+            <label>Lead Time (min)
+              <input name="leadTime" type="number" min="0" />
+            </label>
+            <label class="inline"><input name="openDelivery" type="checkbox" /> Open Delivery</label>
+            <button type="submit">Add Order</button>
+          </form>
+        </article>
+
+        <article class="card">
+          <h2>Recommendation Rules</h2>
+          <ul>
+            <li>Score = (Profit / TotalPersonMins) × RiskMultiplier</li>
+            <li>Profit = Price − (Qty × PaperCost) − 10</li>
+            <li>Timed RiskFactor uses SlackRatio = (LeadTime × Workers) / TotalPersonMins</li>
+            <li>Hurdle rate changes with game phase: early high, mid median, late near zero</li>
+          </ul>
+          <p class="hint">Use this to choose orders fast at the board. Higher score is better.</p>
+        </article>
+      </div>
+      <article class="card">
+        <h2>Order Photo Parser (LLM)</h2>
+        <form id="photoParseForm" class="form-grid">
+          <label class="wide">Orders Photo
+            <input id="ordersPhoto" type="file" accept="image/*" required />
+          </label>
+          <label class="inline wide"><input id="autoAddParsed" type="checkbox" checked /> Auto-add parsed orders to board</label>
+          <label>Parsed Orders View
+            <select id="parsedOrdersView">
+              <option value="hidden">Hidden</option>
+              <option value="shown">Shown</option>
+            </select>
+          </label>
+          <button id="parseOrdersPhoto" type="submit">Parse Photo + Score Orders</button>
+        </form>
+        <p id="photoParseStatus" class="hint">Upload an order-board photo and parse with LLM vision.</p>
+        <div id="photoParseResults" class="table-wrap"></div>
+      </article>
+      <article class="card">
+        <h2>Accepted / Ongoing Orders</h2>
+        <div id="activeOrdersWrap" class="table-wrap"></div>
+      </article>
+      <article class="card">
+        <h2>Order Board</h2>
+        <div id="orderTableWrap" class="table-wrap"></div>
+      </article>
+    </section>
+
+    <section id="production" class="tab-panel">
+      <article class="card">
+        <h2>Production Queue</h2>
+        <div id="productionQueue"></div>
+      </article>
+      <article class="card">
+        <h2>Adaptive Learning</h2>
+        <div id="learningStats"></div>
+      </article>
+      <article class="card">
+        <h2>Completed Orders (Actual vs Predicted)</h2>
+        <div id="completedOrders"></div>
+      </article>
+      <article class="card">
+        <h2>Task Breakdown</h2>
+        <div id="taskBreakdown"></div>
+      </article>
+    </section>
+
+    <section id="procurement" class="tab-panel">
+      <div class="grid two-col">
+        <article class="card">
+          <h2>Stock</h2>
+          <div id="stockView"></div>
+        </article>
+        <article class="card">
+          <div class="card-head-right">
+            <h2>Place Procurement Order</h2>
+            <div id="controllerCooldownBanner"></div>
+          </div>
+          <form id="procurementForm" class="form-grid"></form>
+          <div id="procurementSummary" class="hint"></div>
+        </article>
+      </div>
+      <article class="card">
+        <h2>Procurement Log</h2>
+        <button id="receiveProcurement">Receive Due Deliveries (10 min lead)</button>
+        <div id="procurementLog"></div>
+      </article>
+    </section>
+
+    <section id="accounts" class="tab-panel">
+      <div class="grid two-col">
+        <article class="card">
+          <h2>Live P&L</h2>
+          <div id="pnlView"></div>
+        </article>
+        <article class="card">
+          <h2>Record Adjustment</h2>
+          <form id="adjustmentForm" class="form-grid">
+            <label>Type
+              <select name="type">
+                <option value="sale">Sale</option>
+                <option value="penalty">Penalty</option>
+                <option value="intercompany_in">Intercompany In</option>
+                <option value="intercompany_out">Intercompany Out</option>
+              </select>
+            </label>
+            <label>Amount (£)
+              <input type="number" name="amount" min="0" step="1" required />
+            </label>
+            <label>Note <input name="note" required /></label>
+            <button type="submit">Add Transaction</button>
+          </form>
+        </article>
+      </div>
+      <article class="card">
+        <h2>Ledger</h2>
+        <div id="ledgerView"></div>
+      </article>
+    </section>
+
+    <section id="settings" class="tab-panel">
+      <div class="grid two-col">
+        <article class="card">
+          <h2>LLM Parser Settings</h2>
+          <form id="llmSettingsForm" class="form-grid">
+            <label class="wide">API Key
+              <input id="llmApiKey" type="password" placeholder="sk-..." />
+            </label>
+            <label>Model
+              <input id="llmModel" type="text" value="gpt-4.1-mini" />
+            </label>
+            <label class="wide">Endpoint
+              <input id="llmEndpoint" type="text" value="https://api.openai.com/v1/responses" />
+            </label>
+            <button type="submit">Save Technical Settings</button>
+          </form>
+          <p class="hint">These are hidden from operational dashboards and only editable here.</p>
+        </article>
+        <article class="card">
+          <h2>Config Files</h2>
+          <p class="hint">Use <code>config.local.js</code> to preconfigure constants (API key, model, endpoint) before game day.</p>
+          <p class="hint">Operational screens will use saved settings; defaults can come from config files.</p>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <script src="config.js"></script>
+  <script src="config.local.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

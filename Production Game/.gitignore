@@ -1,0 +1,9 @@
+# Local secret overrides (contains API keys)
+app/config.local.js
+
+# macOS finder metadata
+.DS_Store
+**/.DS_Store
+
+# Local runtime noise
+*.log

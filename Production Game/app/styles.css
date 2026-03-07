@@ -1,0 +1,120 @@
+:root {
+  --bg: #f3f6f8;
+  --card: #ffffff;
+  --line: #c9d4de;
+  --text: #1f2a36;
+  --muted: #5c6b7a;
+  --accent: #0f5e9c;
+  --ok: #1f8a4c;
+  --warn: #b06a00;
+  --bad: #b02727;
+}
+
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  font-family: "Avenir Next", "Segoe UI", sans-serif;
+  color: var(--text);
+  background: radial-gradient(circle at 20% 0%, #eaf2f8 0, #f3f6f8 40%, #eef3f6 100%);
+}
+.topbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 16px;
+  border-bottom: 1px solid var(--line);
+  background: #ffffffd9;
+  backdrop-filter: blur(4px);
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+.topbar h1 { margin: 0; font-size: 1.2rem; }
+.topbar-controls { display: flex; gap: 8px; align-items: end; flex-wrap: wrap; }
+.timer-display {
+  min-width: 102px;
+  text-align: center;
+  font-weight: 700;
+  padding: 8px 10px;
+  border: 1px solid #9ec0df;
+  border-radius: 8px;
+  background: #eaf4ff;
+  color: #0c3e68;
+}
+label { display: flex; flex-direction: column; gap: 4px; font-size: 0.85rem; color: var(--muted); }
+input, select, button {
+  font: inherit;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  padding: 8px 10px;
+  background: #fff;
+}
+button { cursor: pointer; }
+button:hover { border-color: var(--accent); }
+button.danger { color: var(--bad); border-color: #ebc6c6; }
+.tabs { display: flex; gap: 8px; padding: 10px 16px; }
+.tab { background: #e9eef4; }
+.tab.active { background: #d8e7f5; border-color: #9ec0df; color: #0c3e68; }
+main { padding: 0 16px 16px; }
+.tab-panel { display: none; }
+.tab-panel.active { display: block; }
+.grid.two-col { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+.kpi-grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 8px; margin-bottom: 8px; }
+.card {
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  padding: 10px;
+  margin-bottom: 8px;
+}
+.card h2 { margin: 0 0 8px; font-size: 0.95rem; }
+.card-head-right {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 8px;
+}
+.card-head-right h2 { margin: 0; }
+.kpi-value { font-size: 1.2rem; font-weight: 700; margin: 3px 0 0; }
+.kpi-label { color: var(--muted); font-size: 0.85rem; }
+.chart-canvas {
+  width: 100%;
+  height: 150px;
+  border: 1px solid #ebeff3;
+  border-radius: 8px;
+  background: #fcfeff;
+  overflow: hidden;
+}
+.chart-canvas svg { width: 100%; height: 100%; display: block; }
+.dashboard-charts { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
+.dashboard-orders { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
+#dashboardAccepted, #dashboardOngoing { max-height: 180px; overflow: auto; }
+.form-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 8px; }
+.form-grid button { grid-column: span 3; background: #edf5fc; }
+.form-grid .wide { grid-column: span 3; }
+.inline { flex-direction: row; align-items: center; gap: 6px; }
+.table-wrap { overflow: auto; }
+table { width: 100%; border-collapse: collapse; font-size: 0.9rem; }
+th, td { border-bottom: 1px solid #ebeff3; padding: 8px; text-align: left; white-space: nowrap; }
+th { color: var(--muted); font-weight: 600; }
+.tag { border-radius: 999px; padding: 2px 8px; font-size: 0.75rem; display: inline-block; }
+.tag.ok { background: #e2f4e9; color: var(--ok); }
+.tag.warn { background: #fff2df; color: var(--warn); }
+.tag.bad { background: #fae6e6; color: var(--bad); }
+.tag.time-good { background: #e2f4e9; color: var(--ok); }
+.tag.time-warn { background: #fff2df; color: var(--warn); }
+.tag.time-bad { background: #fae6e6; color: var(--bad); }
+.hint { color: var(--muted); font-size: 0.9rem; }
+.actions { display: flex; gap: 6px; }
+.actions button { padding: 4px 8px; font-size: 0.8rem; }
+
+@media (max-width: 900px) {
+  .grid.two-col { grid-template-columns: 1fr; }
+  .kpi-grid { grid-template-columns: 1fr 1fr; }
+  .dashboard-charts { grid-template-columns: 1fr; }
+  .dashboard-orders { grid-template-columns: 1fr; }
+  .form-grid { grid-template-columns: 1fr 1fr; }
+  .form-grid button { grid-column: span 2; }
+  .form-grid .wide { grid-column: span 2; }
+}
